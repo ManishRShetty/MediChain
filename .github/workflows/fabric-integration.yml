@@ -1,0 +1,94 @@
+name: Fabric Integration Test
+
+on:
+  push:
+    branches: [ "fabric-migration", "main" ]
+  pull_request:
+    branches: [ "fabric-migration", "main" ]
+
+jobs:
+  fabric-test:
+    runs-on: ubuntu-latest
+    env:
+      FABRIC_VERSION: 2.5.0
+      CA_VERSION: 1.5.6
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Fabric Binaries & Docker Images
+      run: |
+        curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
+        ./install-fabric.sh --fabric-version ${FABRIC_VERSION} --ca-version ${CA_VERSION} binary docker samples
+      # This creates 'fabric-samples' in current dir
+
+    - name: Start Fabric Test Network
+      working-directory: ./fabric-samples/test-network
+      run: |
+        ./network.sh up createChannel -c mychannel -ca -s couchdb
+        # Wait a bit for containers to settle
+        sleep 5
+
+    - name: Deploy Chaincode
+      working-directory: ./fabric-samples/test-network
+      run: |
+        # Chaincode path must be relative to test-network or absolute
+        CHAINCODE_PATH=$GITHUB_WORKSPACE/fabric/chaincode/rbac
+        
+        ./network.sh deployCC \
+          -ccn rbac \
+          -ccp $CHAINCODE_PATH \
+          -ccl javascript \
+          -ccv 1.0 \
+          -ccs 1 \
+          -c mychannel
+
+    - name: Install Backend Dependencies
+      working-directory: ./fabric/backend
+      run: npm ci
+
+    - name: Enroll Identities
+      working-directory: ./fabric/backend
+      env:
+        # Point to the connection profile in fabric-samples
+        FABRIC_CONNECTION_PROFILE: ../../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+        FABRIC_WALLET: ./wallet
+        FABRIC_CA_HOSTNAME: ca.org1.example.com
+      run: |
+        node enrollAdmin.js
+        node registerUser.js testUser_E2E
+
+    - name: Run Integration Tests
+      working-directory: ./fabric/backend
+      env:
+        FABRIC_CONNECTION_PROFILE: ../../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+        FABRIC_WALLET: ./wallet
+        FABRIC_IDENTITY: testUser_E2E
+        FABRIC_CHAINCODE: rbac
+        FABRIC_CHANNEL: mychannel
+        PORT: 8000
+      run: |
+        # Start backend in background
+        npm start > backend.log 2>&1 &
+        BACKEND_PID=$!
+        echo "Backend started with PID $BACKEND_PID"
+        
+        # Wait for backend to be ready
+        sleep 10
+        
+        # Run tests
+        npm test
+        
+        # Cleanup
+        kill $BACKEND_PID
+
+    - name: Teardown Network
+      if: always()
+      working-directory: ./fabric-samples/test-network
+      run: ./network.sh down
