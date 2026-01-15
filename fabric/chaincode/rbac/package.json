@@ -1,0 +1,26 @@
+{
+    "name": "rbac-chaincode",
+    "version": "1.0.0",
+    "description": "RBAC Chaincode for Medical Trial Network",
+    "main": "index.js",
+    "engines": {
+        "node": ">=18",
+        "npm": ">=9"
+    },
+    "scripts": {
+        "start": "fabric-chaincode-node start",
+        "test": "mocha test/*.test.js"
+    },
+    "dependencies": {
+        "fabric-contract-api": "^2.5.0",
+        "fabric-shim": "^2.5.0"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "chai-as-promised": "^7.1.1",
+        "mocha": "^10.2.0",
+        "sinon": "^15.0.0",
+        "sinon-chai": "^3.7.0",
+        "fabric-chaincode-node": "^2.5.0"
+    }
+}

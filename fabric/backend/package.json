@@ -1,0 +1,17 @@
+{
+    "name": "fabric-backend",
+    "version": "1.0.0",
+    "description": "Backend migrated to Hyperledger Fabric",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "fabric-network": "^2.2.19",
+        "fabric-ca-client": "^2.2.19",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "body-parser": "^1.20.2"
+    }
+}
