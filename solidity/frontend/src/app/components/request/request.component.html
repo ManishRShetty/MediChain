@@ -1,0 +1,16 @@
+<div *ngIf="requests?.length > 0; else noRequests">
+  <div class="card" *ngFor="let request of requests" style="margin-bottom: 20px; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+    <p><strong>Name:</strong> {{ request.name }}</p>
+    <p><strong>Address:</strong> {{ request.address }}</p>
+    <p><strong>Role:</strong> {{ request.role }}</p>
+    <div class="button-group">
+      <button class="approve" (click)="approveCard(request.address)">Approve</button>
+      <button class="reject" (click)="rejectCard(request.name)">Reject</button>
+    </div>
+  </div>
+</div>
+
+<!-- Template for when there are no requests -->
+<ng-template #noRequests>
+  <p style="text-align: center; font-weight: bold; color: gray;">No requests available.</p>
+</ng-template>

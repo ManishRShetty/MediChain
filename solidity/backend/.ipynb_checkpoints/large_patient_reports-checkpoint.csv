@@ -1,0 +1,3001 @@
+Patient ID,Age,Gender,Blood Pressure,Blood Sugar (Glucose Level),Heart Rate,Oxygen Saturation (SpO2),Disease Diagnosed,Side Effects,Recovery Status
+1,55,Male,105/68,134.6,74,97,Kidney Disease,None,Under Treatment
+2,52,Female,110/60,132.1,77,98,COVID-19,Moderate,Under Treatment
+3,18,Female,102/81,72.2,85,97,Skin Infection,None,Recovered
+4,68,Male,132/69,115.5,68,94,Heart Disease,None,Under Treatment
+5,26,Female,139/71,94.6,76,94,Flu,Severe,Under Treatment
+6,59,Female,96/65,89.1,84,96,Arthritis,Severe,Recovered
+7,73,Female,109/65,127.2,100,96,Kidney Disease,Severe,Under Treatment
+8,32,Male,134/86,123.2,87,98,Arthritis,Severe,Recovered
+9,24,Female,119/71,98.8,93,99,Depression,None,Recovered
+10,83,Female,118/82,110.2,75,94,Anemia,Severe,Under Treatment
+11,29,Female,106/90,103.7,92,97,Skin Infection,None,Recovered
+12,88,Male,113/73,77.6,62,96,Depression,Severe,Recovered
+13,71,Female,112/89,90.4,81,94,Diabetes,Moderate,Under Treatment
+14,57,Female,99/71,101.9,82,99,Anxiety Disorder,Moderate,Under Treatment
+15,53,Female,93/64,82.6,84,98,Hypertension,Severe,Under Treatment
+16,18,Male,118/68,133.1,79,97,Tuberculosis,None,Under Treatment
+17,75,Male,104/61,135.2,75,99,Migraine,None,Recovered
+18,65,Female,109/85,100.0,89,95,Heart Disease,Moderate,Under Treatment
+19,41,Male,124/61,103.3,75,95,Migraine,Severe,Recovered
+20,89,Female,119/62,103.7,97,96,Depression,Mild,Under Treatment
+21,43,Female,131/88,71.0,82,95,Migraine,None,Under Treatment
+22,65,Female,118/61,134.3,81,98,Anxiety Disorder,Moderate,Under Treatment
+23,40,Male,94/88,109.4,87,97,Skin Infection,Mild,Recovered
+24,71,Female,96/63,115.7,69,98,Arthritis,None,Under Treatment
+25,23,Male,131/90,112.8,75,97,Migraine,Mild,Recovered
+26,22,Male,101/80,125.8,94,99,Heart Disease,Mild,Under Treatment
+27,64,Female,137/78,74.5,70,95,Liver Disease,Moderate,Under Treatment
+28,88,Female,138/90,120.7,97,94,Heart Disease,Moderate,Under Treatment
+29,73,Male,132/84,102.7,80,97,Skin Infection,Mild,Under Treatment
+30,42,Female,94/87,133.1,89,98,COVID-19,Moderate,Under Treatment
+31,40,Female,105/62,105.5,92,96,Arthritis,None,Recovered
+32,38,Male,129/66,109.4,80,99,Tuberculosis,Severe,Under Treatment
+33,34,Female,119/80,129.8,85,98,Heart Disease,Severe,Under Treatment
+34,44,Male,95/75,105.4,62,99,Kidney Disease,Moderate,Under Treatment
+35,50,Male,136/68,90.7,75,100,Pneumonia,Moderate,Recovered
+36,29,Female,100/82,109.6,75,96,Liver Disease,Mild,Under Treatment
+37,46,Female,134/79,134.0,69,96,COVID-19,Mild,Recovered
+38,67,Male,128/65,117.8,78,98,Diabetes,Moderate,Under Treatment
+39,48,Female,104/62,80.1,82,98,COVID-19,Mild,Under Treatment
+40,39,Male,115/78,100.8,100,97,Migraine,Severe,Recovered
+41,26,Female,122/62,90.9,85,97,Tuberculosis,Moderate,Recovered
+42,20,Male,94/70,81.5,75,94,Liver Disease,None,Under Treatment
+43,61,Female,94/63,92.4,100,97,Asthma,Moderate,Under Treatment
+44,66,Male,134/88,100.5,85,98,Anxiety Disorder,Severe,Under Treatment
+45,31,Female,139/88,135.2,82,94,Liver Disease,None,Under Treatment
+46,29,Male,137/85,130.4,66,100,Heart Disease,Severe,Under Treatment
+47,45,Female,95/60,109.1,61,95,COVID-19,None,Under Treatment
+48,48,Female,121/69,100.8,90,96,Arthritis,Mild,Under Treatment
+49,30,Male,121/81,83.1,99,100,Depression,None,Under Treatment
+50,27,Male,109/67,111.1,100,100,Heart Disease,Moderate,Under Treatment
+51,87,Male,120/85,120.8,95,97,Liver Disease,Mild,Under Treatment
+52,74,Male,138/86,98.1,60,94,Tuberculosis,None,Recovered
+53,29,Female,102/69,134.0,66,95,Migraine,Mild,Under Treatment
+54,41,Male,129/74,136.3,100,97,COVID-19,None,Recovered
+55,52,Male,93/74,87.1,63,97,Flu,Moderate,Under Treatment
+56,85,Male,109/70,111.1,73,95,Arthritis,Severe,Recovered
+57,50,Male,116/60,116.2,65,96,Heart Disease,Mild,Under Treatment
+58,27,Female,132/77,91.1,99,98,Diabetes,Mild,Under Treatment
+59,57,Female,128/76,82.1,79,99,Anxiety Disorder,Mild,Under Treatment
+60,26,Female,131/80,95.6,84,97,Arthritis,Mild,Recovered
+61,52,Male,106/71,73.9,98,98,Skin Infection,Moderate,Recovered
+62,87,Male,137/73,87.1,96,96,Asthma,None,Recovered
+63,79,Male,120/81,81.7,72,100,Asthma,Moderate,Recovered
+64,89,Female,97/60,135.7,96,94,Tuberculosis,None,Recovered
+65,68,Male,130/83,99.4,65,98,Anemia,Moderate,Under Treatment
+66,37,Female,99/65,72.0,80,99,Depression,Severe,Recovered
+67,50,Female,118/70,95.9,63,99,Heart Disease,Severe,Under Treatment
+68,88,Female,102/60,128.4,100,98,Migraine,None,Under Treatment
+69,69,Female,119/74,124.6,86,99,Hypertension,Severe,Under Treatment
+70,52,Male,100/88,88.7,71,97,Skin Infection,Mild,Recovered
+71,51,Female,139/66,90.0,99,95,Depression,Mild,Recovered
+72,27,Male,101/82,119.0,79,99,Liver Disease,Mild,Under Treatment
+73,47,Male,94/85,122.2,73,100,Arthritis,None,Recovered
+74,80,Female,114/86,108.3,62,98,Anemia,Mild,Recovered
+75,18,Female,100/63,84.4,68,96,COVID-19,Mild,Recovered
+76,73,Female,136/63,97.1,60,98,Hypertension,Mild,Under Treatment
+77,38,Female,103/79,97.4,91,99,COVID-19,Mild,Under Treatment
+78,48,Female,121/89,105.7,62,94,Migraine,Mild,Recovered
+79,21,Male,123/73,120.1,98,95,Arthritis,Severe,Under Treatment
+80,63,Male,124/89,125.5,95,100,Flu,Moderate,Recovered
+81,30,Female,123/67,70.9,70,94,Heart Disease,Mild,Under Treatment
+82,40,Male,133/62,128.2,68,100,Kidney Disease,Severe,Under Treatment
+83,48,Female,121/60,86.4,82,95,Migraine,Severe,Recovered
+84,48,Female,115/84,135.9,95,98,Diabetes,None,Under Treatment
+85,54,Male,115/77,71.6,77,98,Asthma,None,Under Treatment
+86,44,Male,93/86,127.5,76,98,Tuberculosis,Severe,Recovered
+87,54,Female,136/72,133.0,96,100,COVID-19,Mild,Recovered
+88,43,Male,137/73,76.9,86,95,Asthma,Mild,Recovered
+89,78,Female,117/60,134.2,64,98,Flu,Severe,Under Treatment
+90,67,Female,96/72,107.6,100,95,Flu,None,Under Treatment
+91,77,Male,101/60,109.0,80,99,Migraine,Severe,Recovered
+92,42,Male,109/74,113.8,80,98,Depression,None,Under Treatment
+93,86,Female,108/67,110.2,77,99,Anxiety Disorder,Severe,Recovered
+94,48,Male,135/74,112.2,80,99,Diabetes,Severe,Under Treatment
+95,83,Female,107/74,81.3,95,99,Arthritis,Severe,Recovered
+96,36,Male,98/71,139.4,66,98,Kidney Disease,None,Under Treatment
+97,65,Male,107/66,126.0,84,97,Skin Infection,Moderate,Recovered
+98,64,Female,119/65,136.7,74,99,Anemia,Moderate,Under Treatment
+99,34,Male,129/83,85.2,81,99,Anxiety Disorder,Mild,Under Treatment
+100,18,Male,137/84,97.9,73,99,Pneumonia,None,Recovered
+101,80,Male,91/69,90.0,94,97,Diabetes,Moderate,Under Treatment
+102,59,Female,122/72,71.2,95,100,Migraine,None,Under Treatment
+103,63,Female,99/73,95.6,81,95,Arthritis,Moderate,Under Treatment
+104,39,Male,139/83,120.8,72,95,Flu,None,Recovered
+105,74,Female,93/72,136.1,76,99,Migraine,Mild,Under Treatment
+106,34,Female,99/63,74.9,100,97,Liver Disease,None,Under Treatment
+107,44,Male,136/86,106.7,60,99,Kidney Disease,Severe,Under Treatment
+108,29,Male,109/62,83.3,90,94,COVID-19,Moderate,Recovered
+109,60,Male,110/64,94.7,94,99,Pneumonia,None,Recovered
+110,89,Male,109/78,124.1,90,96,Heart Disease,Mild,Under Treatment
+111,47,Female,93/89,108.6,75,98,Anemia,None,Recovered
+112,81,Female,129/82,117.5,72,99,Pneumonia,Mild,Recovered
+113,83,Female,138/66,76.8,64,98,Skin Infection,Severe,Under Treatment
+114,59,Female,105/66,79.4,86,94,Anemia,None,Under Treatment
+115,73,Male,103/90,89.3,94,100,Migraine,Mild,Under Treatment
+116,31,Male,131/64,72.4,65,95,Hypertension,Severe,Under Treatment
+117,90,Male,134/75,124.2,71,97,Arthritis,Severe,Under Treatment
+118,29,Male,119/62,87.7,90,100,Diabetes,Severe,Under Treatment
+119,85,Female,120/70,107.2,65,96,Skin Infection,Moderate,Recovered
+120,90,Male,109/80,112.9,92,95,Migraine,Moderate,Under Treatment
+121,47,Male,121/87,120.3,65,96,Heart Disease,None,Under Treatment
+122,31,Female,108/77,139.6,81,97,Skin Infection,None,Under Treatment
+123,65,Female,138/79,114.4,94,95,Migraine,Moderate,Recovered
+124,20,Female,118/84,119.8,62,96,Pneumonia,Mild,Recovered
+125,37,Female,112/73,118.3,73,95,Anxiety Disorder,Severe,Recovered
+126,23,Female,109/70,129.6,61,96,Liver Disease,Mild,Under Treatment
+127,35,Male,126/63,80.5,67,99,Asthma,None,Under Treatment
+128,52,Male,103/86,109.7,83,98,Flu,None,Under Treatment
+129,22,Male,126/76,117.3,84,94,Flu,Mild,Recovered
+130,23,Female,135/70,116.2,85,96,Depression,Severe,Recovered
+131,31,Male,92/71,134.4,73,98,Heart Disease,Moderate,Under Treatment
+132,53,Male,107/86,74.0,89,96,Heart Disease,None,Under Treatment
+133,51,Male,90/85,109.9,72,95,COVID-19,Moderate,Recovered
+134,61,Male,135/62,121.6,66,94,Pneumonia,Severe,Recovered
+135,90,Female,105/64,126.6,91,98,COVID-19,Moderate,Recovered
+136,29,Male,116/69,88.0,71,98,Skin Infection,None,Under Treatment
+137,56,Female,92/76,115.9,81,94,Tuberculosis,Moderate,Recovered
+138,36,Male,97/71,119.9,100,99,COVID-19,Severe,Under Treatment
+139,78,Male,130/73,117.0,89,95,Diabetes,Severe,Under Treatment
+140,58,Female,122/66,125.1,77,94,Heart Disease,None,Under Treatment
+141,84,Female,128/66,135.5,81,95,Skin Infection,None,Recovered
+142,19,Male,103/74,90.4,79,94,Anxiety Disorder,Severe,Recovered
+143,71,Male,136/85,106.3,85,99,Heart Disease,Severe,Under Treatment
+144,27,Male,120/76,133.1,73,100,Tuberculosis,Moderate,Recovered
+145,39,Male,95/65,123.7,68,100,Heart Disease,Severe,Under Treatment
+146,35,Female,105/71,80.1,70,98,Flu,Severe,Under Treatment
+147,77,Male,97/69,132.3,70,96,Anxiety Disorder,Mild,Under Treatment
+148,70,Male,128/89,134.8,87,95,Migraine,Moderate,Under Treatment
+149,40,Male,124/83,126.9,93,98,COVID-19,Mild,Under Treatment
+150,30,Female,121/84,77.9,97,98,Pneumonia,Moderate,Under Treatment
+151,84,Male,135/87,121.0,98,95,Migraine,None,Recovered
+152,20,Male,114/62,99.0,95,99,COVID-19,Severe,Under Treatment
+153,49,Female,119/67,103.1,82,98,Flu,Severe,Recovered
+154,89,Female,106/72,97.8,80,96,Flu,None,Under Treatment
+155,22,Male,104/65,124.0,75,98,Tuberculosis,Moderate,Recovered
+156,84,Male,137/74,127.7,76,99,Migraine,Moderate,Recovered
+157,48,Male,139/80,135.6,76,99,Liver Disease,None,Under Treatment
+158,68,Female,91/78,93.5,68,98,Arthritis,Moderate,Under Treatment
+159,78,Male,101/72,138.8,88,96,Heart Disease,Severe,Under Treatment
+160,76,Male,105/62,132.5,80,95,Liver Disease,None,Under Treatment
+161,86,Male,120/68,109.3,76,99,Asthma,Moderate,Under Treatment
+162,66,Male,115/86,122.3,92,100,Hypertension,None,Under Treatment
+163,46,Female,103/69,81.2,92,97,Diabetes,None,Under Treatment
+164,61,Male,110/74,98.0,65,96,Skin Infection,Severe,Under Treatment
+165,59,Male,102/86,85.9,70,96,COVID-19,Moderate,Under Treatment
+166,42,Female,121/69,88.8,77,98,Hypertension,Moderate,Under Treatment
+167,20,Male,105/85,83.5,86,96,Anemia,Moderate,Recovered
+168,84,Male,134/63,130.9,88,100,Anxiety Disorder,None,Recovered
+169,19,Female,122/66,108.3,90,99,Skin Infection,None,Recovered
+170,84,Male,107/81,113.1,64,94,Anemia,Severe,Recovered
+171,46,Female,117/70,73.0,98,97,Hypertension,Severe,Under Treatment
+172,60,Female,94/78,81.8,76,95,Skin Infection,Moderate,Recovered
+173,26,Male,102/76,100.1,98,98,Heart Disease,Moderate,Under Treatment
+174,19,Female,90/60,126.6,92,98,Pneumonia,Moderate,Recovered
+175,80,Female,97/89,104.2,82,100,Skin Infection,Mild,Under Treatment
+176,72,Male,93/82,125.6,76,100,Anemia,Mild,Recovered
+177,21,Male,113/80,119.6,97,98,Kidney Disease,None,Under Treatment
+178,67,Male,123/81,90.3,94,96,Anemia,Severe,Recovered
+179,30,Male,116/78,85.7,87,100,COVID-19,None,Under Treatment
+180,80,Female,133/62,113.3,100,98,COVID-19,Mild,Recovered
+181,20,Male,114/68,79.4,86,96,Kidney Disease,Moderate,Under Treatment
+182,31,Female,97/87,88.2,77,96,Liver Disease,Moderate,Under Treatment
+183,42,Male,110/81,88.8,77,95,Migraine,None,Under Treatment
+184,50,Female,136/71,123.1,81,98,Liver Disease,Severe,Under Treatment
+185,83,Male,124/80,124.4,89,98,Liver Disease,Moderate,Under Treatment
+186,61,Male,112/84,93.8,75,98,Arthritis,Severe,Under Treatment
+187,30,Male,90/81,96.1,77,98,Kidney Disease,None,Under Treatment
+188,49,Male,131/61,92.0,60,97,Asthma,Moderate,Under Treatment
+189,73,Male,135/73,106.4,80,99,Hypertension,Severe,Under Treatment
+190,20,Female,116/75,106.8,90,95,Liver Disease,Severe,Under Treatment
+191,36,Male,108/78,89.4,71,95,Depression,None,Under Treatment
+192,25,Female,100/90,125.3,100,99,COVID-19,Mild,Under Treatment
+193,21,Female,132/60,90.4,92,99,Anxiety Disorder,Moderate,Under Treatment
+194,90,Male,113/60,104.1,96,97,Liver Disease,None,Under Treatment
+195,76,Male,105/83,74.4,62,95,Heart Disease,Mild,Under Treatment
+196,68,Male,139/69,125.2,71,94,Migraine,None,Recovered
+197,35,Female,108/74,99.3,96,99,Flu,None,Recovered
+198,46,Female,101/85,115.1,85,98,Heart Disease,Mild,Under Treatment
+199,88,Male,91/76,118.1,74,95,Tuberculosis,Severe,Under Treatment
+200,20,Male,118/70,77.7,77,97,Kidney Disease,Severe,Under Treatment
+201,39,Female,125/67,129.3,83,94,Anxiety Disorder,Severe,Recovered
+202,34,Female,108/68,71.0,60,99,COVID-19,Moderate,Recovered
+203,64,Male,119/82,113.0,69,95,Flu,Severe,Under Treatment
+204,57,Female,138/66,85.2,88,98,Asthma,Moderate,Recovered
+205,35,Male,127/77,122.6,66,94,Arthritis,Severe,Under Treatment
+206,73,Male,137/77,125.0,73,97,Anemia,Mild,Recovered
+207,79,Female,137/63,127.3,73,96,Pneumonia,None,Recovered
+208,45,Male,107/65,132.1,100,96,Skin Infection,None,Recovered
+209,73,Male,108/88,84.1,90,100,Heart Disease,Severe,Under Treatment
+210,88,Female,128/83,95.7,76,94,Depression,None,Recovered
+211,80,Male,116/79,113.7,65,100,Asthma,None,Under Treatment
+212,83,Female,115/71,97.5,100,96,Migraine,Mild,Under Treatment
+213,38,Female,92/69,76.5,63,99,Flu,Severe,Recovered
+214,76,Male,127/85,85.7,81,95,Depression,Mild,Recovered
+215,37,Female,137/60,101.2,82,95,Arthritis,Mild,Under Treatment
+216,86,Male,140/67,108.7,63,96,Diabetes,Severe,Under Treatment
+217,23,Female,132/87,101.9,67,94,Heart Disease,Mild,Under Treatment
+218,69,Female,130/79,113.0,91,94,Liver Disease,Moderate,Under Treatment
+219,23,Male,119/88,136.0,97,97,Heart Disease,Severe,Under Treatment
+220,49,Male,105/75,73.4,74,99,Tuberculosis,None,Under Treatment
+221,33,Male,129/67,81.2,63,100,Depression,None,Under Treatment
+222,19,Male,129/63,132.6,73,99,Anxiety Disorder,Severe,Recovered
+223,76,Female,139/74,104.3,73,100,Arthritis,None,Under Treatment
+224,51,Male,94/73,78.9,80,95,Tuberculosis,None,Recovered
+225,75,Female,98/80,125.8,95,98,Pneumonia,Moderate,Under Treatment
+226,26,Male,117/84,78.7,90,99,Migraine,Severe,Under Treatment
+227,57,Male,121/76,75.3,65,98,Kidney Disease,Moderate,Under Treatment
+228,72,Female,138/84,113.0,81,94,Arthritis,Severe,Under Treatment
+229,41,Female,92/90,93.3,74,96,Anemia,Mild,Under Treatment
+230,43,Male,136/89,134.4,63,94,Asthma,None,Under Treatment
+231,75,Male,111/66,135.8,66,94,Hypertension,Mild,Under Treatment
+232,61,Female,111/70,133.1,98,98,Migraine,Moderate,Recovered
+233,44,Male,96/74,115.3,85,96,Pneumonia,Severe,Under Treatment
+234,39,Male,97/60,87.2,94,97,Pneumonia,Moderate,Under Treatment
+235,63,Female,117/70,96.1,100,96,COVID-19,Mild,Recovered
+236,51,Male,97/75,96.4,97,100,Tuberculosis,Severe,Recovered
+237,27,Female,135/75,133.2,85,100,Kidney Disease,None,Under Treatment
+238,83,Male,131/63,128.0,98,99,Asthma,None,Recovered
+239,71,Male,118/73,108.3,75,95,Depression,Severe,Recovered
+240,60,Female,107/83,110.4,91,99,Tuberculosis,None,Recovered
+241,61,Female,118/74,76.8,64,100,Asthma,Severe,Under Treatment
+242,29,Male,101/64,134.0,61,94,Hypertension,Severe,Under Treatment
+243,44,Male,106/82,129.6,81,99,Anxiety Disorder,Mild,Recovered
+244,61,Female,111/74,109.6,81,99,Tuberculosis,Severe,Recovered
+245,25,Male,97/84,99.8,92,99,Pneumonia,Mild,Under Treatment
+246,78,Male,103/89,100.4,90,95,Heart Disease,Severe,Under Treatment
+247,40,Female,94/73,70.7,64,95,Skin Infection,Severe,Recovered
+248,38,Male,98/76,113.9,69,96,Liver Disease,None,Under Treatment
+249,40,Male,109/63,87.2,67,99,Liver Disease,None,Under Treatment
+250,88,Female,101/74,89.6,91,94,Skin Infection,Mild,Under Treatment
+251,58,Female,102/72,96.2,86,96,Flu,Moderate,Under Treatment
+252,36,Female,131/90,134.2,94,98,Anxiety Disorder,Severe,Recovered
+253,39,Female,106/62,86.2,93,99,Skin Infection,Moderate,Under Treatment
+254,56,Female,115/80,134.5,89,97,Pneumonia,Severe,Under Treatment
+255,56,Male,105/89,121.3,95,96,Kidney Disease,Severe,Under Treatment
+256,82,Male,135/81,134.4,75,95,Pneumonia,Severe,Recovered
+257,54,Female,114/78,105.6,80,96,Depression,Severe,Recovered
+258,68,Female,104/60,78.9,94,95,Skin Infection,None,Recovered
+259,60,Male,102/84,74.2,92,95,Hypertension,None,Under Treatment
+260,35,Female,130/61,86.3,74,97,Flu,Mild,Recovered
+261,49,Female,95/87,97.8,85,98,Anemia,Severe,Recovered
+262,48,Male,95/63,138.2,92,100,Depression,None,Under Treatment
+263,47,Male,98/62,116.1,79,94,Migraine,None,Under Treatment
+264,67,Female,115/64,88.1,62,98,Migraine,None,Under Treatment
+265,38,Female,101/79,120.1,97,98,Depression,Moderate,Recovered
+266,65,Female,121/67,81.3,65,99,Liver Disease,Severe,Under Treatment
+267,78,Female,112/66,101.0,98,97,Liver Disease,None,Under Treatment
+268,38,Female,132/67,83.4,68,99,Arthritis,None,Under Treatment
+269,57,Male,90/89,94.8,84,100,Anxiety Disorder,Severe,Under Treatment
+270,19,Female,105/83,120.1,94,94,Diabetes,Severe,Under Treatment
+271,82,Female,91/71,126.6,75,98,Skin Infection,None,Recovered
+272,24,Female,127/71,134.2,85,97,Anxiety Disorder,Moderate,Recovered
+273,67,Female,100/78,86.9,87,100,Anxiety Disorder,None,Recovered
+274,73,Female,94/89,106.8,83,97,Asthma,Severe,Recovered
+275,71,Male,113/66,108.7,96,99,Depression,Severe,Recovered
+276,70,Female,121/71,99.9,77,98,Hypertension,Mild,Under Treatment
+277,65,Female,105/75,77.4,72,96,Skin Infection,Moderate,Under Treatment
+278,42,Female,110/69,138.0,83,94,Diabetes,Severe,Under Treatment
+279,76,Female,90/78,132.8,62,99,Anemia,Mild,Under Treatment
+280,89,Female,91/87,106.9,84,96,Diabetes,Severe,Under Treatment
+281,42,Male,136/74,109.9,84,100,COVID-19,Mild,Recovered
+282,51,Male,94/83,134.4,99,98,Skin Infection,Mild,Recovered
+283,78,Male,101/63,77.3,83,94,Tuberculosis,Moderate,Recovered
+284,45,Male,128/73,115.8,82,98,Anxiety Disorder,Moderate,Recovered
+285,22,Female,134/84,75.7,72,96,Pneumonia,Severe,Under Treatment
+286,44,Female,106/61,114.4,100,98,COVID-19,Mild,Recovered
+287,85,Male,126/68,109.0,65,97,Pneumonia,Moderate,Recovered
+288,63,Male,130/82,131.2,96,97,Kidney Disease,Severe,Under Treatment
+289,59,Male,97/74,99.2,87,97,Diabetes,None,Under Treatment
+290,75,Female,133/71,105.8,72,95,Anemia,Severe,Under Treatment
+291,64,Female,90/78,105.8,92,94,Migraine,Moderate,Under Treatment
+292,74,Female,97/63,93.2,97,100,Kidney Disease,Mild,Under Treatment
+293,82,Female,120/79,89.6,88,97,Liver Disease,Moderate,Under Treatment
+294,86,Female,101/79,111.3,93,100,Asthma,Severe,Under Treatment
+295,49,Male,94/65,87.3,70,95,Hypertension,None,Under Treatment
+296,34,Female,108/80,73.4,87,99,Tuberculosis,None,Recovered
+297,81,Female,107/86,110.9,79,94,Liver Disease,Severe,Under Treatment
+298,41,Female,98/68,125.5,66,96,Heart Disease,Moderate,Under Treatment
+299,24,Female,119/66,113.4,71,100,COVID-19,Mild,Recovered
+300,62,Female,92/63,92.1,93,95,Diabetes,Mild,Under Treatment
+301,87,Female,96/72,118.6,61,98,Migraine,None,Under Treatment
+302,62,Female,121/60,107.8,74,96,Tuberculosis,Mild,Recovered
+303,26,Female,113/76,92.0,98,100,Hypertension,Moderate,Under Treatment
+304,56,Female,119/73,136.9,77,96,Flu,Moderate,Recovered
+305,57,Female,140/61,139.9,69,98,Pneumonia,Moderate,Under Treatment
+306,28,Female,117/83,133.9,80,98,Depression,Mild,Under Treatment
+307,69,Female,110/62,110.5,90,100,Skin Infection,Moderate,Under Treatment
+308,70,Female,127/73,119.3,94,100,Skin Infection,Moderate,Recovered
+309,56,Male,112/71,135.3,67,98,COVID-19,Severe,Recovered
+310,44,Female,139/84,89.5,82,96,Diabetes,Mild,Under Treatment
+311,70,Female,93/82,102.4,74,99,Anemia,Moderate,Recovered
+312,89,Male,91/82,123.7,80,98,COVID-19,Severe,Under Treatment
+313,72,Male,99/64,85.3,60,96,Tuberculosis,Severe,Recovered
+314,76,Female,99/87,113.2,65,99,Asthma,Moderate,Recovered
+315,65,Male,126/73,91.9,99,99,Arthritis,None,Recovered
+316,41,Female,91/82,100.2,77,97,Anemia,None,Recovered
+317,90,Male,94/72,95.6,68,98,Pneumonia,Severe,Under Treatment
+318,69,Female,96/83,80.7,70,98,Anemia,None,Recovered
+319,20,Male,138/66,70.5,100,98,Asthma,Severe,Under Treatment
+320,20,Male,108/78,125.1,93,94,Tuberculosis,Mild,Under Treatment
+321,29,Male,100/70,139.2,99,95,Diabetes,None,Under Treatment
+322,88,Male,101/77,102.4,67,99,Anxiety Disorder,Mild,Under Treatment
+323,78,Female,108/79,81.3,80,98,Arthritis,Mild,Recovered
+324,22,Female,134/79,96.8,76,95,Hypertension,None,Under Treatment
+325,40,Female,95/64,98.1,80,96,Hypertension,Severe,Under Treatment
+326,41,Female,121/81,103.2,90,100,Asthma,Moderate,Recovered
+327,41,Male,110/85,108.4,79,97,Pneumonia,Mild,Recovered
+328,33,Male,123/69,99.2,85,96,Depression,Moderate,Recovered
+329,68,Male,91/70,84.9,96,95,Anxiety Disorder,None,Recovered
+330,48,Female,105/64,120.0,92,97,Anemia,Moderate,Recovered
+331,19,Male,121/79,125.3,75,94,Anxiety Disorder,Mild,Under Treatment
+332,18,Female,125/80,76.6,72,100,Anemia,Mild,Under Treatment
+333,24,Male,90/67,84.0,91,97,Arthritis,Mild,Under Treatment
+334,25,Male,126/66,131.3,87,98,Pneumonia,Mild,Recovered
+335,69,Female,137/64,109.8,100,99,Migraine,Mild,Under Treatment
+336,43,Male,101/79,116.0,70,99,Kidney Disease,Mild,Under Treatment
+337,27,Male,108/61,74.8,98,98,Migraine,Moderate,Recovered
+338,27,Male,90/76,72.4,62,96,Tuberculosis,Mild,Recovered
+339,85,Male,137/63,93.3,66,96,Flu,Moderate,Under Treatment
+340,73,Female,121/80,84.9,86,96,Pneumonia,Severe,Recovered
+341,39,Female,139/63,85.0,99,97,Hypertension,Severe,Under Treatment
+342,24,Male,139/76,107.6,93,94,Liver Disease,None,Under Treatment
+343,25,Female,140/76,109.5,79,95,Anxiety Disorder,Severe,Recovered
+344,55,Female,103/83,74.4,65,100,Hypertension,None,Under Treatment
+345,89,Female,95/65,71.6,67,99,Tuberculosis,Mild,Under Treatment
+346,29,Female,99/84,120.4,63,99,Tuberculosis,None,Recovered
+347,69,Female,133/70,126.7,72,95,Kidney Disease,Moderate,Under Treatment
+348,34,Female,99/66,81.1,81,98,Heart Disease,Mild,Under Treatment
+349,48,Male,103/66,97.0,92,98,Skin Infection,None,Under Treatment
+350,49,Female,134/83,134.7,72,97,Liver Disease,Moderate,Under Treatment
+351,55,Male,112/78,138.5,74,100,Arthritis,None,Under Treatment
+352,21,Female,137/64,102.6,67,99,Pneumonia,Severe,Recovered
+353,60,Female,138/86,130.1,94,96,Skin Infection,Severe,Under Treatment
+354,59,Female,135/81,88.0,88,96,Migraine,Severe,Under Treatment
+355,73,Female,105/77,137.9,74,99,Pneumonia,Mild,Recovered
+356,32,Female,91/73,99.7,91,95,Anxiety Disorder,Severe,Recovered
+357,44,Male,99/82,129.5,67,98,Arthritis,Mild,Under Treatment
+358,28,Male,105/70,116.4,100,97,Arthritis,None,Under Treatment
+359,20,Male,132/77,124.5,98,96,Anemia,None,Recovered
+360,62,Female,104/60,133.9,99,99,Flu,Moderate,Recovered
+361,88,Male,137/81,120.3,82,96,Diabetes,Severe,Under Treatment
+362,21,Male,123/74,94.9,91,96,Depression,Mild,Under Treatment
+363,82,Female,123/80,124.0,61,95,Migraine,None,Under Treatment
+364,26,Male,91/81,115.3,80,97,Flu,Moderate,Under Treatment
+365,18,Female,119/66,126.8,66,97,Anxiety Disorder,Severe,Recovered
+366,47,Male,105/88,92.4,92,96,Pneumonia,Mild,Recovered
+367,84,Male,105/60,120.6,62,96,Hypertension,None,Under Treatment
+368,34,Female,131/71,110.2,96,96,Diabetes,Severe,Under Treatment
+369,53,Female,91/73,116.3,60,94,Liver Disease,Severe,Under Treatment
+370,63,Male,136/71,76.3,71,96,Flu,Mild,Recovered
+371,19,Male,95/72,86.5,97,96,Diabetes,Severe,Under Treatment
+372,33,Male,98/74,71.3,65,95,Anemia,Mild,Under Treatment
+373,60,Male,128/79,124.0,69,100,Depression,Mild,Under Treatment
+374,80,Male,108/90,119.5,85,96,Anemia,Moderate,Recovered
+375,20,Male,134/83,125.5,81,94,Liver Disease,Mild,Under Treatment
+376,78,Male,131/74,120.9,82,96,Pneumonia,None,Under Treatment
+377,29,Female,103/83,91.0,61,95,Anxiety Disorder,None,Recovered
+378,19,Female,101/72,96.3,99,100,COVID-19,Moderate,Recovered
+379,22,Female,99/76,123.5,73,96,Pneumonia,Moderate,Under Treatment
+380,54,Female,115/77,129.0,63,100,Tuberculosis,Severe,Recovered
+381,76,Male,112/82,83.6,97,94,Depression,Severe,Under Treatment
+382,27,Male,90/84,130.3,77,96,Kidney Disease,Severe,Under Treatment
+383,21,Female,133/77,85.5,99,100,Asthma,None,Recovered
+384,88,Male,112/77,76.1,70,94,Hypertension,Mild,Under Treatment
+385,70,Female,125/75,111.3,64,96,Anxiety Disorder,Mild,Under Treatment
+386,43,Male,125/68,115.2,98,96,Diabetes,Mild,Under Treatment
+387,73,Male,129/62,71.3,73,98,Pneumonia,None,Under Treatment
+388,82,Male,112/77,119.5,88,96,Anxiety Disorder,Moderate,Recovered
+389,56,Female,93/87,120.5,70,98,Diabetes,Severe,Under Treatment
+390,84,Male,103/74,95.2,94,99,Kidney Disease,Severe,Under Treatment
+391,24,Male,117/73,105.2,80,100,Pneumonia,Mild,Under Treatment
+392,47,Female,122/63,77.6,84,98,Diabetes,Moderate,Under Treatment
+393,69,Male,111/76,71.7,66,97,Skin Infection,Moderate,Recovered
+394,87,Female,127/60,71.9,97,97,Anemia,Moderate,Recovered
+395,78,Male,126/78,132.2,67,98,Liver Disease,Severe,Under Treatment
+396,55,Male,94/72,73.7,74,96,COVID-19,None,Under Treatment
+397,73,Male,108/75,134.2,67,94,Skin Infection,Moderate,Under Treatment
+398,23,Female,121/90,138.3,82,96,COVID-19,Severe,Recovered
+399,44,Female,114/87,81.5,87,100,Migraine,Mild,Under Treatment
+400,86,Male,95/85,74.5,87,95,Anxiety Disorder,Moderate,Under Treatment
+401,59,Male,127/74,70.2,82,96,Anxiety Disorder,Moderate,Recovered
+402,71,Female,134/80,73.7,76,96,COVID-19,Mild,Recovered
+403,46,Female,113/90,132.0,77,100,Skin Infection,None,Recovered
+404,87,Male,124/77,95.6,71,98,Liver Disease,Moderate,Under Treatment
+405,50,Female,130/60,70.1,69,100,Pneumonia,Severe,Recovered
+406,38,Female,133/89,81.8,72,99,Pneumonia,None,Under Treatment
+407,49,Male,117/84,116.0,85,98,Asthma,Mild,Recovered
+408,38,Male,112/71,125.1,76,95,COVID-19,None,Under Treatment
+409,52,Male,125/63,114.0,64,97,Anxiety Disorder,None,Under Treatment
+410,29,Male,91/68,75.4,97,99,Hypertension,Severe,Under Treatment
+411,48,Female,117/69,85.2,64,95,Depression,Mild,Under Treatment
+412,35,Male,96/84,139.2,62,98,Diabetes,Severe,Under Treatment
+413,25,Male,137/77,119.6,61,95,Asthma,None,Recovered
+414,68,Female,138/61,123.7,66,95,Anemia,Mild,Recovered
+415,28,Female,106/71,76.7,97,100,Pneumonia,None,Recovered
+416,42,Male,92/69,131.0,60,99,Kidney Disease,Moderate,Under Treatment
+417,65,Female,106/77,122.3,75,95,Asthma,None,Under Treatment
+418,19,Male,114/85,81.7,77,98,Hypertension,Severe,Under Treatment
+419,55,Male,110/86,105.9,69,96,Skin Infection,Moderate,Under Treatment
+420,87,Female,104/78,92.5,88,100,COVID-19,None,Under Treatment
+421,60,Female,93/66,101.8,60,99,Flu,Mild,Under Treatment
+422,27,Female,102/90,76.7,74,97,Hypertension,Severe,Under Treatment
+423,40,Male,140/64,84.8,78,94,Heart Disease,None,Under Treatment
+424,56,Male,95/81,104.9,71,100,Tuberculosis,Moderate,Recovered
+425,37,Male,140/77,138.3,86,96,Flu,Severe,Recovered
+426,83,Female,100/71,98.4,85,99,Asthma,Severe,Under Treatment
+427,50,Female,112/64,86.5,94,99,COVID-19,Mild,Recovered
+428,69,Female,134/62,105.2,80,99,Hypertension,Severe,Under Treatment
+429,56,Male,106/89,115.0,68,96,COVID-19,Severe,Under Treatment
+430,36,Male,99/72,85.6,86,100,Flu,Moderate,Under Treatment
+431,60,Male,138/83,103.9,100,100,Hypertension,None,Under Treatment
+432,50,Female,140/89,108.7,80,95,Anxiety Disorder,Moderate,Recovered
+433,67,Female,118/89,89.8,97,96,Anxiety Disorder,None,Under Treatment
+434,45,Female,90/81,107.1,78,99,Hypertension,Moderate,Under Treatment
+435,38,Female,117/68,105.0,84,97,Anxiety Disorder,None,Under Treatment
+436,78,Male,139/85,135.2,72,99,Hypertension,Moderate,Under Treatment
+437,36,Male,130/83,111.2,60,97,Anemia,Severe,Recovered
+438,28,Female,93/70,131.5,70,95,Kidney Disease,Mild,Under Treatment
+439,69,Male,90/78,122.5,62,97,Diabetes,Severe,Under Treatment
+440,43,Male,128/60,91.8,94,97,Tuberculosis,Severe,Recovered
+441,58,Male,111/78,81.0,71,98,Migraine,Severe,Under Treatment
+442,36,Female,113/63,101.8,77,98,Anxiety Disorder,Severe,Recovered
+443,80,Female,108/73,98.9,97,96,COVID-19,Mild,Under Treatment
+444,27,Male,117/82,98.2,71,97,Kidney Disease,None,Under Treatment
+445,30,Female,103/73,98.1,84,94,Flu,Moderate,Recovered
+446,38,Male,119/73,85.8,92,96,Heart Disease,Moderate,Under Treatment
+447,61,Male,121/71,93.2,88,99,Liver Disease,Severe,Under Treatment
+448,47,Male,100/66,128.2,87,97,Flu,Severe,Under Treatment
+449,77,Female,93/78,86.4,84,99,Migraine,None,Recovered
+450,46,Male,114/87,81.1,79,96,Asthma,Mild,Recovered
+451,32,Male,90/61,74.2,78,99,Migraine,Severe,Recovered
+452,83,Female,134/61,100.6,100,94,COVID-19,Severe,Under Treatment
+453,65,Male,93/60,121.1,80,95,COVID-19,Moderate,Recovered
+454,67,Male,126/72,93.9,98,99,Anemia,Mild,Under Treatment
+455,82,Male,102/71,90.0,94,98,Kidney Disease,None,Under Treatment
+456,58,Male,105/79,101.6,82,99,Liver Disease,Mild,Under Treatment
+457,22,Female,103/71,120.7,69,96,Anemia,None,Recovered
+458,34,Female,138/75,107.4,92,99,Flu,Mild,Under Treatment
+459,35,Female,92/84,108.2,70,94,Migraine,Mild,Under Treatment
+460,65,Female,118/71,127.8,64,95,Pneumonia,Moderate,Under Treatment
+461,73,Male,127/69,71.8,82,97,Tuberculosis,Moderate,Recovered
+462,26,Female,112/67,89.3,100,95,Depression,Moderate,Under Treatment
+463,42,Female,133/84,81.0,77,94,Anemia,None,Recovered
+464,52,Female,100/68,96.2,61,99,Kidney Disease,Severe,Under Treatment
+465,41,Male,105/69,84.1,90,94,Depression,Mild,Under Treatment
+466,37,Female,121/84,106.6,65,98,Tuberculosis,Moderate,Recovered
+467,84,Female,108/61,80.9,96,97,Anemia,Mild,Under Treatment
+468,24,Male,135/66,100.7,77,100,Liver Disease,Mild,Under Treatment
+469,18,Female,117/87,81.4,96,96,Diabetes,Moderate,Under Treatment
+470,88,Female,116/75,115.5,100,99,Heart Disease,None,Under Treatment
+471,76,Male,98/64,91.7,87,99,Diabetes,None,Under Treatment
+472,36,Male,120/68,88.7,72,100,Heart Disease,Moderate,Under Treatment
+473,79,Male,93/76,115.4,85,99,COVID-19,Mild,Recovered
+474,64,Male,92/80,118.0,91,99,Skin Infection,Severe,Under Treatment
+475,43,Male,93/66,86.9,80,100,Skin Infection,Moderate,Under Treatment
+476,29,Male,135/88,87.0,72,96,Flu,Mild,Recovered
+477,83,Female,112/86,121.0,97,97,Migraine,Mild,Under Treatment
+478,88,Female,112/63,88.9,73,94,Depression,Mild,Under Treatment
+479,86,Male,137/64,113.4,98,94,Flu,Moderate,Recovered
+480,21,Male,97/64,132.7,68,97,Asthma,Moderate,Under Treatment
+481,58,Female,104/63,75.1,97,97,Flu,Moderate,Recovered
+482,30,Female,135/77,99.7,61,98,Pneumonia,None,Under Treatment
+483,83,Female,119/82,93.9,62,100,Hypertension,Mild,Under Treatment
+484,79,Male,104/86,123.7,100,98,Skin Infection,Moderate,Under Treatment
+485,51,Female,100/60,89.0,99,99,Flu,Moderate,Recovered
+486,49,Male,110/86,95.2,77,99,Flu,None,Recovered
+487,24,Female,97/68,134.2,79,97,Anxiety Disorder,Mild,Recovered
+488,23,Female,104/76,133.3,98,94,Anemia,Severe,Recovered
+489,62,Male,129/84,100.0,92,99,Pneumonia,None,Under Treatment
+490,22,Male,123/87,70.7,62,96,Pneumonia,Moderate,Under Treatment
+491,30,Female,127/83,125.4,91,100,Anemia,Mild,Recovered
+492,26,Male,117/74,73.1,94,97,Anemia,None,Under Treatment
+493,38,Male,96/86,72.7,77,97,Kidney Disease,None,Under Treatment
+494,82,Female,137/61,109.2,76,95,Pneumonia,Severe,Under Treatment
+495,45,Male,100/90,131.1,68,98,Arthritis,Mild,Under Treatment
+496,33,Male,128/63,139.5,98,96,Arthritis,Severe,Recovered
+497,72,Female,106/64,74.2,70,95,Kidney Disease,Moderate,Under Treatment
+498,18,Male,130/70,109.5,63,94,Depression,None,Recovered
+499,38,Female,116/70,73.7,70,97,Tuberculosis,None,Recovered
+500,87,Female,127/86,134.9,70,96,Kidney Disease,Moderate,Under Treatment
+501,22,Male,108/88,125.4,71,96,Skin Infection,Severe,Under Treatment
+502,72,Male,131/80,139.4,71,94,Anemia,Moderate,Under Treatment
+503,26,Male,132/76,111.5,98,100,Hypertension,Mild,Under Treatment
+504,57,Male,109/79,121.8,75,95,Arthritis,Severe,Under Treatment
+505,41,Female,100/73,79.0,82,95,Skin Infection,Moderate,Recovered
+506,60,Male,105/77,88.4,78,96,Tuberculosis,None,Under Treatment
+507,33,Female,91/73,83.8,71,97,Diabetes,Moderate,Under Treatment
+508,80,Female,96/90,106.8,70,99,Anemia,Severe,Recovered
+509,32,Female,102/86,124.9,68,95,Diabetes,None,Under Treatment
+510,33,Male,127/80,136.5,74,100,Migraine,None,Recovered
+511,37,Female,119/87,128.3,87,95,Heart Disease,Severe,Under Treatment
+512,33,Female,113/84,125.2,85,100,Heart Disease,Mild,Under Treatment
+513,68,Male,113/82,132.6,70,97,Migraine,Severe,Recovered
+514,42,Female,107/62,100.2,83,98,Pneumonia,None,Under Treatment
+515,22,Female,112/89,98.3,95,99,Liver Disease,Moderate,Under Treatment
+516,89,Female,121/76,75.3,61,95,Arthritis,Mild,Under Treatment
+517,60,Male,140/88,90.5,94,97,Migraine,Mild,Recovered
+518,31,Male,116/62,123.2,78,96,Migraine,None,Under Treatment
+519,67,Female,111/75,135.2,70,94,Diabetes,Moderate,Under Treatment
+520,20,Male,129/80,110.5,64,98,Arthritis,Severe,Under Treatment
+521,42,Female,91/72,82.9,93,97,Liver Disease,Mild,Under Treatment
+522,76,Female,101/62,129.2,62,94,Flu,Severe,Under Treatment
+523,23,Male,102/63,127.5,61,97,COVID-19,Mild,Under Treatment
+524,79,Male,106/79,100.5,87,100,Tuberculosis,Severe,Recovered
+525,72,Male,101/78,128.4,89,96,Kidney Disease,None,Under Treatment
+526,19,Female,126/61,84.4,97,98,Anxiety Disorder,Mild,Under Treatment
+527,22,Male,134/85,137.4,61,100,Flu,Severe,Recovered
+528,76,Male,114/65,82.0,91,97,Heart Disease,None,Under Treatment
+529,23,Male,132/81,121.8,83,94,Anemia,Moderate,Recovered
+530,86,Female,118/69,103.8,90,99,Migraine,Mild,Recovered
+531,24,Female,122/85,132.4,70,100,Migraine,Moderate,Recovered
+532,82,Female,116/75,127.4,98,98,COVID-19,Mild,Under Treatment
+533,83,Male,138/60,97.7,71,94,COVID-19,None,Under Treatment
+534,75,Female,110/64,77.0,89,96,Tuberculosis,None,Under Treatment
+535,66,Female,139/81,71.7,84,95,Anemia,Moderate,Recovered
+536,65,Female,138/64,81.1,79,95,Migraine,Severe,Recovered
+537,41,Male,119/74,100.6,83,94,Asthma,Severe,Under Treatment
+538,45,Male,112/68,77.6,97,99,Arthritis,None,Under Treatment
+539,39,Male,93/73,133.7,97,98,Tuberculosis,Moderate,Recovered
+540,65,Female,109/77,117.4,100,96,Anxiety Disorder,None,Recovered
+541,80,Female,119/65,91.0,60,99,Pneumonia,Moderate,Under Treatment
+542,90,Female,129/62,118.0,99,96,Tuberculosis,Severe,Recovered
+543,20,Male,99/64,86.7,63,95,Tuberculosis,None,Under Treatment
+544,78,Male,98/61,124.0,93,97,COVID-19,Moderate,Under Treatment
+545,54,Male,104/66,113.2,64,95,Kidney Disease,Mild,Under Treatment
+546,56,Female,120/90,83.9,70,99,Hypertension,Severe,Under Treatment
+547,37,Female,94/87,114.2,99,100,Liver Disease,Severe,Under Treatment
+548,44,Female,132/76,105.4,80,100,Anxiety Disorder,None,Recovered
+549,34,Male,136/61,83.6,99,100,Flu,Severe,Under Treatment
+550,84,Male,110/82,111.3,88,96,Hypertension,Mild,Under Treatment
+551,73,Female,135/63,93.8,70,100,Hypertension,Mild,Under Treatment
+552,38,Male,132/62,91.7,78,99,Migraine,Moderate,Recovered
+553,75,Male,93/83,129.9,75,94,Depression,Mild,Under Treatment
+554,38,Male,96/69,118.2,77,97,Anemia,Mild,Under Treatment
+555,24,Female,125/84,132.3,76,95,Kidney Disease,Severe,Under Treatment
+556,23,Female,100/63,70.2,88,94,Liver Disease,Severe,Under Treatment
+557,56,Male,111/85,90.0,75,98,Pneumonia,Mild,Under Treatment
+558,19,Female,135/81,84.0,86,98,Asthma,Mild,Under Treatment
+559,24,Male,107/73,103.0,66,96,Anemia,Moderate,Under Treatment
+560,87,Female,113/78,105.7,89,98,Flu,Moderate,Under Treatment
+561,65,Female,126/70,71.0,88,94,Migraine,Severe,Recovered
+562,60,Male,129/72,111.8,66,95,COVID-19,Mild,Under Treatment
+563,87,Male,91/70,120.0,94,99,Flu,Mild,Under Treatment
+564,45,Female,103/81,101.9,75,100,Hypertension,Mild,Under Treatment
+565,76,Female,96/63,72.0,93,99,Hypertension,Severe,Under Treatment
+566,31,Female,128/88,85.5,90,97,Flu,None,Under Treatment
+567,57,Female,116/65,137.3,69,94,COVID-19,Moderate,Recovered
+568,63,Female,117/79,101.9,85,100,COVID-19,Severe,Under Treatment
+569,20,Female,122/64,103.4,86,95,Tuberculosis,Mild,Under Treatment
+570,45,Female,108/75,97.5,65,100,Diabetes,None,Under Treatment
+571,49,Male,140/65,95.4,87,98,Hypertension,Severe,Under Treatment
+572,90,Male,119/83,117.5,77,99,Anxiety Disorder,Moderate,Under Treatment
+573,21,Female,133/86,76.9,91,98,Hypertension,Mild,Under Treatment
+574,40,Male,120/77,87.9,73,94,Flu,None,Recovered
+575,65,Male,91/90,105.3,60,94,Flu,Mild,Under Treatment
+576,48,Male,102/64,112.3,100,95,COVID-19,Mild,Recovered
+577,29,Female,94/68,134.7,67,94,Asthma,Moderate,Recovered
+578,66,Female,102/60,95.0,86,97,Skin Infection,Mild,Recovered
+579,73,Male,111/63,98.1,79,96,Hypertension,Moderate,Under Treatment
+580,55,Male,127/73,104.2,67,99,Skin Infection,Moderate,Recovered
+581,62,Male,137/88,98.5,96,98,Pneumonia,None,Recovered
+582,56,Female,98/84,104.6,87,98,Pneumonia,Moderate,Recovered
+583,87,Male,133/80,89.1,60,100,Depression,Moderate,Under Treatment
+584,60,Female,135/63,118.9,87,99,Depression,Mild,Recovered
+585,42,Female,129/66,105.5,86,100,Heart Disease,Severe,Under Treatment
+586,38,Male,120/81,74.7,94,100,Arthritis,Mild,Under Treatment
+587,70,Female,94/65,136.7,98,97,Tuberculosis,Severe,Under Treatment
+588,41,Male,93/87,128.6,74,98,Heart Disease,None,Under Treatment
+589,55,Male,136/74,126.0,70,100,Anxiety Disorder,Moderate,Recovered
+590,40,Male,124/64,123.7,100,94,Depression,Mild,Recovered
+591,86,Female,135/90,85.0,84,97,Tuberculosis,Severe,Under Treatment
+592,80,Male,132/62,121.6,66,100,Liver Disease,Moderate,Under Treatment
+593,46,Female,112/70,78.1,64,94,Diabetes,None,Under Treatment
+594,78,Male,110/89,116.0,78,96,Anxiety Disorder,None,Under Treatment
+595,68,Female,124/84,73.3,81,95,Arthritis,None,Under Treatment
+596,71,Female,120/81,104.3,87,97,Kidney Disease,Mild,Under Treatment
+597,78,Male,125/64,97.7,84,96,Anxiety Disorder,None,Recovered
+598,72,Female,91/73,70.6,81,95,Diabetes,Severe,Under Treatment
+599,43,Male,95/67,132.3,100,94,Migraine,None,Recovered
+600,47,Male,140/65,108.8,85,100,Arthritis,None,Recovered
+601,83,Female,96/89,87.5,88,94,COVID-19,Mild,Under Treatment
+602,50,Male,90/71,108.3,98,100,Depression,Moderate,Under Treatment
+603,68,Female,115/89,79.3,97,98,Pneumonia,Mild,Under Treatment
+604,81,Male,129/65,118.9,90,99,COVID-19,None,Under Treatment
+605,72,Male,98/84,72.7,66,98,Skin Infection,Mild,Under Treatment
+606,30,Male,139/83,138.3,93,97,Diabetes,Mild,Under Treatment
+607,74,Male,138/85,136.2,63,99,Flu,Severe,Recovered
+608,20,Female,103/86,120.6,70,97,Migraine,Mild,Recovered
+609,36,Male,132/76,97.0,71,98,Tuberculosis,Severe,Recovered
+610,33,Female,99/80,102.1,76,100,Tuberculosis,Mild,Recovered
+611,78,Male,113/64,86.4,100,97,COVID-19,None,Recovered
+612,36,Female,105/76,102.3,99,95,COVID-19,Mild,Recovered
+613,65,Male,95/70,103.1,95,94,Depression,Mild,Under Treatment
+614,74,Female,109/84,105.1,96,97,Anxiety Disorder,Mild,Recovered
+615,38,Female,121/72,134.0,63,97,Kidney Disease,None,Under Treatment
+616,28,Male,101/78,138.6,62,99,Flu,Moderate,Recovered
+617,26,Female,111/67,122.7,71,99,Tuberculosis,Moderate,Under Treatment
+618,60,Female,133/63,93.1,88,97,Depression,Mild,Recovered
+619,56,Male,135/78,135.7,68,98,Diabetes,Mild,Under Treatment
+620,34,Female,136/87,91.3,93,100,Kidney Disease,Mild,Under Treatment
+621,85,Male,106/65,136.2,88,94,Heart Disease,None,Under Treatment
+622,18,Female,97/65,133.0,69,98,Depression,Mild,Under Treatment
+623,79,Female,109/63,89.1,79,94,Arthritis,Mild,Recovered
+624,62,Male,130/87,81.7,74,96,Migraine,None,Under Treatment
+625,90,Male,135/66,82.2,84,94,Diabetes,Moderate,Under Treatment
+626,48,Male,92/85,86.6,63,95,Asthma,Mild,Recovered
+627,37,Male,119/86,78.2,97,100,COVID-19,Moderate,Under Treatment
+628,35,Female,131/87,77.7,68,95,Arthritis,Mild,Recovered
+629,49,Male,97/77,105.2,66,95,Skin Infection,Severe,Under Treatment
+630,87,Female,109/70,120.9,95,96,Kidney Disease,None,Under Treatment
+631,89,Male,100/72,97.6,88,99,Tuberculosis,Mild,Under Treatment
+632,68,Female,92/89,77.0,63,97,Anemia,None,Recovered
+633,88,Male,110/84,78.3,94,99,Asthma,None,Under Treatment
+634,58,Male,97/77,92.2,65,98,Kidney Disease,None,Under Treatment
+635,70,Male,128/70,88.4,97,97,Depression,Mild,Under Treatment
+636,57,Male,139/87,123.6,97,95,Kidney Disease,Mild,Under Treatment
+637,87,Male,124/72,134.2,77,95,Depression,Severe,Under Treatment
+638,28,Male,126/65,96.6,96,97,COVID-19,None,Under Treatment
+639,63,Male,119/65,109.7,70,100,Diabetes,Moderate,Under Treatment
+640,70,Female,90/80,74.4,79,96,Depression,Moderate,Under Treatment
+641,21,Female,130/89,70.9,84,100,Liver Disease,Mild,Under Treatment
+642,84,Male,138/74,78.9,94,99,Arthritis,Severe,Under Treatment
+643,38,Male,112/79,124.6,66,100,Liver Disease,Severe,Under Treatment
+644,63,Female,100/80,106.5,94,97,Skin Infection,Severe,Recovered
+645,31,Female,92/64,119.0,75,96,Arthritis,None,Recovered
+646,38,Male,119/83,106.8,71,99,COVID-19,None,Recovered
+647,44,Female,126/72,75.5,73,100,Anxiety Disorder,Mild,Recovered
+648,21,Female,124/62,116.3,67,100,Anemia,Moderate,Under Treatment
+649,19,Female,128/67,89.6,97,97,Arthritis,Moderate,Under Treatment
+650,48,Male,105/60,104.5,69,98,Asthma,None,Under Treatment
+651,49,Male,117/77,71.6,98,97,Kidney Disease,Mild,Under Treatment
+652,61,Male,101/87,123.8,95,98,Arthritis,Severe,Under Treatment
+653,77,Female,90/82,136.3,60,95,Kidney Disease,Mild,Under Treatment
+654,29,Male,109/85,136.2,78,97,Anemia,Severe,Under Treatment
+655,21,Female,109/81,75.9,69,100,Tuberculosis,Mild,Recovered
+656,77,Male,130/77,118.2,79,98,Asthma,Severe,Under Treatment
+657,18,Male,139/76,116.1,66,99,Anemia,Severe,Recovered
+658,76,Male,98/63,102.2,90,95,COVID-19,None,Under Treatment
+659,63,Female,104/72,125.5,92,97,Diabetes,Moderate,Under Treatment
+660,86,Female,100/79,120.4,77,99,Hypertension,Mild,Under Treatment
+661,72,Female,95/68,131.2,88,98,Kidney Disease,Severe,Under Treatment
+662,60,Male,120/88,70.4,68,100,COVID-19,Mild,Under Treatment
+663,79,Female,113/86,132.0,66,98,Pneumonia,None,Recovered
+664,86,Male,130/76,134.3,72,99,Kidney Disease,Severe,Under Treatment
+665,63,Male,106/90,88.9,69,98,Pneumonia,None,Under Treatment
+666,37,Female,118/78,109.2,74,96,Skin Infection,Moderate,Recovered
+667,35,Male,128/70,72.8,61,96,Anxiety Disorder,Moderate,Recovered
+668,69,Male,134/87,139.3,61,97,Arthritis,Mild,Under Treatment
+669,24,Male,135/66,92.7,73,96,Skin Infection,None,Recovered
+670,38,Female,104/84,97.3,66,96,COVID-19,None,Under Treatment
+671,51,Female,102/74,101.6,64,96,Hypertension,Moderate,Under Treatment
+672,37,Male,90/81,115.4,87,96,Kidney Disease,None,Under Treatment
+673,40,Male,138/71,136.6,89,97,Kidney Disease,None,Under Treatment
+674,46,Male,90/68,93.6,89,98,Flu,None,Recovered
+675,76,Male,93/61,129.5,87,95,Liver Disease,Severe,Under Treatment
+676,28,Male,111/64,83.1,81,95,Pneumonia,Severe,Recovered
+677,67,Male,115/82,94.2,79,100,Pneumonia,Mild,Under Treatment
+678,64,Female,139/82,110.9,87,100,COVID-19,Mild,Under Treatment
+679,20,Male,110/62,109.9,68,100,Asthma,Mild,Recovered
+680,23,Female,109/76,85.0,90,97,Depression,Severe,Recovered
+681,58,Male,137/81,112.6,80,100,Anemia,None,Recovered
+682,67,Male,94/81,71.1,80,97,Heart Disease,None,Under Treatment
+683,69,Female,90/70,75.0,86,97,Migraine,Mild,Recovered
+684,61,Male,119/64,98.8,92,96,Tuberculosis,Moderate,Recovered
+685,82,Male,109/88,122.4,70,96,Hypertension,None,Under Treatment
+686,52,Male,91/76,134.5,84,100,Heart Disease,Moderate,Under Treatment
+687,27,Male,106/74,95.2,93,98,Anxiety Disorder,None,Under Treatment
+688,67,Female,105/80,110.2,88,95,Depression,Mild,Recovered
+689,88,Male,114/66,89.0,68,95,Skin Infection,None,Under Treatment
+690,36,Male,131/73,72.0,96,99,Depression,Moderate,Recovered
+691,79,Female,121/61,87.1,75,98,Anxiety Disorder,None,Recovered
+692,57,Male,103/65,85.5,86,98,Arthritis,Moderate,Under Treatment
+693,33,Female,98/62,70.2,91,95,Asthma,Severe,Recovered
+694,69,Female,132/89,93.0,91,99,Anxiety Disorder,None,Recovered
+695,70,Female,120/71,101.1,70,99,Flu,Mild,Recovered
+696,27,Male,91/64,78.6,81,97,Asthma,Severe,Recovered
+697,86,Female,130/81,122.1,70,97,Asthma,Moderate,Under Treatment
+698,30,Male,93/89,92.2,81,95,Diabetes,Mild,Under Treatment
+699,47,Male,133/87,133.3,71,96,Anemia,Moderate,Recovered
+700,44,Female,137/90,74.2,98,100,Kidney Disease,Moderate,Under Treatment
+701,66,Male,130/87,78.0,94,97,Flu,Moderate,Under Treatment
+702,41,Female,113/85,108.8,88,97,Anemia,Severe,Under Treatment
+703,69,Female,116/64,134.1,97,94,Depression,Moderate,Recovered
+704,61,Male,94/81,95.5,65,98,Depression,Severe,Under Treatment
+705,21,Male,132/72,87.6,93,94,Diabetes,Moderate,Under Treatment
+706,29,Male,136/83,72.9,97,99,COVID-19,Mild,Under Treatment
+707,90,Male,136/84,76.2,71,100,COVID-19,Moderate,Under Treatment
+708,37,Female,140/82,72.9,71,100,Kidney Disease,Moderate,Under Treatment
+709,83,Female,137/90,136.8,83,95,Pneumonia,Moderate,Recovered
+710,83,Female,124/66,130.4,73,99,Anemia,Mild,Recovered
+711,85,Female,112/83,93.3,70,100,Flu,Severe,Under Treatment
+712,42,Male,103/81,85.9,80,97,Flu,Moderate,Under Treatment
+713,77,Male,124/87,128.4,91,96,Asthma,Mild,Recovered
+714,22,Male,101/75,129.4,90,98,Asthma,None,Under Treatment
+715,21,Male,106/87,82.7,95,97,Asthma,None,Under Treatment
+716,72,Female,114/67,106.2,74,98,Hypertension,Severe,Under Treatment
+717,65,Male,131/74,120.9,66,97,Heart Disease,Moderate,Under Treatment
+718,71,Female,121/80,74.1,92,99,Kidney Disease,Moderate,Under Treatment
+719,49,Female,119/61,79.1,89,94,COVID-19,None,Under Treatment
+720,66,Male,112/81,82.0,85,97,Heart Disease,Severe,Under Treatment
+721,68,Male,119/64,136.6,65,95,Anemia,Severe,Recovered
+722,77,Female,98/85,76.4,79,100,Migraine,Severe,Recovered
+723,50,Male,100/77,88.9,83,97,Heart Disease,Severe,Under Treatment
+724,24,Male,103/68,87.0,92,100,Tuberculosis,Moderate,Under Treatment
+725,81,Female,130/83,70.8,84,100,Hypertension,Moderate,Under Treatment
+726,25,Female,129/70,97.4,82,97,Migraine,None,Recovered
+727,53,Male,127/67,77.1,70,100,Flu,Moderate,Recovered
+728,54,Female,130/61,73.5,83,98,Hypertension,None,Under Treatment
+729,82,Male,109/60,107.3,61,96,COVID-19,Severe,Recovered
+730,79,Male,110/66,86.1,83,95,Hypertension,Moderate,Under Treatment
+731,63,Male,117/86,80.0,76,100,Flu,Severe,Recovered
+732,70,Male,100/76,80.4,94,95,Heart Disease,Mild,Under Treatment
+733,77,Male,94/84,129.0,72,97,Skin Infection,None,Under Treatment
+734,64,Female,139/60,88.5,66,96,Heart Disease,Mild,Under Treatment
+735,76,Female,136/72,109.0,96,95,Anxiety Disorder,None,Under Treatment
+736,80,Female,110/89,107.7,74,98,Kidney Disease,None,Under Treatment
+737,87,Female,123/82,103.3,71,94,Pneumonia,Moderate,Recovered
+738,38,Female,119/72,91.2,96,96,Tuberculosis,Moderate,Recovered
+739,77,Female,97/86,106.3,85,98,COVID-19,Moderate,Under Treatment
+740,49,Female,136/77,108.8,74,100,Pneumonia,Mild,Under Treatment
+741,72,Male,121/68,94.3,89,98,Arthritis,Mild,Recovered
+742,28,Female,130/86,90.0,63,96,Anxiety Disorder,Severe,Under Treatment
+743,51,Female,138/72,121.9,98,95,Skin Infection,None,Under Treatment
+744,35,Female,133/62,94.8,60,95,Heart Disease,None,Under Treatment
+745,56,Male,110/66,86.9,86,97,Arthritis,Moderate,Recovered
+746,28,Male,101/72,131.9,72,100,Hypertension,Mild,Under Treatment
+747,47,Male,96/60,71.6,91,97,Anxiety Disorder,Severe,Under Treatment
+748,65,Male,113/75,136.5,81,95,Migraine,None,Under Treatment
+749,59,Female,118/77,131.6,83,98,Diabetes,Mild,Under Treatment
+750,57,Male,121/64,129.2,100,99,Heart Disease,Severe,Under Treatment
+751,20,Female,129/87,138.7,93,99,Tuberculosis,Mild,Under Treatment
+752,55,Male,138/83,127.4,86,97,Heart Disease,Mild,Under Treatment
+753,46,Male,99/68,99.2,98,97,Diabetes,None,Under Treatment
+754,73,Male,139/70,128.5,73,96,Tuberculosis,Moderate,Under Treatment
+755,26,Female,134/87,89.7,69,97,Kidney Disease,Mild,Under Treatment
+756,75,Male,133/85,75.1,79,100,Migraine,Moderate,Recovered
+757,82,Male,120/65,97.5,89,98,Skin Infection,Severe,Under Treatment
+758,33,Female,121/68,89.3,89,99,Arthritis,Moderate,Recovered
+759,48,Male,97/89,85.2,66,98,Anemia,None,Recovered
+760,54,Female,131/77,118.8,85,96,Anxiety Disorder,Moderate,Under Treatment
+761,23,Male,132/89,98.1,83,100,Diabetes,Moderate,Under Treatment
+762,60,Female,118/81,104.4,74,98,COVID-19,Severe,Under Treatment
+763,64,Male,102/79,72.6,77,100,Anemia,Severe,Recovered
+764,59,Female,135/80,74.7,83,98,Anemia,Mild,Recovered
+765,33,Male,128/86,130.8,64,96,COVID-19,Severe,Under Treatment
+766,87,Female,114/77,108.4,60,95,Liver Disease,None,Under Treatment
+767,38,Male,97/87,89.7,64,96,Anxiety Disorder,Moderate,Under Treatment
+768,53,Female,122/72,121.6,77,100,Diabetes,Mild,Under Treatment
+769,65,Male,120/89,112.4,74,95,Liver Disease,None,Under Treatment
+770,26,Male,91/84,108.2,77,99,Kidney Disease,Moderate,Under Treatment
+771,20,Male,136/81,113.2,77,96,Anemia,Mild,Recovered
+772,52,Female,106/70,93.9,75,95,Depression,Moderate,Under Treatment
+773,78,Male,104/81,89.5,94,94,Anemia,Moderate,Under Treatment
+774,26,Female,134/68,115.4,71,94,Hypertension,None,Under Treatment
+775,58,Male,98/83,94.5,72,98,Depression,Severe,Recovered
+776,44,Male,120/63,138.1,88,100,Flu,Moderate,Recovered
+777,76,Male,92/62,130.2,93,98,Heart Disease,Moderate,Under Treatment
+778,26,Male,116/84,103.3,92,95,Skin Infection,None,Recovered
+779,39,Female,133/60,100.0,87,99,Diabetes,Severe,Under Treatment
+780,57,Female,118/78,108.4,64,98,Kidney Disease,Severe,Under Treatment
+781,34,Female,96/68,108.5,72,96,Arthritis,Mild,Recovered
+782,70,Male,113/66,126.4,73,94,Liver Disease,Severe,Under Treatment
+783,23,Female,94/83,81.8,67,94,Arthritis,None,Under Treatment
+784,80,Female,103/77,102.7,73,99,Asthma,Mild,Recovered
+785,74,Male,91/89,98.4,96,96,Diabetes,None,Under Treatment
+786,47,Male,111/80,77.1,98,95,Heart Disease,Moderate,Under Treatment
+787,76,Female,112/77,115.5,96,98,Migraine,None,Recovered
+788,59,Female,134/78,96.5,88,100,Migraine,Moderate,Under Treatment
+789,39,Female,94/76,130.3,88,95,Diabetes,None,Under Treatment
+790,25,Female,139/68,103.4,92,97,Arthritis,Severe,Under Treatment
+791,47,Female,134/80,82.8,64,96,Flu,Severe,Recovered
+792,18,Female,128/62,89.1,90,98,Migraine,Mild,Recovered
+793,68,Female,134/86,95.1,64,98,Pneumonia,Mild,Under Treatment
+794,63,Male,120/70,87.9,90,99,Heart Disease,None,Under Treatment
+795,58,Male,115/72,129.4,89,98,Anemia,Moderate,Recovered
+796,84,Female,102/87,110.3,88,96,Flu,Moderate,Recovered
+797,53,Male,132/63,135.7,64,94,Anxiety Disorder,None,Recovered
+798,86,Male,138/87,111.4,67,94,Flu,Mild,Recovered
+799,79,Female,138/70,120.7,65,100,Tuberculosis,Severe,Under Treatment
+800,45,Female,137/84,116.9,91,98,Pneumonia,Mild,Under Treatment
+801,47,Male,101/89,80.6,88,98,Depression,Severe,Under Treatment
+802,36,Male,106/81,73.7,65,99,Migraine,None,Under Treatment
+803,84,Male,139/84,108.1,73,94,Liver Disease,Moderate,Under Treatment
+804,89,Female,135/83,71.2,90,98,COVID-19,None,Under Treatment
+805,42,Female,114/72,108.6,78,99,Anemia,Moderate,Under Treatment
+806,53,Female,126/88,101.0,67,99,Migraine,None,Recovered
+807,38,Female,96/61,106.3,72,94,Heart Disease,Mild,Under Treatment
+808,42,Female,140/69,123.8,98,98,Migraine,Mild,Recovered
+809,60,Male,102/89,120.8,74,95,Tuberculosis,Moderate,Under Treatment
+810,87,Female,131/88,108.1,69,94,Asthma,Severe,Recovered
+811,29,Female,110/79,82.9,62,97,Anxiety Disorder,Moderate,Recovered
+812,54,Female,121/81,125.7,83,96,Kidney Disease,None,Under Treatment
+813,85,Male,91/72,82.3,100,94,Anemia,Mild,Under Treatment
+814,49,Female,107/82,83.8,68,94,Liver Disease,None,Under Treatment
+815,58,Female,107/66,83.5,95,95,Diabetes,Severe,Under Treatment
+816,56,Male,131/74,111.0,77,97,Diabetes,Mild,Under Treatment
+817,61,Male,117/85,84.2,70,94,Tuberculosis,Mild,Under Treatment
+818,39,Female,117/79,82.8,76,96,Liver Disease,Severe,Under Treatment
+819,18,Female,131/83,104.2,80,98,Anxiety Disorder,None,Recovered
+820,56,Female,96/85,100.4,83,98,Heart Disease,Moderate,Under Treatment
+821,43,Female,139/64,120.1,82,96,Hypertension,Mild,Under Treatment
+822,60,Female,124/64,113.9,82,100,COVID-19,None,Recovered
+823,24,Female,132/90,76.2,89,100,Anxiety Disorder,None,Under Treatment
+824,61,Female,100/61,89.9,85,99,Hypertension,Moderate,Under Treatment
+825,22,Female,111/81,105.3,90,98,Migraine,Severe,Under Treatment
+826,59,Male,120/77,136.8,90,96,Hypertension,Severe,Under Treatment
+827,32,Male,131/75,102.3,76,94,Depression,Moderate,Under Treatment
+828,81,Female,117/72,75.8,75,99,Kidney Disease,Severe,Under Treatment
+829,18,Male,108/68,121.9,80,98,Pneumonia,None,Under Treatment
+830,45,Male,127/69,104.5,63,97,Pneumonia,Severe,Recovered
+831,73,Male,114/62,94.5,78,96,Pneumonia,Moderate,Under Treatment
+832,22,Female,128/60,98.8,78,100,Liver Disease,Moderate,Under Treatment
+833,32,Female,129/81,128.3,81,97,Skin Infection,Severe,Under Treatment
+834,63,Female,109/79,98.2,98,94,Pneumonia,None,Recovered
+835,72,Male,94/64,95.6,85,99,COVID-19,Severe,Recovered
+836,78,Female,126/77,120.4,68,97,Asthma,Moderate,Under Treatment
+837,29,Male,95/87,78.4,80,95,COVID-19,Mild,Recovered
+838,33,Male,94/61,88.4,87,99,COVID-19,Severe,Recovered
+839,77,Male,116/60,76.6,89,100,Flu,Moderate,Under Treatment
+840,36,Male,134/74,73.6,79,94,Asthma,Severe,Under Treatment
+841,84,Male,126/66,81.7,91,99,Tuberculosis,Severe,Recovered
+842,18,Female,99/89,105.4,66,97,Liver Disease,Severe,Under Treatment
+843,61,Male,90/60,74.1,89,99,Migraine,Mild,Recovered
+844,70,Male,104/85,120.0,64,97,Heart Disease,Mild,Under Treatment
+845,80,Female,130/81,112.1,94,95,Flu,Moderate,Under Treatment
+846,35,Male,116/60,111.4,96,100,Anemia,Severe,Recovered
+847,21,Female,136/63,102.8,90,98,Tuberculosis,Severe,Under Treatment
+848,26,Female,108/72,90.9,63,94,Pneumonia,Mild,Under Treatment
+849,74,Male,107/85,71.2,87,98,Tuberculosis,Severe,Under Treatment
+850,42,Female,140/77,84.1,76,95,Anemia,Severe,Under Treatment
+851,32,Female,112/88,89.6,66,94,Arthritis,Mild,Under Treatment
+852,40,Male,135/73,128.7,77,100,Tuberculosis,Mild,Recovered
+853,72,Male,129/72,121.9,80,94,Arthritis,Severe,Under Treatment
+854,33,Female,130/68,115.9,82,96,Hypertension,None,Under Treatment
+855,46,Female,95/76,70.9,81,96,Anxiety Disorder,Moderate,Under Treatment
+856,71,Female,103/79,72.5,84,97,Anemia,Moderate,Under Treatment
+857,63,Male,114/79,88.0,78,94,Skin Infection,Mild,Recovered
+858,30,Female,131/60,109.7,61,97,Migraine,Severe,Under Treatment
+859,27,Female,114/72,120.0,80,98,Heart Disease,Moderate,Under Treatment
+860,46,Male,115/88,125.3,80,94,Heart Disease,Moderate,Under Treatment
+861,38,Female,112/81,87.4,81,96,Heart Disease,Moderate,Under Treatment
+862,52,Male,114/86,110.8,96,95,Hypertension,Moderate,Under Treatment
+863,47,Male,133/71,78.8,79,98,Kidney Disease,Moderate,Under Treatment
+864,18,Female,94/86,112.1,89,95,Flu,Mild,Under Treatment
+865,86,Male,94/72,94.6,76,99,Asthma,Mild,Recovered
+866,28,Female,139/66,76.5,67,95,Heart Disease,Mild,Under Treatment
+867,52,Male,93/62,132.5,84,98,Pneumonia,None,Under Treatment
+868,46,Male,126/70,129.1,68,94,Migraine,Moderate,Recovered
+869,71,Male,100/67,135.0,87,94,Tuberculosis,Mild,Recovered
+870,68,Male,119/61,105.4,72,96,Tuberculosis,Severe,Recovered
+871,21,Female,105/89,76.5,97,96,COVID-19,None,Under Treatment
+872,81,Male,110/90,78.7,98,96,Anemia,Mild,Under Treatment
+873,44,Female,98/81,84.1,84,99,Pneumonia,Mild,Under Treatment
+874,40,Male,114/68,105.2,99,98,Kidney Disease,Severe,Under Treatment
+875,27,Male,126/89,71.3,80,94,Pneumonia,Moderate,Under Treatment
+876,35,Male,132/65,77.2,100,100,COVID-19,None,Recovered
+877,38,Female,124/80,73.9,86,100,Depression,Mild,Recovered
+878,18,Female,93/67,103.5,66,100,Tuberculosis,Moderate,Recovered
+879,51,Male,94/84,72.9,77,94,Tuberculosis,Mild,Recovered
+880,74,Male,102/84,96.9,89,100,Anxiety Disorder,Mild,Recovered
+881,69,Male,117/74,85.1,92,100,Anemia,Severe,Recovered
+882,46,Female,117/87,119.7,80,95,Depression,Mild,Recovered
+883,20,Male,135/78,78.0,62,95,Asthma,Mild,Under Treatment
+884,42,Female,115/73,100.5,98,98,Asthma,Severe,Recovered
+885,50,Male,120/79,70.7,74,100,Migraine,Moderate,Under Treatment
+886,66,Male,91/76,94.3,73,96,Pneumonia,Moderate,Recovered
+887,56,Female,132/60,94.9,83,94,Anxiety Disorder,None,Under Treatment
+888,75,Female,125/65,106.5,95,94,Tuberculosis,Moderate,Under Treatment
+889,26,Male,109/83,70.5,97,98,Depression,Moderate,Under Treatment
+890,52,Female,136/78,102.7,87,97,Liver Disease,Mild,Under Treatment
+891,25,Male,127/67,114.1,75,97,Hypertension,Severe,Under Treatment
+892,51,Female,99/81,75.1,76,100,Hypertension,Mild,Under Treatment
+893,54,Male,133/67,139.8,74,95,Heart Disease,None,Under Treatment
+894,64,Female,95/85,116.5,65,94,Anxiety Disorder,Mild,Recovered
+895,38,Female,125/83,88.7,84,94,Hypertension,Severe,Under Treatment
+896,23,Male,136/76,75.9,63,95,Skin Infection,None,Under Treatment
+897,62,Female,120/61,116.3,96,96,Diabetes,Mild,Under Treatment
+898,80,Female,101/72,93.5,84,99,Liver Disease,None,Under Treatment
+899,76,Male,127/62,88.5,89,95,Asthma,Mild,Recovered
+900,21,Female,102/66,105.5,67,95,Asthma,None,Recovered
+901,32,Female,107/79,136.4,91,97,Migraine,Severe,Recovered
+902,75,Female,106/79,105.0,82,100,Kidney Disease,Mild,Under Treatment
+903,82,Female,133/89,125.1,87,99,COVID-19,None,Recovered
+904,85,Female,113/79,89.5,79,96,Liver Disease,None,Under Treatment
+905,23,Male,139/87,133.2,85,96,Diabetes,None,Under Treatment
+906,27,Female,106/77,121.6,95,95,COVID-19,Moderate,Under Treatment
+907,55,Female,109/87,137.0,83,94,Arthritis,Moderate,Recovered
+908,90,Male,110/89,89.9,95,96,Hypertension,Mild,Under Treatment
+909,73,Female,112/61,112.9,74,99,Diabetes,Moderate,Under Treatment
+910,54,Male,98/60,91.5,72,97,Tuberculosis,None,Recovered
+911,68,Female,112/73,79.6,92,95,Liver Disease,Moderate,Under Treatment
+912,59,Female,99/70,101.7,81,99,Heart Disease,Severe,Under Treatment
+913,51,Female,131/64,139.3,74,94,Pneumonia,Severe,Recovered
+914,32,Female,94/74,131.2,84,96,Depression,None,Under Treatment
+915,33,Female,94/62,72.6,94,94,Migraine,Moderate,Under Treatment
+916,46,Male,99/86,102.6,83,95,COVID-19,None,Under Treatment
+917,33,Male,95/72,108.4,76,100,Hypertension,Mild,Under Treatment
+918,64,Female,137/75,133.1,73,96,Tuberculosis,Mild,Recovered
+919,62,Female,114/65,106.8,70,94,Heart Disease,Mild,Under Treatment
+920,40,Female,122/75,73.2,82,95,Anemia,Severe,Under Treatment
+921,72,Female,110/60,130.1,73,98,Kidney Disease,None,Under Treatment
+922,49,Female,95/88,117.9,61,100,COVID-19,Severe,Recovered
+923,69,Male,91/90,129.9,84,99,Heart Disease,Severe,Under Treatment
+924,23,Male,106/80,129.8,95,96,COVID-19,Moderate,Recovered
+925,22,Female,130/74,135.3,80,100,Anemia,None,Under Treatment
+926,36,Female,134/71,87.6,75,98,Skin Infection,Moderate,Under Treatment
+927,82,Female,99/81,134.5,72,97,Skin Infection,Moderate,Under Treatment
+928,86,Male,93/80,90.2,76,94,Anxiety Disorder,None,Under Treatment
+929,42,Male,135/64,71.3,62,98,Depression,Moderate,Under Treatment
+930,76,Female,93/64,118.2,73,96,Tuberculosis,Moderate,Recovered
+931,78,Female,104/81,70.9,89,94,Diabetes,None,Under Treatment
+932,20,Female,101/87,108.3,66,96,Pneumonia,None,Under Treatment
+933,19,Male,91/90,114.0,83,100,Flu,Moderate,Under Treatment
+934,32,Male,101/88,82.2,84,99,Heart Disease,Mild,Under Treatment
+935,28,Female,111/65,114.4,76,95,Liver Disease,Mild,Under Treatment
+936,87,Female,135/71,121.5,72,99,COVID-19,Moderate,Under Treatment
+937,70,Male,111/79,101.7,73,95,Tuberculosis,Moderate,Recovered
+938,52,Female,116/61,122.5,70,99,COVID-19,Mild,Recovered
+939,44,Female,134/61,127.6,97,95,Depression,Mild,Recovered
+940,50,Female,117/87,131.8,92,96,Asthma,Moderate,Under Treatment
+941,52,Female,120/71,132.6,88,97,Skin Infection,Moderate,Under Treatment
+942,29,Female,92/70,101.2,99,97,Migraine,Moderate,Recovered
+943,42,Male,133/86,78.6,62,98,Anemia,Moderate,Recovered
+944,26,Male,122/64,104.9,78,96,Skin Infection,Mild,Recovered
+945,25,Female,136/82,131.9,90,94,Diabetes,Severe,Under Treatment
+946,20,Female,125/74,114.1,61,97,Skin Infection,Severe,Under Treatment
+947,81,Female,110/77,78.8,67,96,Depression,Severe,Under Treatment
+948,73,Male,107/75,118.2,70,100,Hypertension,Mild,Under Treatment
+949,80,Male,126/90,130.7,68,97,Anxiety Disorder,Severe,Under Treatment
+950,37,Female,119/85,110.3,84,98,Diabetes,None,Under Treatment
+951,29,Male,137/65,133.3,78,100,Tuberculosis,Severe,Under Treatment
+952,87,Female,115/88,122.5,80,100,Arthritis,Moderate,Recovered
+953,59,Female,102/69,107.6,92,97,Asthma,Moderate,Under Treatment
+954,41,Male,106/87,136.3,77,98,Depression,None,Under Treatment
+955,45,Female,108/79,94.3,96,99,Asthma,Mild,Under Treatment
+956,77,Male,107/66,118.4,68,98,Skin Infection,Severe,Recovered
+957,72,Male,102/70,75.6,75,99,Migraine,Mild,Recovered
+958,53,Male,123/78,82.3,85,97,Diabetes,None,Under Treatment
+959,44,Male,93/71,95.2,85,98,Diabetes,Severe,Under Treatment
+960,79,Female,118/61,75.2,80,97,Diabetes,Moderate,Under Treatment
+961,76,Female,111/64,95.1,90,100,Anemia,Severe,Under Treatment
+962,26,Female,104/89,114.8,75,96,COVID-19,Mild,Under Treatment
+963,87,Male,92/71,108.4,65,99,Arthritis,Moderate,Under Treatment
+964,87,Male,123/60,130.6,62,97,COVID-19,Mild,Recovered
+965,35,Female,116/87,117.2,86,99,COVID-19,Mild,Recovered
+966,70,Female,93/85,104.0,74,96,Tuberculosis,None,Recovered
+967,19,Female,94/71,83.3,61,96,Pneumonia,Severe,Under Treatment
+968,39,Male,113/82,131.5,94,97,Depression,Mild,Recovered
+969,19,Female,123/88,96.5,65,98,Depression,Moderate,Recovered
+970,72,Female,124/73,101.3,86,95,Kidney Disease,Severe,Under Treatment
+971,46,Male,102/71,81.2,73,95,Diabetes,None,Under Treatment
+972,67,Male,94/78,107.4,96,96,Liver Disease,Moderate,Under Treatment
+973,58,Female,112/75,87.8,70,98,Skin Infection,Moderate,Recovered
+974,71,Female,138/86,103.9,65,95,Flu,Mild,Under Treatment
+975,38,Female,92/62,80.8,60,95,Diabetes,Mild,Under Treatment
+976,71,Female,114/61,80.0,72,96,Asthma,Mild,Recovered
+977,69,Female,134/84,73.4,82,96,Arthritis,None,Recovered
+978,24,Female,97/63,73.8,81,99,Flu,Moderate,Under Treatment
+979,40,Male,94/83,113.9,63,96,Migraine,Mild,Recovered
+980,34,Female,109/74,138.0,63,95,Skin Infection,Severe,Recovered
+981,88,Male,100/82,80.9,91,100,Tuberculosis,None,Under Treatment
+982,66,Male,107/66,136.8,71,96,Pneumonia,None,Under Treatment
+983,46,Female,120/81,127.8,93,96,Anxiety Disorder,Severe,Recovered
+984,58,Male,103/61,92.5,69,97,Skin Infection,Severe,Recovered
+985,29,Female,113/66,80.6,98,99,Liver Disease,Mild,Under Treatment
+986,40,Female,109/62,103.6,92,94,COVID-19,Mild,Recovered
+987,62,Male,96/67,75.3,60,94,Depression,Moderate,Under Treatment
+988,24,Female,120/72,95.9,70,96,Heart Disease,None,Under Treatment
+989,81,Male,96/79,103.5,78,100,Anemia,Moderate,Recovered
+990,22,Male,139/86,118.0,90,97,COVID-19,Severe,Under Treatment
+991,51,Female,123/71,111.4,68,97,Tuberculosis,Moderate,Under Treatment
+992,56,Male,140/69,81.5,86,96,Anemia,Mild,Under Treatment
+993,66,Female,96/85,108.7,84,98,Anxiety Disorder,Mild,Under Treatment
+994,73,Female,92/89,117.6,99,97,Depression,Severe,Under Treatment
+995,60,Male,93/67,117.9,74,98,Anemia,Mild,Under Treatment
+996,68,Male,101/70,130.5,88,98,Flu,Severe,Recovered
+997,37,Female,137/68,76.8,92,96,Depression,Severe,Under Treatment
+998,69,Female,94/60,89.6,82,99,Asthma,Mild,Under Treatment
+999,63,Female,96/87,123.7,73,95,Heart Disease,Severe,Under Treatment
+1000,76,Male,112/69,121.6,79,96,Kidney Disease,Moderate,Under Treatment
+1001,76,Female,92/83,132.1,94,97,Anxiety Disorder,Severe,Under Treatment
+1002,81,Female,116/67,128.4,60,98,Tuberculosis,None,Recovered
+1003,25,Female,125/88,118.6,86,94,Heart Disease,Moderate,Under Treatment
+1004,83,Male,131/80,88.1,75,96,Skin Infection,Mild,Under Treatment
+1005,79,Male,96/81,131.3,88,97,Flu,None,Under Treatment
+1006,41,Female,131/74,128.0,67,95,Hypertension,None,Under Treatment
+1007,21,Female,135/81,128.0,97,98,Depression,Moderate,Recovered
+1008,30,Female,140/89,126.9,62,96,Tuberculosis,Severe,Under Treatment
+1009,25,Male,96/71,74.4,70,96,Depression,Mild,Recovered
+1010,79,Female,120/75,80.1,80,99,Heart Disease,None,Under Treatment
+1011,77,Male,98/68,73.9,95,95,Hypertension,None,Under Treatment
+1012,73,Male,131/79,87.0,90,100,Migraine,Severe,Under Treatment
+1013,71,Female,126/67,100.6,65,94,Pneumonia,Severe,Recovered
+1014,41,Female,114/82,103.1,61,95,Pneumonia,Moderate,Recovered
+1015,49,Female,134/65,91.4,93,96,Tuberculosis,Moderate,Recovered
+1016,31,Male,104/76,97.5,99,94,Hypertension,Mild,Under Treatment
+1017,25,Female,97/72,110.5,80,94,Pneumonia,Moderate,Recovered
+1018,45,Male,104/61,126.2,73,96,Pneumonia,Mild,Under Treatment
+1019,26,Male,100/87,131.7,66,100,Skin Infection,Mild,Recovered
+1020,18,Female,117/71,110.2,95,96,Liver Disease,Severe,Under Treatment
+1021,82,Male,106/84,72.1,95,96,Migraine,None,Recovered
+1022,24,Male,115/74,94.3,69,97,Tuberculosis,Moderate,Recovered
+1023,46,Female,134/79,87.9,82,94,Depression,Severe,Recovered
+1024,66,Male,95/88,86.4,88,99,Asthma,None,Recovered
+1025,61,Female,126/75,126.4,87,95,Hypertension,Moderate,Under Treatment
+1026,90,Female,128/81,121.9,85,94,Anxiety Disorder,None,Recovered
+1027,27,Female,137/71,112.6,66,95,Depression,Severe,Under Treatment
+1028,61,Male,132/88,85.2,91,96,Migraine,Moderate,Under Treatment
+1029,77,Female,121/70,98.5,92,99,Pneumonia,Severe,Recovered
+1030,26,Female,108/76,131.5,90,94,Arthritis,Severe,Under Treatment
+1031,29,Female,137/89,119.3,99,98,Heart Disease,Mild,Under Treatment
+1032,64,Female,97/71,83.9,76,95,Anxiety Disorder,Moderate,Recovered
+1033,64,Female,94/87,105.6,73,95,Hypertension,Mild,Under Treatment
+1034,39,Male,136/90,108.2,87,98,Heart Disease,None,Under Treatment
+1035,48,Female,132/68,121.6,88,95,Anxiety Disorder,Severe,Under Treatment
+1036,74,Female,100/77,72.1,64,99,Skin Infection,None,Recovered
+1037,35,Female,137/64,130.5,65,96,Liver Disease,Severe,Under Treatment
+1038,30,Male,94/87,135.2,86,97,Migraine,Mild,Recovered
+1039,69,Male,98/75,81.9,88,99,Heart Disease,Mild,Under Treatment
+1040,81,Female,106/76,75.6,97,94,Skin Infection,Severe,Under Treatment
+1041,32,Male,99/85,100.9,72,99,Liver Disease,None,Under Treatment
+1042,83,Male,134/62,116.9,65,96,Flu,Severe,Under Treatment
+1043,23,Male,110/87,82.7,85,98,Hypertension,Moderate,Under Treatment
+1044,30,Male,98/80,135.2,65,97,Flu,None,Recovered
+1045,29,Male,132/70,95.0,60,97,Depression,Severe,Recovered
+1046,25,Female,124/87,83.4,89,100,Asthma,Mild,Under Treatment
+1047,51,Male,95/90,96.7,93,96,Anemia,Severe,Recovered
+1048,32,Female,115/67,125.4,61,100,Heart Disease,Moderate,Under Treatment
+1049,56,Male,119/62,93.7,73,94,Arthritis,Severe,Under Treatment
+1050,34,Male,112/71,72.9,73,100,Liver Disease,Moderate,Under Treatment
+1051,18,Female,95/88,131.2,93,97,Liver Disease,None,Under Treatment
+1052,83,Female,103/63,96.3,70,99,Anemia,Moderate,Under Treatment
+1053,74,Female,105/60,109.4,72,100,Diabetes,Severe,Under Treatment
+1054,70,Male,112/65,94.4,77,97,Skin Infection,Mild,Recovered
+1055,55,Female,135/73,139.1,100,100,Diabetes,Severe,Under Treatment
+1056,80,Male,111/75,72.8,97,94,Diabetes,Severe,Under Treatment
+1057,75,Female,132/68,71.1,64,100,Anxiety Disorder,Moderate,Under Treatment
+1058,75,Male,117/82,105.3,86,100,Diabetes,None,Under Treatment
+1059,34,Female,114/67,83.8,95,99,Tuberculosis,Moderate,Under Treatment
+1060,36,Female,90/61,127.5,61,95,COVID-19,Mild,Under Treatment
+1061,88,Male,91/89,116.6,90,97,Kidney Disease,None,Under Treatment
+1062,51,Female,134/78,105.8,70,99,Tuberculosis,None,Under Treatment
+1063,22,Male,95/81,93.5,62,100,Hypertension,Mild,Under Treatment
+1064,89,Female,102/64,99.2,73,97,Kidney Disease,Mild,Under Treatment
+1065,32,Female,100/70,124.9,84,97,Kidney Disease,Severe,Under Treatment
+1066,21,Female,106/71,113.1,70,99,Skin Infection,Mild,Under Treatment
+1067,75,Female,104/70,93.3,98,97,COVID-19,Severe,Under Treatment
+1068,21,Male,106/61,79.7,99,98,Anxiety Disorder,Mild,Under Treatment
+1069,70,Male,98/84,76.8,79,100,Skin Infection,None,Under Treatment
+1070,42,Male,128/69,124.4,71,99,Skin Infection,None,Under Treatment
+1071,18,Female,135/62,132.1,72,98,Anxiety Disorder,Mild,Recovered
+1072,49,Female,93/74,76.8,93,98,Pneumonia,Moderate,Recovered
+1073,85,Female,114/74,115.1,72,96,Anxiety Disorder,Moderate,Under Treatment
+1074,59,Female,131/89,101.3,89,100,Kidney Disease,Moderate,Under Treatment
+1075,46,Female,130/90,74.3,83,96,Liver Disease,Mild,Under Treatment
+1076,86,Male,138/65,74.2,72,98,Skin Infection,Severe,Under Treatment
+1077,83,Female,134/79,103.7,97,97,Migraine,None,Recovered
+1078,54,Male,96/65,93.5,60,94,COVID-19,None,Under Treatment
+1079,24,Male,135/61,135.8,92,97,Asthma,Moderate,Recovered
+1080,24,Female,107/83,125.5,82,96,Hypertension,Moderate,Under Treatment
+1081,49,Female,119/78,80.0,96,99,Arthritis,Mild,Under Treatment
+1082,80,Male,137/88,85.2,69,94,Pneumonia,Moderate,Under Treatment
+1083,56,Female,110/70,95.0,88,95,Depression,None,Recovered
+1084,74,Female,123/77,118.6,97,100,Anxiety Disorder,Moderate,Recovered
+1085,77,Male,120/79,123.5,74,97,Liver Disease,Mild,Under Treatment
+1086,38,Male,117/62,106.7,83,95,Heart Disease,Moderate,Under Treatment
+1087,63,Male,120/87,112.3,96,99,Skin Infection,Moderate,Under Treatment
+1088,66,Male,115/82,97.7,71,100,Diabetes,Mild,Under Treatment
+1089,22,Male,120/66,102.8,62,95,Flu,Severe,Recovered
+1090,79,Male,122/82,118.6,92,100,Liver Disease,Severe,Under Treatment
+1091,18,Female,130/87,77.9,95,100,Tuberculosis,Moderate,Recovered
+1092,48,Male,140/74,120.0,64,98,Kidney Disease,None,Under Treatment
+1093,80,Female,114/70,122.8,85,99,Skin Infection,Mild,Under Treatment
+1094,67,Male,107/77,95.6,81,96,Asthma,None,Recovered
+1095,40,Female,131/70,127.4,94,97,Heart Disease,None,Under Treatment
+1096,37,Male,118/78,94.1,93,97,Asthma,None,Under Treatment
+1097,73,Female,123/77,96.6,75,99,Diabetes,Mild,Under Treatment
+1098,55,Male,107/64,86.5,71,94,Diabetes,Mild,Under Treatment
+1099,28,Female,117/78,91.4,96,97,Kidney Disease,Mild,Under Treatment
+1100,59,Female,106/87,80.6,93,96,Liver Disease,Mild,Under Treatment
+1101,56,Male,128/68,82.5,97,99,Asthma,Moderate,Recovered
+1102,61,Female,99/79,119.1,64,99,Diabetes,Severe,Under Treatment
+1103,79,Female,135/66,133.6,75,96,Asthma,Severe,Under Treatment
+1104,77,Male,109/68,92.8,86,97,Asthma,Severe,Under Treatment
+1105,25,Male,131/80,90.5,86,94,Depression,Severe,Under Treatment
+1106,52,Male,111/63,97.2,92,96,Migraine,Severe,Recovered
+1107,63,Female,100/62,104.3,94,99,Depression,Moderate,Under Treatment
+1108,46,Female,96/69,134.8,62,96,Depression,None,Under Treatment
+1109,32,Female,96/89,100.3,89,94,Depression,Mild,Recovered
+1110,18,Female,103/69,78.0,61,99,Hypertension,None,Under Treatment
+1111,87,Female,118/78,85.5,68,99,Diabetes,Severe,Under Treatment
+1112,44,Male,137/81,84.8,68,96,Diabetes,Moderate,Under Treatment
+1113,72,Male,134/87,128.7,87,94,Arthritis,Moderate,Recovered
+1114,72,Female,127/84,128.5,78,94,Asthma,Mild,Recovered
+1115,48,Male,130/63,107.5,92,95,Anxiety Disorder,None,Under Treatment
+1116,80,Female,108/79,92.7,86,97,Arthritis,Mild,Under Treatment
+1117,61,Female,92/64,79.8,67,100,Flu,Severe,Under Treatment
+1118,86,Male,128/87,127.8,63,94,Migraine,None,Recovered
+1119,28,Male,122/73,132.4,78,96,Tuberculosis,Moderate,Under Treatment
+1120,85,Female,112/81,81.0,82,99,Flu,Severe,Recovered
+1121,72,Male,108/61,75.0,94,94,Hypertension,Severe,Under Treatment
+1122,43,Female,130/89,133.6,91,95,Depression,Mild,Under Treatment
+1123,23,Male,107/88,91.7,80,94,Pneumonia,Moderate,Under Treatment
+1124,59,Male,134/72,119.7,79,95,Flu,Severe,Recovered
+1125,80,Male,100/68,83.3,99,98,Diabetes,None,Under Treatment
+1126,24,Female,94/80,117.6,61,95,Migraine,Mild,Recovered
+1127,31,Female,100/80,95.1,63,94,Diabetes,Moderate,Under Treatment
+1128,71,Female,133/73,106.5,93,99,COVID-19,Mild,Under Treatment
+1129,36,Female,138/70,137.8,75,95,Tuberculosis,Mild,Under Treatment
+1130,64,Male,115/60,136.7,61,99,COVID-19,Mild,Recovered
+1131,58,Male,108/72,89.6,71,98,Asthma,Mild,Recovered
+1132,28,Female,138/68,107.1,90,97,Migraine,Severe,Under Treatment
+1133,40,Female,104/80,121.4,80,94,Liver Disease,Mild,Under Treatment
+1134,72,Female,126/82,73.2,83,99,Arthritis,Severe,Under Treatment
+1135,79,Female,129/82,97.0,61,94,Depression,Mild,Under Treatment
+1136,30,Male,133/74,97.9,73,96,Skin Infection,Moderate,Recovered
+1137,51,Male,123/86,86.2,100,95,Anemia,Mild,Under Treatment
+1138,26,Female,121/83,78.6,65,95,Tuberculosis,None,Recovered
+1139,80,Female,126/62,100.4,92,100,Diabetes,None,Under Treatment
+1140,21,Female,105/67,118.7,80,98,Diabetes,Moderate,Under Treatment
+1141,38,Male,92/82,133.8,68,95,Anxiety Disorder,None,Under Treatment
+1142,40,Female,118/62,74.3,79,98,Heart Disease,Severe,Under Treatment
+1143,51,Male,107/62,78.3,66,96,Diabetes,None,Under Treatment
+1144,60,Female,94/74,110.8,61,98,Liver Disease,None,Under Treatment
+1145,23,Male,131/73,75.4,75,99,Kidney Disease,Severe,Under Treatment
+1146,81,Male,138/71,117.6,77,98,Tuberculosis,Moderate,Under Treatment
+1147,85,Male,90/70,126.5,80,99,COVID-19,Mild,Under Treatment
+1148,79,Male,99/85,121.4,80,94,Anemia,None,Under Treatment
+1149,23,Male,99/75,96.2,88,95,Liver Disease,None,Under Treatment
+1150,38,Male,121/85,128.3,82,95,Anxiety Disorder,None,Recovered
+1151,68,Male,119/84,96.3,72,95,Diabetes,Moderate,Under Treatment
+1152,88,Male,126/75,139.2,90,94,Liver Disease,Severe,Under Treatment
+1153,53,Male,127/62,70.3,63,97,Asthma,Severe,Under Treatment
+1154,32,Female,102/71,112.0,98,100,Depression,Moderate,Under Treatment
+1155,75,Male,95/89,93.3,88,96,COVID-19,Mild,Recovered
+1156,80,Male,126/89,119.3,89,95,Liver Disease,Moderate,Under Treatment
+1157,86,Female,115/78,134.0,89,96,Heart Disease,None,Under Treatment
+1158,62,Female,111/77,138.4,99,99,Anxiety Disorder,None,Recovered
+1159,84,Male,124/69,125.3,75,95,Pneumonia,None,Recovered
+1160,40,Female,126/73,128.6,89,94,Arthritis,Severe,Under Treatment
+1161,46,Male,104/89,85.1,72,97,Liver Disease,Severe,Under Treatment
+1162,60,Female,99/82,94.0,76,98,Arthritis,None,Under Treatment
+1163,39,Male,101/78,101.7,76,98,COVID-19,Moderate,Under Treatment
+1164,77,Female,95/86,99.3,63,99,Anemia,Mild,Recovered
+1165,26,Male,107/83,124.2,69,98,Flu,Severe,Recovered
+1166,69,Female,116/77,80.9,75,99,Asthma,Severe,Under Treatment
+1167,86,Male,94/85,85.8,97,97,Tuberculosis,None,Under Treatment
+1168,37,Female,133/79,137.1,96,95,Liver Disease,None,Under Treatment
+1169,23,Female,138/87,127.6,86,96,Tuberculosis,Mild,Recovered
+1170,45,Female,134/82,121.1,70,96,Kidney Disease,Mild,Under Treatment
+1171,81,Female,136/64,71.2,76,96,Tuberculosis,Mild,Recovered
+1172,73,Male,113/60,121.0,80,96,Kidney Disease,Mild,Under Treatment
+1173,39,Male,93/84,114.6,67,97,Flu,Severe,Recovered
+1174,59,Female,138/66,103.7,87,98,COVID-19,None,Under Treatment
+1175,79,Female,135/84,120.0,96,96,Diabetes,Mild,Under Treatment
+1176,26,Male,97/75,73.7,76,97,Flu,Moderate,Under Treatment
+1177,46,Female,99/80,93.5,70,98,Kidney Disease,None,Under Treatment
+1178,56,Male,124/63,114.1,71,96,Tuberculosis,Moderate,Recovered
+1179,23,Male,96/86,128.9,65,94,Arthritis,Moderate,Recovered
+1180,39,Male,129/60,124.2,80,98,COVID-19,Mild,Under Treatment
+1181,56,Male,117/64,105.5,71,100,Diabetes,Severe,Under Treatment
+1182,29,Female,117/84,100.1,81,95,Arthritis,Moderate,Under Treatment
+1183,54,Female,103/76,77.8,92,98,Depression,None,Recovered
+1184,49,Male,128/63,100.6,79,96,Migraine,Severe,Under Treatment
+1185,55,Male,102/83,96.6,86,97,Kidney Disease,None,Under Treatment
+1186,39,Male,128/83,114.7,73,97,Asthma,Moderate,Recovered
+1187,61,Female,137/66,96.4,85,96,Heart Disease,Severe,Under Treatment
+1188,43,Female,109/81,105.2,68,100,Kidney Disease,Moderate,Under Treatment
+1189,56,Male,95/62,74.9,83,95,Skin Infection,Severe,Under Treatment
+1190,45,Female,104/63,95.1,91,95,COVID-19,Moderate,Recovered
+1191,51,Female,107/90,105.4,85,98,Skin Infection,None,Recovered
+1192,45,Female,101/84,71.5,82,97,Depression,None,Recovered
+1193,32,Female,106/60,88.2,72,100,Liver Disease,None,Under Treatment
+1194,48,Male,94/86,137.8,65,100,Migraine,Mild,Recovered
+1195,29,Male,122/87,96.0,72,94,Anemia,Mild,Recovered
+1196,21,Female,129/61,107.5,94,95,Diabetes,Moderate,Under Treatment
+1197,43,Female,108/71,117.3,90,94,Skin Infection,Moderate,Recovered
+1198,89,Male,120/86,97.8,93,95,Asthma,Moderate,Recovered
+1199,32,Female,121/82,94.0,63,99,Migraine,Moderate,Under Treatment
+1200,26,Male,116/71,131.3,76,94,Tuberculosis,Severe,Under Treatment
+1201,48,Female,125/89,97.3,71,96,Skin Infection,Mild,Under Treatment
+1202,38,Male,137/66,111.9,83,99,Hypertension,Mild,Under Treatment
+1203,86,Male,99/61,70.4,96,99,Migraine,Mild,Recovered
+1204,51,Male,107/65,80.0,64,94,Diabetes,Mild,Under Treatment
+1205,83,Female,117/69,96.8,81,96,Diabetes,Mild,Under Treatment
+1206,58,Female,111/82,124.9,84,99,Heart Disease,None,Under Treatment
+1207,38,Female,121/69,138.4,79,100,Flu,Moderate,Recovered
+1208,21,Male,136/64,111.7,87,98,Flu,Mild,Under Treatment
+1209,23,Female,132/62,88.4,65,98,Arthritis,None,Recovered
+1210,65,Female,91/85,97.4,90,98,Anemia,Mild,Recovered
+1211,34,Female,105/90,116.2,70,100,Liver Disease,Moderate,Under Treatment
+1212,42,Male,127/81,102.3,60,100,Anemia,Severe,Under Treatment
+1213,61,Female,103/65,116.4,73,97,Liver Disease,Mild,Under Treatment
+1214,56,Male,92/72,107.5,67,97,Pneumonia,None,Recovered
+1215,67,Male,138/74,89.7,69,96,Anxiety Disorder,None,Under Treatment
+1216,82,Male,116/90,115.5,98,95,Hypertension,Moderate,Under Treatment
+1217,31,Male,91/83,85.0,72,100,Hypertension,Severe,Under Treatment
+1218,81,Male,101/88,74.8,67,95,Anemia,None,Under Treatment
+1219,49,Female,128/69,100.1,84,100,Migraine,None,Recovered
+1220,44,Male,140/85,108.6,62,97,Anemia,Mild,Under Treatment
+1221,62,Male,99/69,122.0,84,94,Pneumonia,Moderate,Under Treatment
+1222,18,Male,107/60,112.2,80,96,Asthma,Severe,Recovered
+1223,42,Female,130/85,130.9,66,95,Skin Infection,Severe,Under Treatment
+1224,20,Female,98/88,70.2,75,98,Depression,Mild,Recovered
+1225,69,Female,106/71,129.7,72,95,Anemia,Severe,Under Treatment
+1226,60,Female,106/71,130.9,92,95,Diabetes,None,Under Treatment
+1227,60,Male,97/81,115.4,75,97,Liver Disease,None,Under Treatment
+1228,46,Male,100/85,81.2,84,96,Asthma,None,Under Treatment
+1229,26,Female,120/68,99.0,92,97,COVID-19,Moderate,Under Treatment
+1230,79,Male,120/69,121.6,82,94,Asthma,None,Under Treatment
+1231,76,Female,103/68,100.3,88,96,Tuberculosis,Mild,Recovered
+1232,44,Male,110/78,120.1,66,99,Flu,Severe,Under Treatment
+1233,34,Female,121/60,127.6,85,95,Hypertension,Moderate,Under Treatment
+1234,88,Male,105/76,114.3,67,94,Tuberculosis,Severe,Recovered
+1235,55,Female,137/68,124.9,80,98,Depression,Moderate,Under Treatment
+1236,68,Female,112/65,125.7,79,98,Hypertension,Severe,Under Treatment
+1237,25,Female,114/71,72.4,83,99,Hypertension,None,Under Treatment
+1238,27,Male,117/74,73.0,70,100,Arthritis,Mild,Under Treatment
+1239,21,Male,93/87,99.8,82,100,Asthma,None,Under Treatment
+1240,60,Female,140/80,130.6,90,94,Anxiety Disorder,Moderate,Under Treatment
+1241,26,Female,121/81,127.5,93,99,Hypertension,Severe,Under Treatment
+1242,37,Male,114/61,111.3,87,96,Tuberculosis,Severe,Recovered
+1243,55,Male,120/60,131.2,72,97,Kidney Disease,Severe,Under Treatment
+1244,81,Male,92/76,132.0,61,94,Asthma,Mild,Recovered
+1245,18,Male,131/90,121.8,79,98,Asthma,Mild,Under Treatment
+1246,75,Female,116/69,97.7,80,98,Kidney Disease,Mild,Under Treatment
+1247,18,Female,122/83,85.3,89,95,Arthritis,Moderate,Recovered
+1248,86,Female,115/84,74.4,100,97,Pneumonia,Mild,Recovered
+1249,71,Male,127/67,81.8,84,98,Hypertension,Moderate,Under Treatment
+1250,73,Female,92/64,88.1,75,96,Arthritis,Mild,Under Treatment
+1251,62,Female,136/79,76.1,81,100,Skin Infection,None,Recovered
+1252,47,Male,103/74,77.9,95,100,Depression,Severe,Under Treatment
+1253,88,Female,127/81,139.8,96,95,Anxiety Disorder,Mild,Under Treatment
+1254,53,Male,119/64,139.8,67,99,Anxiety Disorder,Mild,Under Treatment
+1255,58,Female,100/77,89.9,94,94,Pneumonia,Mild,Recovered
+1256,82,Male,109/60,90.8,84,95,Pneumonia,Mild,Recovered
+1257,41,Female,118/75,139.0,87,96,Pneumonia,Severe,Under Treatment
+1258,87,Male,104/66,137.3,98,100,COVID-19,Severe,Under Treatment
+1259,72,Male,110/85,71.6,86,96,Heart Disease,Mild,Under Treatment
+1260,80,Male,106/83,120.0,92,100,COVID-19,Moderate,Under Treatment
+1261,76,Male,96/68,96.9,65,97,Anemia,Mild,Under Treatment
+1262,59,Male,105/90,129.7,84,97,Hypertension,Mild,Under Treatment
+1263,25,Male,93/75,94.2,84,98,Kidney Disease,Mild,Under Treatment
+1264,54,Male,94/77,97.8,68,94,Anemia,Severe,Under Treatment
+1265,65,Male,113/66,96.7,93,94,Anemia,Moderate,Under Treatment
+1266,54,Male,123/87,125.3,96,99,Migraine,Mild,Under Treatment
+1267,18,Female,117/79,102.7,85,98,COVID-19,Mild,Under Treatment
+1268,58,Female,102/71,71.9,72,96,Anemia,None,Under Treatment
+1269,66,Female,124/63,87.7,63,97,Asthma,Mild,Recovered
+1270,41,Male,134/77,94.8,83,97,Diabetes,None,Under Treatment
+1271,31,Male,124/86,122.4,73,96,Kidney Disease,Moderate,Under Treatment
+1272,55,Male,113/61,109.0,96,98,COVID-19,Moderate,Under Treatment
+1273,42,Female,112/82,118.8,68,95,Hypertension,Severe,Under Treatment
+1274,36,Male,135/90,132.6,87,94,Pneumonia,None,Under Treatment
+1275,64,Female,118/67,115.3,77,98,Anxiety Disorder,None,Recovered
+1276,27,Female,106/88,129.9,88,99,Depression,Moderate,Recovered
+1277,36,Female,102/67,74.9,68,98,Heart Disease,None,Under Treatment
+1278,56,Male,139/87,103.2,91,96,Liver Disease,Mild,Under Treatment
+1279,31,Male,94/79,119.8,99,94,Depression,None,Recovered
+1280,59,Female,138/86,126.5,94,94,Anemia,Severe,Under Treatment
+1281,54,Female,117/82,105.9,94,100,Diabetes,Moderate,Under Treatment
+1282,60,Female,108/70,87.3,89,98,Skin Infection,Moderate,Under Treatment
+1283,25,Male,124/76,96.2,79,100,Anxiety Disorder,None,Under Treatment
+1284,21,Male,103/70,77.4,60,98,Depression,Moderate,Under Treatment
+1285,42,Male,107/72,87.0,71,98,Pneumonia,Severe,Recovered
+1286,76,Female,133/75,106.7,69,97,Tuberculosis,None,Recovered
+1287,24,Female,135/65,106.9,75,97,Anxiety Disorder,Severe,Under Treatment
+1288,64,Female,110/63,134.3,95,97,Anemia,Severe,Recovered
+1289,28,Male,103/81,74.4,92,97,Asthma,Mild,Recovered
+1290,58,Male,92/71,94.0,78,95,Depression,Mild,Recovered
+1291,38,Male,139/86,102.1,63,99,Anemia,Moderate,Under Treatment
+1292,44,Female,103/69,139.8,61,98,Skin Infection,None,Under Treatment
+1293,45,Male,115/80,117.8,83,94,Asthma,Mild,Under Treatment
+1294,19,Male,133/79,80.4,100,95,Hypertension,None,Under Treatment
+1295,49,Male,91/80,137.8,84,97,Hypertension,Severe,Under Treatment
+1296,85,Female,115/78,117.9,95,98,Arthritis,Severe,Under Treatment
+1297,29,Male,106/82,126.5,70,94,Anxiety Disorder,Moderate,Under Treatment
+1298,79,Male,114/78,130.1,100,96,Flu,None,Under Treatment
+1299,31,Male,90/81,79.4,97,95,Diabetes,None,Under Treatment
+1300,51,Female,100/69,132.8,70,99,Pneumonia,Mild,Under Treatment
+1301,24,Male,105/87,108.3,81,95,Kidney Disease,Mild,Under Treatment
+1302,35,Male,96/90,84.4,99,96,Skin Infection,Moderate,Recovered
+1303,83,Male,111/78,103.1,75,95,Heart Disease,Mild,Under Treatment
+1304,75,Female,111/68,100.5,89,99,Pneumonia,Moderate,Under Treatment
+1305,90,Female,130/69,82.0,95,97,Kidney Disease,Moderate,Under Treatment
+1306,31,Male,91/81,114.2,100,98,Arthritis,None,Recovered
+1307,32,Female,91/79,136.6,80,99,Arthritis,Moderate,Under Treatment
+1308,77,Female,136/68,78.3,80,95,Migraine,None,Recovered
+1309,29,Female,120/60,124.4,62,94,Pneumonia,Severe,Recovered
+1310,87,Female,115/63,113.9,74,94,Kidney Disease,None,Under Treatment
+1311,77,Male,121/82,71.0,84,95,Asthma,Severe,Recovered
+1312,20,Female,98/75,72.4,60,95,Hypertension,None,Under Treatment
+1313,51,Male,97/60,108.8,87,100,Depression,Severe,Recovered
+1314,26,Male,132/82,108.9,99,99,Diabetes,Severe,Under Treatment
+1315,85,Female,139/84,97.5,77,95,COVID-19,Mild,Under Treatment
+1316,18,Female,103/87,93.3,67,99,Liver Disease,Severe,Under Treatment
+1317,44,Female,137/77,107.0,90,95,Anxiety Disorder,Mild,Under Treatment
+1318,51,Male,131/76,106.9,73,98,Kidney Disease,Mild,Under Treatment
+1319,38,Male,108/76,107.7,85,94,Pneumonia,Moderate,Recovered
+1320,89,Male,122/76,122.5,74,95,Tuberculosis,None,Recovered
+1321,56,Male,115/85,135.6,66,95,Depression,None,Under Treatment
+1322,90,Female,117/86,123.0,68,95,Asthma,Moderate,Recovered
+1323,69,Male,114/76,118.5,86,100,Diabetes,Mild,Under Treatment
+1324,38,Male,108/72,83.2,92,96,Kidney Disease,Mild,Under Treatment
+1325,77,Female,108/82,125.9,87,98,Liver Disease,Severe,Under Treatment
+1326,67,Female,96/86,128.7,71,99,Depression,None,Under Treatment
+1327,69,Male,112/72,110.6,74,96,Flu,None,Recovered
+1328,30,Male,115/77,78.5,78,97,Anemia,Moderate,Under Treatment
+1329,36,Female,123/90,114.3,99,96,Pneumonia,Mild,Recovered
+1330,62,Male,119/76,103.8,85,97,Anemia,Severe,Recovered
+1331,69,Female,129/79,139.1,97,97,Arthritis,Moderate,Under Treatment
+1332,72,Male,122/90,82.1,86,97,Migraine,Moderate,Recovered
+1333,78,Female,114/85,85.2,79,94,Flu,Severe,Recovered
+1334,57,Female,114/76,71.1,90,94,Hypertension,None,Under Treatment
+1335,58,Female,120/85,101.5,90,95,Migraine,Moderate,Recovered
+1336,67,Female,136/60,99.2,94,94,Pneumonia,Severe,Under Treatment
+1337,29,Male,136/82,81.5,86,96,Anxiety Disorder,None,Recovered
+1338,54,Male,102/71,107.0,72,96,Depression,Severe,Recovered
+1339,66,Female,99/63,70.7,95,94,Anemia,Mild,Recovered
+1340,19,Female,116/70,82.2,99,96,Asthma,Mild,Under Treatment
+1341,62,Female,92/66,87.0,91,94,Anemia,Mild,Under Treatment
+1342,26,Male,92/68,100.4,93,98,COVID-19,None,Recovered
+1343,29,Female,103/71,114.5,62,95,Heart Disease,Severe,Under Treatment
+1344,67,Female,136/74,135.9,71,95,Diabetes,None,Under Treatment
+1345,64,Female,129/85,101.1,71,95,Migraine,Moderate,Under Treatment
+1346,24,Female,123/65,78.7,79,99,Hypertension,Mild,Under Treatment
+1347,18,Female,98/82,123.5,100,97,Pneumonia,Severe,Recovered
+1348,24,Male,96/72,82.9,74,97,Arthritis,Mild,Under Treatment
+1349,49,Female,120/65,101.2,74,95,Kidney Disease,None,Under Treatment
+1350,37,Female,108/89,133.3,88,97,Depression,Moderate,Recovered
+1351,29,Female,137/66,93.9,83,97,Anemia,None,Recovered
+1352,45,Female,91/66,110.8,66,94,Flu,Moderate,Under Treatment
+1353,86,Female,132/71,73.7,89,94,Tuberculosis,None,Recovered
+1354,32,Female,118/81,130.5,69,100,Asthma,Severe,Recovered
+1355,38,Female,113/73,70.0,75,96,Depression,Moderate,Recovered
+1356,65,Male,103/74,105.3,91,95,Skin Infection,Mild,Recovered
+1357,34,Female,106/83,129.5,68,96,Pneumonia,None,Recovered
+1358,27,Male,95/84,123.2,68,95,Tuberculosis,None,Recovered
+1359,76,Female,127/88,87.7,76,98,Kidney Disease,Moderate,Under Treatment
+1360,64,Male,99/82,128.6,88,94,Kidney Disease,Severe,Under Treatment
+1361,59,Female,132/63,118.6,84,94,Migraine,None,Recovered
+1362,54,Male,98/88,90.5,87,98,Pneumonia,None,Under Treatment
+1363,76,Male,134/89,100.7,99,95,Migraine,None,Under Treatment
+1364,72,Female,136/71,78.0,72,99,Asthma,Mild,Under Treatment
+1365,87,Male,92/74,71.8,82,100,COVID-19,None,Recovered
+1366,34,Female,98/74,136.8,65,94,Heart Disease,Severe,Under Treatment
+1367,18,Male,130/85,94.2,82,100,Hypertension,Moderate,Under Treatment
+1368,66,Female,102/77,133.3,99,95,Arthritis,None,Recovered
+1369,44,Female,131/87,97.2,89,97,Hypertension,Moderate,Under Treatment
+1370,55,Male,118/87,73.2,86,95,Hypertension,Moderate,Under Treatment
+1371,66,Female,105/78,127.4,68,98,Liver Disease,Severe,Under Treatment
+1372,24,Female,103/68,105.7,85,99,Tuberculosis,None,Recovered
+1373,55,Male,113/80,120.9,94,95,Flu,Mild,Recovered
+1374,86,Male,105/66,121.1,71,94,Skin Infection,Severe,Under Treatment
+1375,31,Male,125/70,124.4,86,99,Flu,Moderate,Recovered
+1376,86,Female,139/60,125.8,94,97,Heart Disease,None,Under Treatment
+1377,46,Male,122/63,109.7,83,99,Kidney Disease,None,Under Treatment
+1378,88,Male,128/75,80.0,78,94,Diabetes,Severe,Under Treatment
+1379,51,Female,127/77,90.5,79,97,Hypertension,None,Under Treatment
+1380,53,Female,132/64,134.7,70,95,Asthma,Moderate,Recovered
+1381,49,Male,92/88,85.7,95,100,Kidney Disease,Moderate,Under Treatment
+1382,65,Female,124/80,89.5,85,95,Skin Infection,Severe,Under Treatment
+1383,33,Male,131/73,87.5,61,96,Heart Disease,Severe,Under Treatment
+1384,64,Male,110/69,105.2,90,94,Heart Disease,Moderate,Under Treatment
+1385,70,Male,112/89,99.9,88,94,Heart Disease,Moderate,Under Treatment
+1386,90,Male,102/89,117.5,85,96,Diabetes,Moderate,Under Treatment
+1387,73,Female,134/65,90.9,63,94,Tuberculosis,Moderate,Recovered
+1388,74,Male,134/64,96.0,65,99,Anemia,Severe,Under Treatment
+1389,65,Male,139/85,97.7,63,99,Hypertension,Moderate,Under Treatment
+1390,60,Male,131/62,84.3,94,95,Depression,Mild,Recovered
+1391,37,Female,109/80,70.9,96,98,Skin Infection,Mild,Under Treatment
+1392,59,Male,99/61,102.6,75,94,Pneumonia,Moderate,Recovered
+1393,45,Male,113/85,72.6,86,95,COVID-19,None,Recovered
+1394,19,Female,124/66,137.6,92,96,Anemia,Severe,Recovered
+1395,19,Female,131/87,73.6,80,100,Kidney Disease,None,Under Treatment
+1396,44,Female,132/79,126.6,61,99,Depression,Moderate,Under Treatment
+1397,45,Male,121/89,134.3,87,95,Liver Disease,None,Under Treatment
+1398,53,Female,110/72,91.6,78,98,COVID-19,Moderate,Recovered
+1399,82,Male,112/60,137.3,93,100,Hypertension,Severe,Under Treatment
+1400,51,Female,122/81,84.5,70,97,Arthritis,Mild,Recovered
+1401,82,Male,100/90,72.2,74,99,Skin Infection,None,Under Treatment
+1402,48,Male,113/69,136.0,84,96,Diabetes,Mild,Under Treatment
+1403,67,Male,102/70,117.9,62,99,Pneumonia,Mild,Under Treatment
+1404,25,Male,116/68,79.8,67,95,Liver Disease,Severe,Under Treatment
+1405,53,Female,139/86,128.7,78,98,Anxiety Disorder,None,Under Treatment
+1406,81,Male,107/62,138.8,82,97,Tuberculosis,Severe,Recovered
+1407,83,Female,96/79,72.8,98,95,Tuberculosis,Moderate,Recovered
+1408,90,Male,137/86,92.4,77,98,Pneumonia,Moderate,Under Treatment
+1409,50,Female,113/62,116.2,71,95,Asthma,None,Recovered
+1410,58,Female,125/90,112.7,65,96,Liver Disease,Mild,Under Treatment
+1411,88,Male,105/64,112.6,63,98,Arthritis,Mild,Recovered
+1412,82,Male,124/65,121.9,76,98,Kidney Disease,None,Under Treatment
+1413,38,Female,113/79,88.5,95,94,Anxiety Disorder,Severe,Under Treatment
+1414,71,Male,130/85,109.4,78,95,Anxiety Disorder,Moderate,Recovered
+1415,80,Male,122/79,86.1,71,96,Depression,Moderate,Under Treatment
+1416,90,Male,91/73,104.5,66,99,Hypertension,Severe,Under Treatment
+1417,47,Male,102/79,130.6,69,99,Migraine,None,Recovered
+1418,50,Male,122/67,128.5,74,94,Heart Disease,None,Under Treatment
+1419,87,Female,122/63,105.1,71,98,Kidney Disease,Moderate,Under Treatment
+1420,51,Male,103/87,84.1,63,94,Heart Disease,Mild,Under Treatment
+1421,47,Female,136/72,71.6,78,96,Tuberculosis,Severe,Under Treatment
+1422,82,Female,136/89,90.2,64,100,COVID-19,Moderate,Under Treatment
+1423,81,Male,134/60,139.9,99,100,Hypertension,Severe,Under Treatment
+1424,84,Male,131/68,108.0,68,99,Skin Infection,Mild,Recovered
+1425,25,Female,135/88,132.3,89,98,Pneumonia,None,Under Treatment
+1426,78,Female,132/74,98.2,99,94,Liver Disease,Moderate,Under Treatment
+1427,42,Male,123/70,128.9,95,97,Pneumonia,None,Under Treatment
+1428,71,Male,131/61,122.4,99,97,Pneumonia,None,Recovered
+1429,86,Male,104/78,136.8,83,94,Anemia,Severe,Under Treatment
+1430,57,Female,114/61,88.8,99,99,Anemia,Mild,Under Treatment
+1431,78,Male,126/83,87.6,63,99,Flu,Severe,Under Treatment
+1432,35,Female,135/80,79.0,74,97,Migraine,None,Under Treatment
+1433,58,Female,116/70,139.6,72,99,Migraine,Severe,Recovered
+1434,81,Male,99/84,137.7,96,94,Depression,None,Under Treatment
+1435,64,Female,133/79,74.5,81,95,Arthritis,Mild,Recovered
+1436,60,Female,135/66,131.1,97,94,COVID-19,Moderate,Under Treatment
+1437,28,Male,95/65,72.7,93,99,Kidney Disease,None,Under Treatment
+1438,42,Male,133/73,114.1,81,97,Anxiety Disorder,Mild,Under Treatment
+1439,23,Female,101/64,102.2,76,94,Hypertension,Mild,Under Treatment
+1440,76,Female,94/83,86.2,66,99,Tuberculosis,Moderate,Under Treatment
+1441,88,Male,103/88,94.1,90,96,Migraine,Mild,Recovered
+1442,86,Male,100/86,113.4,96,98,Heart Disease,Severe,Under Treatment
+1443,61,Male,96/74,109.7,76,98,Liver Disease,Mild,Under Treatment
+1444,23,Male,98/75,93.6,96,94,Pneumonia,Mild,Recovered
+1445,71,Female,91/81,104.0,86,96,Arthritis,None,Under Treatment
+1446,22,Male,140/61,128.4,91,95,Anxiety Disorder,None,Under Treatment
+1447,86,Female,108/76,132.9,77,99,Diabetes,Mild,Under Treatment
+1448,51,Male,95/79,109.1,60,97,Pneumonia,Mild,Recovered
+1449,66,Male,108/86,78.0,82,96,COVID-19,Mild,Recovered
+1450,64,Female,99/63,85.5,70,96,Depression,Mild,Under Treatment
+1451,72,Female,119/68,74.1,70,95,Anxiety Disorder,None,Under Treatment
+1452,86,Male,121/64,74.7,67,95,Pneumonia,Mild,Under Treatment
+1453,63,Male,100/84,137.4,94,99,Arthritis,Moderate,Under Treatment
+1454,88,Male,99/85,78.6,72,97,Asthma,None,Recovered
+1455,20,Female,119/86,133.9,90,98,Depression,Mild,Under Treatment
+1456,70,Female,109/70,132.3,76,94,Skin Infection,Mild,Recovered
+1457,36,Female,137/86,96.8,95,98,COVID-19,Mild,Under Treatment
+1458,84,Male,98/69,75.0,87,97,Asthma,None,Under Treatment
+1459,80,Female,135/60,98.2,85,95,COVID-19,Severe,Recovered
+1460,70,Male,131/60,88.7,81,97,Depression,None,Under Treatment
+1461,78,Male,129/87,130.2,62,95,Skin Infection,Moderate,Under Treatment
+1462,84,Male,112/69,131.4,60,94,Depression,Moderate,Under Treatment
+1463,38,Female,99/62,131.8,97,97,Kidney Disease,Mild,Under Treatment
+1464,70,Female,93/62,82.0,79,98,Asthma,Moderate,Recovered
+1465,73,Female,112/84,109.6,70,95,Skin Infection,None,Under Treatment
+1466,67,Female,90/78,102.6,78,96,Hypertension,Mild,Under Treatment
+1467,73,Male,131/77,121.6,89,99,Skin Infection,None,Recovered
+1468,55,Female,105/70,123.1,99,99,Tuberculosis,Severe,Recovered
+1469,31,Female,96/69,93.5,79,94,Diabetes,Mild,Under Treatment
+1470,25,Male,101/67,101.4,94,97,Heart Disease,Severe,Under Treatment
+1471,35,Male,102/63,122.4,73,99,Depression,Severe,Under Treatment
+1472,38,Female,111/73,73.0,62,99,Anxiety Disorder,Severe,Under Treatment
+1473,71,Male,94/67,78.1,96,98,Heart Disease,Severe,Under Treatment
+1474,58,Male,111/60,85.8,97,98,Hypertension,Severe,Under Treatment
+1475,76,Male,97/82,108.6,67,95,COVID-19,None,Under Treatment
+1476,32,Female,102/84,116.0,70,98,Kidney Disease,Severe,Under Treatment
+1477,44,Female,124/80,100.8,67,100,Flu,Mild,Under Treatment
+1478,37,Male,121/66,97.7,75,94,Liver Disease,Mild,Under Treatment
+1479,58,Male,107/88,114.3,96,97,Migraine,Severe,Recovered
+1480,26,Male,129/88,86.1,85,98,Anemia,Severe,Recovered
+1481,41,Male,131/79,129.9,60,97,Migraine,Severe,Under Treatment
+1482,19,Male,94/64,116.3,79,97,Anxiety Disorder,None,Under Treatment
+1483,62,Female,105/70,137.0,75,94,Asthma,Severe,Recovered
+1484,27,Male,130/67,78.4,61,98,Pneumonia,Moderate,Under Treatment
+1485,77,Male,97/85,126.4,100,94,Diabetes,None,Under Treatment
+1486,29,Male,121/77,75.2,82,97,Pneumonia,Mild,Recovered
+1487,25,Male,108/67,98.4,87,97,Pneumonia,Mild,Recovered
+1488,65,Female,129/61,140.0,73,98,Migraine,Severe,Recovered
+1489,63,Male,106/89,115.3,87,99,Flu,Severe,Under Treatment
+1490,43,Male,119/83,71.2,92,100,Migraine,Moderate,Recovered
+1491,79,Male,117/90,127.6,72,97,Kidney Disease,Mild,Under Treatment
+1492,49,Female,129/87,86.4,65,98,Anemia,None,Recovered
+1493,73,Female,111/76,137.4,90,100,Heart Disease,Mild,Under Treatment
+1494,57,Female,124/65,85.9,62,96,Kidney Disease,Mild,Under Treatment
+1495,44,Male,93/86,107.4,68,98,Anemia,None,Recovered
+1496,47,Female,110/88,120.6,92,98,COVID-19,Moderate,Under Treatment
+1497,75,Male,101/68,114.7,76,94,Depression,None,Recovered
+1498,81,Male,94/76,95.6,62,97,Kidney Disease,Severe,Under Treatment
+1499,32,Female,140/61,121.8,88,100,Tuberculosis,Mild,Under Treatment
+1500,58,Male,128/89,100.5,60,94,Hypertension,Moderate,Under Treatment
+1501,25,Male,107/65,74.4,84,98,Arthritis,Mild,Under Treatment
+1502,48,Male,113/61,131.3,61,94,COVID-19,None,Recovered
+1503,18,Female,111/88,101.2,68,100,Heart Disease,Severe,Under Treatment
+1504,37,Female,117/74,126.2,83,98,Kidney Disease,Mild,Under Treatment
+1505,68,Male,101/73,89.9,91,94,Kidney Disease,Moderate,Under Treatment
+1506,50,Female,110/73,126.4,60,97,Arthritis,Mild,Recovered
+1507,36,Female,97/75,129.2,91,99,Diabetes,Mild,Under Treatment
+1508,30,Male,98/82,77.1,71,94,Depression,Moderate,Under Treatment
+1509,32,Male,121/71,70.2,92,94,Anxiety Disorder,Moderate,Recovered
+1510,33,Male,125/63,126.5,86,100,Arthritis,None,Under Treatment
+1511,84,Male,127/79,83.0,61,99,Pneumonia,None,Under Treatment
+1512,73,Male,114/73,87.4,80,99,Migraine,Severe,Recovered
+1513,56,Male,112/63,104.6,96,100,Migraine,Severe,Recovered
+1514,23,Male,133/80,101.4,83,94,Skin Infection,Severe,Recovered
+1515,46,Male,94/61,126.2,88,100,Diabetes,Severe,Under Treatment
+1516,90,Male,120/60,130.4,71,100,Liver Disease,Moderate,Under Treatment
+1517,53,Male,98/68,76.9,72,97,Migraine,Mild,Under Treatment
+1518,68,Female,115/66,76.5,89,99,Depression,Mild,Under Treatment
+1519,70,Female,100/90,75.3,63,94,Arthritis,None,Under Treatment
+1520,62,Female,125/63,134.6,61,94,Migraine,None,Recovered
+1521,60,Female,127/78,118.8,78,97,Liver Disease,None,Under Treatment
+1522,58,Male,96/89,102.3,89,97,Migraine,Severe,Recovered
+1523,61,Female,138/68,85.4,70,94,Anxiety Disorder,None,Recovered
+1524,39,Male,105/73,133.6,92,100,Asthma,Severe,Recovered
+1525,45,Female,100/68,95.8,71,96,Liver Disease,None,Under Treatment
+1526,61,Male,92/66,98.3,70,96,Skin Infection,Moderate,Recovered
+1527,23,Male,133/78,88.3,61,97,Depression,Mild,Recovered
+1528,53,Male,125/62,115.1,88,94,Skin Infection,None,Under Treatment
+1529,50,Male,113/63,111.9,73,94,Tuberculosis,Moderate,Under Treatment
+1530,89,Female,100/75,125.0,86,98,Tuberculosis,Moderate,Recovered
+1531,41,Male,125/75,91.7,60,96,Anxiety Disorder,Mild,Recovered
+1532,42,Female,108/79,136.6,77,95,Migraine,Mild,Recovered
+1533,67,Female,137/90,89.5,78,97,Anxiety Disorder,Mild,Recovered
+1534,83,Female,133/88,119.3,92,94,Anemia,Mild,Under Treatment
+1535,26,Male,106/86,114.5,86,97,Skin Infection,None,Recovered
+1536,38,Female,122/72,125.6,61,100,Pneumonia,Mild,Recovered
+1537,39,Female,124/60,126.1,69,98,Skin Infection,Moderate,Recovered
+1538,87,Female,136/89,127.9,94,97,Skin Infection,Moderate,Recovered
+1539,45,Male,115/72,119.9,97,96,Skin Infection,None,Recovered
+1540,44,Male,128/77,76.5,93,95,Pneumonia,Severe,Under Treatment
+1541,28,Female,104/75,133.5,70,97,Kidney Disease,None,Under Treatment
+1542,77,Male,125/61,103.3,61,98,Anemia,Mild,Recovered
+1543,75,Male,136/66,87.7,89,99,Arthritis,Mild,Recovered
+1544,57,Female,122/72,80.2,89,94,Pneumonia,Moderate,Recovered
+1545,85,Female,137/90,109.2,89,97,Depression,Mild,Under Treatment
+1546,59,Female,103/80,128.0,75,95,Diabetes,Mild,Under Treatment
+1547,54,Female,98/78,70.9,61,98,Hypertension,None,Under Treatment
+1548,21,Male,121/70,84.4,100,96,Migraine,Moderate,Under Treatment
+1549,87,Female,97/85,134.7,63,97,Tuberculosis,None,Under Treatment
+1550,69,Female,123/65,127.7,89,95,Hypertension,None,Under Treatment
+1551,34,Female,116/78,122.1,81,96,Hypertension,Severe,Under Treatment
+1552,42,Female,105/63,121.4,60,98,Depression,None,Recovered
+1553,30,Male,97/86,130.3,71,97,Flu,Mild,Under Treatment
+1554,45,Male,112/83,127.8,91,99,Migraine,Moderate,Recovered
+1555,63,Male,107/85,106.8,65,100,Hypertension,Moderate,Under Treatment
+1556,38,Male,124/86,112.6,88,96,Tuberculosis,None,Under Treatment
+1557,35,Female,138/85,107.2,98,95,Skin Infection,None,Under Treatment
+1558,32,Male,111/61,102.8,94,98,Kidney Disease,Mild,Under Treatment
+1559,33,Female,92/70,105.9,63,97,Hypertension,Severe,Under Treatment
+1560,49,Male,130/78,129.1,83,99,Flu,None,Under Treatment
+1561,64,Female,134/87,116.6,92,96,Heart Disease,Mild,Under Treatment
+1562,79,Male,131/61,126.5,92,98,Depression,Severe,Under Treatment
+1563,63,Female,112/90,104.6,73,97,Pneumonia,Moderate,Recovered
+1564,62,Male,135/83,125.6,75,94,Pneumonia,None,Recovered
+1565,84,Male,102/78,126.5,95,96,Liver Disease,Moderate,Under Treatment
+1566,83,Male,114/83,133.2,65,100,Migraine,Moderate,Recovered
+1567,64,Male,99/76,118.8,97,96,Skin Infection,None,Recovered
+1568,29,Male,97/81,133.4,85,100,Depression,Moderate,Under Treatment
+1569,75,Female,92/70,79.1,94,100,Pneumonia,Severe,Under Treatment
+1570,53,Male,112/79,85.6,75,99,Diabetes,None,Under Treatment
+1571,20,Male,120/61,111.5,89,100,Tuberculosis,None,Under Treatment
+1572,70,Male,109/69,90.7,85,96,Anxiety Disorder,Severe,Recovered
+1573,45,Male,133/80,93.2,89,99,Tuberculosis,Mild,Under Treatment
+1574,40,Female,93/85,95.3,73,97,Liver Disease,Moderate,Under Treatment
+1575,50,Male,114/79,72.0,60,95,Liver Disease,Moderate,Under Treatment
+1576,53,Male,113/76,90.4,77,96,Anemia,Mild,Recovered
+1577,22,Female,136/72,106.0,67,96,Flu,Moderate,Recovered
+1578,70,Male,95/82,119.6,67,98,COVID-19,None,Under Treatment
+1579,23,Female,120/88,90.7,74,98,Asthma,Moderate,Recovered
+1580,74,Female,128/61,133.0,93,95,Anemia,None,Under Treatment
+1581,66,Male,95/82,135.0,80,96,Migraine,Severe,Under Treatment
+1582,45,Male,119/63,122.4,69,100,Depression,Severe,Recovered
+1583,35,Female,125/64,89.4,79,97,Tuberculosis,Severe,Under Treatment
+1584,42,Female,130/79,126.4,66,94,Flu,Moderate,Under Treatment
+1585,65,Female,95/67,74.9,71,94,Anemia,Moderate,Under Treatment
+1586,41,Female,126/87,95.2,83,97,Arthritis,None,Under Treatment
+1587,58,Male,133/67,131.7,97,96,Kidney Disease,Moderate,Under Treatment
+1588,49,Male,107/80,76.5,83,94,Flu,Mild,Recovered
+1589,68,Male,115/90,132.5,85,96,Hypertension,None,Under Treatment
+1590,45,Male,95/87,119.7,79,96,Migraine,None,Under Treatment
+1591,68,Female,129/81,117.2,60,95,Tuberculosis,Mild,Recovered
+1592,37,Female,125/81,87.4,95,98,Pneumonia,Severe,Recovered
+1593,53,Female,105/79,99.3,96,95,Diabetes,Mild,Under Treatment
+1594,88,Female,125/70,84.2,93,94,Pneumonia,Mild,Recovered
+1595,50,Female,113/67,111.3,100,95,Migraine,Mild,Under Treatment
+1596,80,Female,117/67,120.1,69,98,Arthritis,Severe,Recovered
+1597,62,Female,121/66,73.0,96,99,Flu,Severe,Recovered
+1598,54,Female,117/83,126.7,95,100,Pneumonia,Severe,Recovered
+1599,37,Female,127/60,123.3,94,98,Liver Disease,Moderate,Under Treatment
+1600,90,Male,105/74,79.6,70,95,Heart Disease,None,Under Treatment
+1601,85,Female,106/88,139.8,67,97,Kidney Disease,Moderate,Under Treatment
+1602,58,Male,104/68,109.0,73,99,Pneumonia,Moderate,Under Treatment
+1603,48,Female,90/70,131.2,69,98,Flu,Moderate,Recovered
+1604,38,Male,94/83,93.5,92,100,Skin Infection,None,Under Treatment
+1605,90,Male,129/77,75.8,74,99,Anxiety Disorder,Moderate,Recovered
+1606,43,Male,118/65,122.3,83,100,Kidney Disease,Mild,Under Treatment
+1607,63,Female,107/69,75.4,83,98,Migraine,Mild,Recovered
+1608,52,Female,106/60,138.6,68,96,Migraine,None,Recovered
+1609,28,Female,140/75,76.8,62,97,Depression,Severe,Recovered
+1610,67,Male,124/73,107.2,79,95,Liver Disease,Moderate,Under Treatment
+1611,38,Male,132/83,137.3,88,95,Hypertension,Mild,Under Treatment
+1612,23,Male,104/62,121.4,68,96,Pneumonia,Severe,Under Treatment
+1613,44,Male,112/74,105.2,97,95,Hypertension,Mild,Under Treatment
+1614,72,Female,122/66,77.2,69,97,Kidney Disease,Mild,Under Treatment
+1615,58,Male,122/84,84.4,60,97,Tuberculosis,None,Under Treatment
+1616,64,Male,96/78,97.9,100,95,Kidney Disease,Mild,Under Treatment
+1617,19,Female,112/80,134.5,99,94,Pneumonia,Severe,Recovered
+1618,73,Female,132/90,75.4,78,99,Arthritis,Severe,Recovered
+1619,42,Female,120/75,77.3,69,94,Migraine,None,Recovered
+1620,57,Male,138/75,127.9,68,100,Heart Disease,Moderate,Under Treatment
+1621,27,Male,90/78,137.7,62,95,Kidney Disease,Mild,Under Treatment
+1622,33,Female,113/89,127.0,63,94,Asthma,None,Under Treatment
+1623,86,Male,106/82,79.0,69,95,Hypertension,Moderate,Under Treatment
+1624,36,Male,91/89,108.7,79,98,Migraine,Severe,Recovered
+1625,74,Male,110/84,91.1,94,99,Migraine,Severe,Recovered
+1626,88,Male,127/78,78.1,65,100,Migraine,Severe,Under Treatment
+1627,20,Male,101/89,73.5,87,95,Asthma,Moderate,Recovered
+1628,35,Female,127/60,102.9,94,95,Diabetes,Severe,Under Treatment
+1629,26,Male,129/90,137.0,66,94,Liver Disease,Moderate,Under Treatment
+1630,64,Male,110/67,121.4,100,96,Hypertension,None,Under Treatment
+1631,87,Female,104/86,126.7,67,97,COVID-19,None,Under Treatment
+1632,33,Female,127/84,106.6,69,96,Tuberculosis,Severe,Recovered
+1633,64,Male,99/69,77.3,92,94,Pneumonia,Moderate,Under Treatment
+1634,86,Female,138/87,82.4,66,94,Depression,Mild,Under Treatment
+1635,20,Female,114/86,84.9,65,95,Diabetes,Severe,Under Treatment
+1636,30,Female,123/89,120.4,75,95,Heart Disease,None,Under Treatment
+1637,65,Male,96/62,81.6,91,99,Asthma,Moderate,Under Treatment
+1638,86,Male,137/87,105.2,68,95,Anxiety Disorder,Moderate,Recovered
+1639,78,Female,91/71,105.6,99,97,Migraine,None,Recovered
+1640,20,Male,91/66,111.6,75,99,Depression,Severe,Recovered
+1641,84,Male,116/74,102.8,100,100,Heart Disease,Mild,Under Treatment
+1642,89,Male,136/69,107.5,79,95,Heart Disease,Moderate,Under Treatment
+1643,42,Male,91/76,128.7,62,96,Kidney Disease,Severe,Under Treatment
+1644,68,Male,91/79,86.5,90,100,Pneumonia,Mild,Recovered
+1645,87,Female,122/71,96.0,62,100,Arthritis,None,Recovered
+1646,84,Female,92/61,88.5,98,95,Asthma,Severe,Recovered
+1647,88,Male,119/82,93.2,68,94,Pneumonia,None,Under Treatment
+1648,82,Male,109/81,109.6,67,95,Depression,Severe,Under Treatment
+1649,44,Male,110/83,128.1,81,100,Arthritis,None,Recovered
+1650,47,Female,135/74,88.7,93,95,Heart Disease,Moderate,Under Treatment
+1651,45,Male,99/69,85.1,83,97,Liver Disease,Mild,Under Treatment
+1652,50,Male,98/74,131.0,99,97,Tuberculosis,None,Recovered
+1653,32,Male,138/88,134.9,92,98,Pneumonia,Mild,Under Treatment
+1654,69,Female,97/79,94.3,98,96,Skin Infection,None,Recovered
+1655,36,Female,140/65,110.6,87,94,Anxiety Disorder,Severe,Recovered
+1656,68,Female,95/64,114.0,79,99,Kidney Disease,Mild,Under Treatment
+1657,50,Male,137/81,115.8,79,94,Tuberculosis,Severe,Recovered
+1658,74,Male,109/70,103.3,87,98,Tuberculosis,Moderate,Recovered
+1659,20,Female,100/76,72.6,79,98,Pneumonia,Mild,Under Treatment
+1660,49,Male,108/72,77.9,73,95,Migraine,Moderate,Recovered
+1661,34,Female,126/86,109.0,93,99,Liver Disease,Mild,Under Treatment
+1662,88,Male,134/84,85.8,78,100,Migraine,Severe,Under Treatment
+1663,87,Male,130/76,128.0,87,95,Skin Infection,None,Recovered
+1664,51,Male,117/80,85.5,73,97,Skin Infection,Moderate,Under Treatment
+1665,48,Female,125/70,79.8,67,96,Skin Infection,Severe,Recovered
+1666,79,Male,127/85,121.6,81,99,Liver Disease,Mild,Under Treatment
+1667,19,Female,136/66,108.4,100,95,Heart Disease,Mild,Under Treatment
+1668,59,Female,114/79,111.6,98,94,Hypertension,Severe,Under Treatment
+1669,45,Female,111/71,115.5,65,100,Flu,Mild,Under Treatment
+1670,55,Male,99/70,127.1,87,96,Pneumonia,None,Under Treatment
+1671,81,Female,120/67,131.9,98,100,COVID-19,Moderate,Recovered
+1672,78,Male,121/66,100.4,98,100,Liver Disease,Mild,Under Treatment
+1673,58,Female,96/79,110.2,96,100,Asthma,Mild,Under Treatment
+1674,71,Female,128/62,108.7,87,94,Hypertension,Severe,Under Treatment
+1675,39,Male,110/68,129.7,73,95,Skin Infection,Mild,Under Treatment
+1676,90,Female,118/84,83.7,71,96,Liver Disease,None,Under Treatment
+1677,80,Male,91/72,80.7,99,97,Hypertension,Severe,Under Treatment
+1678,85,Female,113/65,97.8,81,99,Hypertension,Severe,Under Treatment
+1679,85,Male,94/70,126.9,88,98,Arthritis,Moderate,Recovered
+1680,18,Male,93/69,84.9,68,96,Liver Disease,Severe,Under Treatment
+1681,46,Male,136/71,70.5,81,94,Heart Disease,Moderate,Under Treatment
+1682,85,Male,90/72,105.4,98,97,Asthma,Mild,Recovered
+1683,90,Female,137/71,90.9,81,97,Kidney Disease,Mild,Under Treatment
+1684,47,Male,102/72,120.9,70,97,Liver Disease,Mild,Under Treatment
+1685,56,Female,127/69,111.3,92,98,Depression,None,Recovered
+1686,50,Female,103/78,113.9,66,96,Anxiety Disorder,Moderate,Under Treatment
+1687,59,Male,123/84,119.3,75,98,Liver Disease,Severe,Under Treatment
+1688,42,Female,105/82,126.0,62,95,Asthma,Mild,Under Treatment
+1689,21,Male,117/80,78.5,72,99,Liver Disease,Mild,Under Treatment
+1690,48,Male,111/87,75.3,69,96,Kidney Disease,None,Under Treatment
+1691,63,Male,122/83,102.8,95,95,Anxiety Disorder,Moderate,Recovered
+1692,67,Male,97/74,131.7,90,97,COVID-19,None,Recovered
+1693,28,Female,117/60,102.1,63,96,Flu,None,Recovered
+1694,81,Female,135/69,96.7,64,100,COVID-19,Severe,Under Treatment
+1695,57,Male,113/79,104.1,66,100,Tuberculosis,Mild,Under Treatment
+1696,20,Male,109/67,119.0,84,96,Diabetes,Severe,Under Treatment
+1697,52,Female,139/85,103.2,87,99,Kidney Disease,Severe,Under Treatment
+1698,71,Male,121/89,79.5,71,100,Liver Disease,None,Under Treatment
+1699,30,Male,134/88,91.7,63,95,Anxiety Disorder,Mild,Recovered
+1700,31,Male,94/70,99.7,83,96,Anemia,Mild,Recovered
+1701,33,Female,134/68,102.0,83,96,Tuberculosis,Severe,Under Treatment
+1702,46,Male,113/90,77.4,100,95,Flu,Severe,Under Treatment
+1703,48,Female,111/81,91.5,96,96,Pneumonia,None,Under Treatment
+1704,82,Female,99/87,104.8,100,99,Depression,Severe,Recovered
+1705,34,Female,121/78,111.3,94,96,Skin Infection,Severe,Recovered
+1706,21,Male,134/79,103.8,77,97,Migraine,None,Recovered
+1707,32,Male,93/77,88.7,70,96,Depression,Moderate,Recovered
+1708,77,Female,97/80,80.6,76,98,Pneumonia,Mild,Recovered
+1709,77,Female,93/65,126.7,83,98,Heart Disease,Moderate,Under Treatment
+1710,87,Female,127/65,93.2,94,97,Anxiety Disorder,None,Recovered
+1711,69,Female,94/85,98.0,75,98,Diabetes,Mild,Under Treatment
+1712,87,Female,94/79,135.1,93,100,Tuberculosis,Mild,Recovered
+1713,22,Female,109/80,73.7,77,94,Liver Disease,Severe,Under Treatment
+1714,57,Male,134/77,80.1,63,99,Skin Infection,Mild,Recovered
+1715,64,Female,130/82,114.5,75,98,Anxiety Disorder,Moderate,Under Treatment
+1716,56,Female,117/80,108.6,69,97,Migraine,Severe,Under Treatment
+1717,77,Female,130/76,79.8,63,99,COVID-19,Severe,Recovered
+1718,87,Female,90/67,136.2,65,94,Liver Disease,Severe,Under Treatment
+1719,62,Female,94/61,125.6,96,100,Flu,Severe,Recovered
+1720,77,Male,103/78,106.7,100,98,Skin Infection,None,Under Treatment
+1721,81,Female,137/89,77.5,84,98,Skin Infection,Severe,Recovered
+1722,76,Male,107/67,129.2,91,98,COVID-19,Moderate,Under Treatment
+1723,25,Female,140/69,86.6,66,98,Flu,Mild,Recovered
+1724,54,Female,90/78,125.3,89,98,Depression,Moderate,Under Treatment
+1725,33,Male,122/90,104.3,77,99,Migraine,Moderate,Recovered
+1726,77,Female,123/74,102.2,71,100,Flu,None,Under Treatment
+1727,63,Male,127/86,88.6,77,95,Heart Disease,Moderate,Under Treatment
+1728,52,Female,93/75,109.6,68,99,Tuberculosis,Severe,Recovered
+1729,74,Male,101/67,83.3,90,100,Migraine,Moderate,Under Treatment
+1730,49,Female,101/83,89.8,83,97,Flu,Mild,Recovered
+1731,53,Male,105/87,123.8,77,94,Skin Infection,None,Under Treatment
+1732,36,Male,105/88,115.9,77,100,Tuberculosis,Moderate,Under Treatment
+1733,77,Female,106/81,110.3,88,94,Tuberculosis,Mild,Under Treatment
+1734,32,Female,121/65,82.0,65,95,Anemia,Severe,Under Treatment
+1735,36,Male,107/89,78.4,83,94,Liver Disease,Severe,Under Treatment
+1736,88,Male,131/60,105.4,60,95,COVID-19,Severe,Recovered
+1737,79,Female,133/87,107.1,92,100,Diabetes,Mild,Under Treatment
+1738,78,Male,92/79,135.2,60,94,Arthritis,Severe,Under Treatment
+1739,22,Female,132/71,91.4,62,97,Tuberculosis,Severe,Under Treatment
+1740,63,Female,110/60,91.3,88,94,Pneumonia,Severe,Under Treatment
+1741,25,Female,129/85,117.3,87,97,Arthritis,Mild,Under Treatment
+1742,68,Female,97/87,106.4,74,94,COVID-19,Severe,Recovered
+1743,28,Female,112/64,81.8,79,99,Hypertension,Mild,Under Treatment
+1744,85,Male,138/74,134.2,98,99,COVID-19,None,Under Treatment
+1745,55,Male,135/78,135.1,95,94,Pneumonia,Moderate,Under Treatment
+1746,74,Male,129/79,84.3,96,97,Kidney Disease,Mild,Under Treatment
+1747,19,Female,125/74,115.3,80,97,Asthma,Severe,Under Treatment
+1748,27,Female,123/70,81.7,90,96,Diabetes,Severe,Under Treatment
+1749,42,Male,90/62,113.9,62,94,Depression,Mild,Under Treatment
+1750,49,Female,100/61,132.3,77,96,Migraine,None,Recovered
+1751,53,Male,117/85,78.3,89,98,Skin Infection,Mild,Recovered
+1752,54,Male,119/76,82.3,63,99,Arthritis,Mild,Recovered
+1753,58,Female,137/68,123.8,72,100,Arthritis,None,Recovered
+1754,82,Male,114/68,95.4,78,97,Asthma,None,Recovered
+1755,67,Male,99/76,97.9,73,99,Migraine,None,Under Treatment
+1756,30,Male,107/70,81.2,89,95,Tuberculosis,Moderate,Recovered
+1757,86,Female,99/80,84.8,60,99,Heart Disease,Moderate,Under Treatment
+1758,67,Female,129/60,97.8,85,94,Anxiety Disorder,Mild,Under Treatment
+1759,44,Female,113/71,139.8,68,100,Asthma,Mild,Recovered
+1760,78,Female,110/86,124.6,80,100,Depression,Severe,Recovered
+1761,89,Male,95/81,128.3,60,95,COVID-19,None,Recovered
+1762,45,Female,140/82,99.4,72,99,Hypertension,Moderate,Under Treatment
+1763,69,Male,121/71,70.4,71,94,Tuberculosis,Moderate,Under Treatment
+1764,66,Female,133/63,81.5,68,96,Liver Disease,Severe,Under Treatment
+1765,29,Male,108/90,113.4,64,100,Liver Disease,Severe,Under Treatment
+1766,22,Female,114/75,107.4,73,99,Flu,Mild,Recovered
+1767,54,Female,93/80,73.7,91,99,Depression,Mild,Recovered
+1768,51,Male,140/87,117.0,66,98,Heart Disease,Mild,Under Treatment
+1769,69,Male,124/90,88.6,96,95,Migraine,Moderate,Recovered
+1770,22,Female,101/63,107.3,63,95,Heart Disease,Mild,Under Treatment
+1771,67,Female,113/87,133.0,95,94,Asthma,None,Recovered
+1772,79,Female,124/73,91.5,89,99,Kidney Disease,Severe,Under Treatment
+1773,23,Female,131/86,133.4,63,98,Anemia,Moderate,Under Treatment
+1774,47,Female,101/88,118.1,92,97,Diabetes,Moderate,Under Treatment
+1775,63,Male,101/86,70.4,95,96,Migraine,Moderate,Recovered
+1776,36,Male,119/70,78.6,60,95,Flu,None,Recovered
+1777,41,Female,103/86,81.8,65,100,Tuberculosis,Mild,Under Treatment
+1778,47,Male,95/78,105.6,66,99,Liver Disease,Severe,Under Treatment
+1779,61,Male,138/69,76.8,72,94,Liver Disease,Severe,Under Treatment
+1780,25,Female,105/89,71.8,89,100,Flu,Severe,Recovered
+1781,62,Male,103/76,87.7,70,98,Anxiety Disorder,Moderate,Under Treatment
+1782,77,Female,128/89,129.8,61,99,Hypertension,Mild,Under Treatment
+1783,83,Female,138/77,91.2,63,100,COVID-19,Moderate,Under Treatment
+1784,48,Female,111/90,102.3,76,95,Asthma,Moderate,Recovered
+1785,90,Male,108/69,95.6,69,99,Skin Infection,Mild,Under Treatment
+1786,22,Male,98/62,111.0,98,97,Diabetes,Moderate,Under Treatment
+1787,44,Male,120/64,133.0,71,95,Anxiety Disorder,Moderate,Under Treatment
+1788,88,Female,110/77,99.0,73,100,Migraine,None,Recovered
+1789,43,Female,125/88,126.3,80,94,Tuberculosis,Mild,Recovered
+1790,81,Male,139/65,87.7,63,94,Migraine,Mild,Recovered
+1791,61,Male,127/69,94.3,77,99,Heart Disease,Mild,Under Treatment
+1792,32,Male,116/60,89.5,72,94,Heart Disease,Severe,Under Treatment
+1793,73,Female,98/72,88.0,63,96,Liver Disease,None,Under Treatment
+1794,70,Male,126/82,138.4,92,97,Anemia,Severe,Recovered
+1795,79,Male,104/71,88.1,89,96,Pneumonia,None,Recovered
+1796,82,Male,99/77,128.8,99,96,Anxiety Disorder,Mild,Under Treatment
+1797,63,Female,102/84,125.0,86,99,Flu,Severe,Under Treatment
+1798,29,Female,109/78,103.4,63,99,Heart Disease,Mild,Under Treatment
+1799,79,Male,112/61,121.4,95,94,Arthritis,Moderate,Recovered
+1800,74,Male,107/70,105.2,83,95,Diabetes,Moderate,Under Treatment
+1801,83,Female,139/79,121.7,82,95,Anemia,Moderate,Recovered
+1802,24,Female,126/63,137.0,76,95,COVID-19,Mild,Recovered
+1803,81,Female,138/75,120.3,95,97,Anemia,Severe,Recovered
+1804,65,Male,138/88,106.8,79,95,Asthma,Mild,Recovered
+1805,81,Male,105/63,98.6,71,100,Kidney Disease,Mild,Under Treatment
+1806,70,Female,136/84,116.5,61,94,Pneumonia,Moderate,Recovered
+1807,47,Male,121/67,99.2,77,98,Heart Disease,Severe,Under Treatment
+1808,65,Female,118/82,122.4,63,98,Anxiety Disorder,Moderate,Recovered
+1809,83,Female,126/80,126.6,82,97,Skin Infection,Severe,Under Treatment
+1810,22,Male,120/69,93.4,83,99,Pneumonia,Moderate,Under Treatment
+1811,28,Male,109/64,91.1,95,97,Tuberculosis,Mild,Recovered
+1812,70,Female,105/86,131.9,86,100,Depression,None,Recovered
+1813,37,Female,91/69,91.2,90,98,Heart Disease,Mild,Under Treatment
+1814,66,Female,90/89,85.7,98,100,Anxiety Disorder,Mild,Under Treatment
+1815,41,Male,109/61,84.3,68,99,Diabetes,Severe,Under Treatment
+1816,47,Female,134/64,138.9,83,96,Asthma,Mild,Under Treatment
+1817,61,Male,101/83,108.4,79,98,Tuberculosis,None,Under Treatment
+1818,21,Male,120/82,123.1,78,99,Anxiety Disorder,Mild,Recovered
+1819,60,Female,133/88,101.5,72,99,COVID-19,Severe,Under Treatment
+1820,59,Female,134/85,103.5,98,98,Arthritis,Moderate,Recovered
+1821,36,Female,116/77,77.4,78,97,Depression,Mild,Recovered
+1822,63,Female,98/88,73.2,88,94,Asthma,None,Recovered
+1823,34,Male,102/85,87.8,66,97,Tuberculosis,Mild,Under Treatment
+1824,85,Male,102/90,110.9,97,95,Anemia,Mild,Under Treatment
+1825,74,Male,132/71,123.7,88,98,Anxiety Disorder,Moderate,Recovered
+1826,54,Female,105/87,90.9,90,100,Migraine,Mild,Under Treatment
+1827,44,Female,104/85,90.4,97,94,Diabetes,None,Under Treatment
+1828,37,Male,116/86,106.8,94,100,Skin Infection,Mild,Recovered
+1829,70,Female,98/68,90.6,90,95,Liver Disease,Severe,Under Treatment
+1830,72,Male,116/72,104.8,85,96,Diabetes,None,Under Treatment
+1831,25,Female,93/63,86.0,74,99,Anxiety Disorder,Severe,Under Treatment
+1832,39,Female,103/72,109.5,66,95,Anxiety Disorder,Moderate,Recovered
+1833,67,Female,122/81,113.9,96,94,Anxiety Disorder,None,Under Treatment
+1834,53,Female,111/66,94.7,68,100,Arthritis,Severe,Recovered
+1835,49,Male,103/75,140.0,74,95,Depression,None,Under Treatment
+1836,59,Female,104/63,73.4,78,99,COVID-19,Mild,Under Treatment
+1837,30,Male,110/82,96.1,84,100,Tuberculosis,Severe,Under Treatment
+1838,55,Male,140/77,73.5,85,94,Diabetes,None,Under Treatment
+1839,23,Female,102/77,73.4,67,96,Anxiety Disorder,None,Under Treatment
+1840,60,Female,127/84,133.3,98,98,Tuberculosis,None,Recovered
+1841,40,Female,114/85,82.3,95,94,COVID-19,None,Recovered
+1842,60,Female,133/74,92.1,92,96,Kidney Disease,Mild,Under Treatment
+1843,87,Female,109/86,97.5,63,95,Depression,None,Recovered
+1844,28,Female,105/84,97.8,68,100,Kidney Disease,Moderate,Under Treatment
+1845,47,Female,138/87,82.1,67,98,Depression,Severe,Under Treatment
+1846,78,Male,124/86,105.7,83,95,Heart Disease,Moderate,Under Treatment
+1847,87,Male,92/81,138.5,61,95,Depression,Mild,Under Treatment
+1848,69,Female,110/79,95.3,66,100,Migraine,None,Recovered
+1849,85,Male,99/74,81.3,60,97,Flu,Moderate,Recovered
+1850,85,Female,117/79,83.2,95,98,Kidney Disease,Mild,Under Treatment
+1851,71,Female,132/80,105.0,67,95,Anemia,Mild,Recovered
+1852,69,Male,102/64,81.5,83,95,Pneumonia,None,Under Treatment
+1853,56,Male,129/71,91.6,87,98,Heart Disease,Severe,Under Treatment
+1854,35,Male,136/71,98.8,78,98,Flu,Mild,Recovered
+1855,24,Male,126/82,98.9,93,94,Liver Disease,None,Under Treatment
+1856,72,Male,91/86,115.2,88,98,Arthritis,Moderate,Recovered
+1857,45,Male,100/63,104.0,76,98,Anemia,Moderate,Recovered
+1858,21,Female,117/84,81.0,85,96,Flu,Moderate,Recovered
+1859,46,Male,114/90,117.0,80,100,Migraine,Mild,Under Treatment
+1860,30,Male,111/79,100.1,73,94,Pneumonia,Moderate,Under Treatment
+1861,46,Male,106/73,91.1,94,97,COVID-19,Moderate,Under Treatment
+1862,78,Male,133/78,114.2,61,95,Anemia,None,Recovered
+1863,57,Male,133/76,73.9,62,96,Anemia,Moderate,Under Treatment
+1864,31,Male,139/69,111.8,85,96,Asthma,None,Recovered
+1865,59,Female,137/85,105.4,79,94,Heart Disease,None,Under Treatment
+1866,35,Male,129/69,121.5,80,97,Heart Disease,Severe,Under Treatment
+1867,75,Male,102/72,93.2,63,99,Kidney Disease,Moderate,Under Treatment
+1868,79,Male,123/84,138.6,76,96,Asthma,Mild,Recovered
+1869,89,Female,98/79,86.1,72,100,Diabetes,None,Under Treatment
+1870,76,Male,104/81,93.1,77,95,Anxiety Disorder,None,Recovered
+1871,36,Female,131/84,110.8,76,95,Asthma,None,Recovered
+1872,38,Male,131/85,113.6,80,96,Tuberculosis,None,Recovered
+1873,35,Male,135/81,112.8,97,96,Anxiety Disorder,Moderate,Recovered
+1874,70,Female,128/73,104.9,62,97,Liver Disease,None,Under Treatment
+1875,55,Male,126/64,115.5,100,95,Anxiety Disorder,Moderate,Recovered
+1876,18,Female,94/66,107.5,70,95,COVID-19,Severe,Under Treatment
+1877,84,Female,138/71,123.6,64,98,Anemia,Mild,Under Treatment
+1878,67,Male,139/69,104.9,93,97,Depression,None,Recovered
+1879,42,Male,131/83,126.0,93,98,Migraine,Severe,Under Treatment
+1880,88,Female,117/67,80.6,64,94,Heart Disease,Mild,Under Treatment
+1881,80,Female,118/73,97.6,96,98,Arthritis,None,Under Treatment
+1882,87,Female,128/64,98.2,85,95,Kidney Disease,Moderate,Under Treatment
+1883,69,Female,128/90,133.2,64,100,Anxiety Disorder,None,Under Treatment
+1884,27,Male,92/74,104.7,99,97,Liver Disease,None,Under Treatment
+1885,57,Male,139/79,76.8,76,96,Anxiety Disorder,None,Under Treatment
+1886,86,Female,99/62,78.4,73,100,Liver Disease,Severe,Under Treatment
+1887,33,Female,130/70,83.4,100,98,Depression,None,Recovered
+1888,78,Male,120/65,112.8,79,97,Liver Disease,Severe,Under Treatment
+1889,85,Male,133/62,121.8,64,94,Heart Disease,Mild,Under Treatment
+1890,39,Male,106/61,127.2,72,97,Anemia,Mild,Recovered
+1891,51,Male,97/78,76.4,87,96,Arthritis,Moderate,Under Treatment
+1892,42,Male,123/77,93.7,90,96,COVID-19,Mild,Under Treatment
+1893,50,Female,106/60,123.0,65,95,Depression,Mild,Recovered
+1894,65,Female,112/88,125.4,74,98,Anxiety Disorder,None,Recovered
+1895,90,Male,107/71,72.5,85,98,Tuberculosis,None,Recovered
+1896,56,Female,123/64,77.7,88,99,Diabetes,Mild,Under Treatment
+1897,89,Male,140/86,107.2,87,96,Heart Disease,None,Under Treatment
+1898,22,Female,140/79,84.5,88,96,Arthritis,Moderate,Under Treatment
+1899,64,Female,104/76,118.6,71,97,Anxiety Disorder,Severe,Recovered
+1900,80,Female,103/60,78.8,85,97,Migraine,Moderate,Under Treatment
+1901,23,Male,119/62,139.7,61,97,Liver Disease,Moderate,Under Treatment
+1902,27,Male,99/62,76.2,78,97,Anemia,Moderate,Under Treatment
+1903,81,Male,97/65,105.1,66,98,Anemia,Moderate,Recovered
+1904,73,Female,134/69,105.4,69,95,COVID-19,None,Under Treatment
+1905,86,Male,99/74,112.9,84,99,Depression,None,Recovered
+1906,89,Male,100/87,117.6,93,100,Migraine,None,Under Treatment
+1907,64,Male,132/75,133.1,60,94,Migraine,Moderate,Recovered
+1908,19,Female,136/69,119.9,80,98,Arthritis,Mild,Recovered
+1909,19,Male,124/81,128.7,83,99,COVID-19,Mild,Under Treatment
+1910,20,Female,130/73,121.5,78,100,Tuberculosis,Severe,Recovered
+1911,81,Female,118/90,77.1,71,95,Tuberculosis,Severe,Under Treatment
+1912,45,Male,92/61,130.3,78,96,Depression,None,Under Treatment
+1913,75,Male,97/65,86.1,90,100,Anemia,None,Under Treatment
+1914,81,Male,97/84,90.0,68,99,Liver Disease,Severe,Under Treatment
+1915,90,Male,109/62,79.2,74,99,Anxiety Disorder,Mild,Under Treatment
+1916,52,Female,124/82,81.7,86,95,Kidney Disease,Severe,Under Treatment
+1917,57,Female,102/77,83.1,93,96,Asthma,None,Recovered
+1918,75,Male,99/89,83.2,68,99,Diabetes,Moderate,Under Treatment
+1919,55,Male,101/79,134.4,99,94,Migraine,Severe,Recovered
+1920,29,Male,118/77,110.2,77,97,Liver Disease,Moderate,Under Treatment
+1921,46,Female,96/63,114.1,85,95,Migraine,Severe,Under Treatment
+1922,70,Female,92/69,71.2,75,100,Pneumonia,Severe,Under Treatment
+1923,45,Male,135/63,101.7,60,97,COVID-19,Moderate,Recovered
+1924,56,Male,123/64,98.7,92,99,Anemia,Moderate,Recovered
+1925,26,Female,102/77,122.4,90,99,Kidney Disease,None,Under Treatment
+1926,64,Male,101/86,131.2,73,100,Liver Disease,Mild,Under Treatment
+1927,71,Female,124/66,84.4,66,98,Depression,Mild,Recovered
+1928,56,Male,119/86,133.8,96,97,Pneumonia,None,Recovered
+1929,27,Male,106/68,134.4,90,98,Hypertension,Moderate,Under Treatment
+1930,28,Female,103/73,95.5,94,94,Depression,Severe,Under Treatment
+1931,87,Female,97/65,96.6,72,96,Anxiety Disorder,Moderate,Recovered
+1932,20,Male,138/70,114.4,68,100,Heart Disease,None,Under Treatment
+1933,53,Male,105/82,120.9,82,94,Migraine,None,Under Treatment
+1934,60,Female,121/79,128.6,83,98,Skin Infection,Severe,Under Treatment
+1935,44,Male,107/70,139.3,98,99,Kidney Disease,Mild,Under Treatment
+1936,48,Female,128/65,123.2,72,95,Skin Infection,None,Under Treatment
+1937,52,Female,92/64,113.9,79,95,Asthma,None,Recovered
+1938,28,Female,125/72,73.6,74,96,Asthma,Moderate,Recovered
+1939,30,Male,121/80,102.2,90,99,Kidney Disease,Moderate,Under Treatment
+1940,72,Female,104/74,101.9,86,99,Anemia,Severe,Recovered
+1941,59,Male,129/70,88.0,90,96,Tuberculosis,None,Recovered
+1942,54,Male,95/71,137.6,99,99,Skin Infection,Severe,Under Treatment
+1943,46,Male,99/89,128.5,73,100,Kidney Disease,Mild,Under Treatment
+1944,61,Female,100/79,118.5,77,94,Anxiety Disorder,None,Recovered
+1945,54,Female,100/83,103.9,94,94,Heart Disease,Severe,Under Treatment
+1946,50,Male,122/80,116.9,60,95,Anemia,Moderate,Under Treatment
+1947,70,Male,108/79,113.0,71,98,Pneumonia,Severe,Under Treatment
+1948,88,Female,126/80,91.7,88,96,Heart Disease,None,Under Treatment
+1949,44,Male,132/61,77.4,94,94,Heart Disease,None,Under Treatment
+1950,45,Female,111/76,127.3,75,96,Anxiety Disorder,None,Recovered
+1951,37,Male,98/76,98.1,98,100,Heart Disease,None,Under Treatment
+1952,75,Female,129/89,132.7,73,97,Pneumonia,Mild,Under Treatment
+1953,41,Male,107/81,109.8,77,97,Anxiety Disorder,None,Under Treatment
+1954,84,Female,93/90,98.1,83,96,Liver Disease,Mild,Under Treatment
+1955,74,Male,106/63,85.5,67,97,Pneumonia,Severe,Recovered
+1956,34,Female,130/90,71.2,72,97,Heart Disease,Moderate,Under Treatment
+1957,42,Male,109/65,138.3,64,97,Asthma,Severe,Recovered
+1958,89,Female,132/84,133.0,95,94,Arthritis,Mild,Under Treatment
+1959,43,Male,127/70,118.3,60,96,Flu,None,Under Treatment
+1960,51,Male,107/66,135.6,91,94,COVID-19,None,Under Treatment
+1961,55,Male,131/87,92.8,77,97,COVID-19,Mild,Recovered
+1962,39,Male,127/62,128.4,92,96,Liver Disease,Severe,Under Treatment
+1963,63,Female,138/64,99.4,67,96,Anemia,None,Recovered
+1964,66,Female,114/83,105.8,81,94,Migraine,Mild,Under Treatment
+1965,29,Female,131/78,87.0,99,99,Kidney Disease,Moderate,Under Treatment
+1966,23,Male,93/80,109.7,92,96,Asthma,Mild,Recovered
+1967,83,Female,140/67,93.6,68,95,Liver Disease,None,Under Treatment
+1968,36,Male,95/66,99.4,81,95,Tuberculosis,Severe,Under Treatment
+1969,30,Male,123/67,82.6,85,95,Asthma,Mild,Recovered
+1970,48,Male,131/79,104.4,88,95,Migraine,Mild,Recovered
+1971,24,Female,98/63,97.7,88,94,Flu,Severe,Recovered
+1972,67,Female,140/74,106.2,97,94,Hypertension,None,Under Treatment
+1973,27,Male,108/85,98.5,78,96,Liver Disease,Moderate,Under Treatment
+1974,19,Female,136/90,137.6,94,95,Migraine,None,Under Treatment
+1975,89,Male,104/67,91.2,67,100,Liver Disease,Severe,Under Treatment
+1976,43,Male,95/81,85.2,75,97,Anxiety Disorder,Moderate,Under Treatment
+1977,88,Male,133/69,137.7,88,94,Arthritis,Severe,Under Treatment
+1978,51,Female,117/86,118.2,86,97,Arthritis,Moderate,Recovered
+1979,90,Male,127/70,100.9,77,97,Anxiety Disorder,Moderate,Recovered
+1980,77,Female,108/74,137.5,77,96,Heart Disease,Severe,Under Treatment
+1981,66,Female,103/65,114.4,62,96,Diabetes,None,Under Treatment
+1982,42,Male,97/80,125.4,78,97,COVID-19,Mild,Under Treatment
+1983,53,Male,135/76,88.7,61,99,Diabetes,Mild,Under Treatment
+1984,24,Female,138/67,114.8,83,94,Kidney Disease,Severe,Under Treatment
+1985,39,Female,96/68,76.5,86,95,Arthritis,Mild,Under Treatment
+1986,38,Female,129/89,115.8,75,95,Pneumonia,None,Recovered
+1987,23,Female,137/75,138.2,62,95,Migraine,Severe,Under Treatment
+1988,83,Male,96/64,95.2,64,94,Anemia,Mild,Under Treatment
+1989,68,Male,112/85,102.7,74,95,Depression,Mild,Recovered
+1990,86,Male,104/75,129.4,60,99,Anemia,Moderate,Under Treatment
+1991,29,Female,114/71,132.0,74,95,Tuberculosis,Moderate,Under Treatment
+1992,47,Male,133/75,97.8,67,97,Heart Disease,Severe,Under Treatment
+1993,50,Female,91/82,107.0,91,98,Hypertension,Mild,Under Treatment
+1994,61,Female,92/73,121.7,99,97,Pneumonia,Severe,Recovered
+1995,31,Female,118/74,125.9,79,96,Pneumonia,Severe,Recovered
+1996,19,Male,90/76,93.5,86,95,Tuberculosis,Mild,Recovered
+1997,41,Female,129/77,111.7,95,99,Anemia,Moderate,Under Treatment
+1998,36,Female,94/60,117.7,76,100,Heart Disease,None,Under Treatment
+1999,87,Male,119/86,130.1,86,95,Flu,None,Under Treatment
+2000,44,Female,123/80,102.0,80,95,Anxiety Disorder,Mild,Recovered
+2001,48,Male,104/68,118.5,91,99,Arthritis,None,Under Treatment
+2002,72,Male,133/73,70.1,84,98,Hypertension,Moderate,Under Treatment
+2003,56,Female,107/73,111.7,77,98,Arthritis,Mild,Recovered
+2004,50,Male,137/87,73.0,72,100,Depression,Moderate,Under Treatment
+2005,31,Male,129/77,138.2,94,98,Flu,None,Under Treatment
+2006,41,Female,135/71,75.9,67,97,Tuberculosis,Severe,Recovered
+2007,22,Male,124/69,135.7,92,96,Asthma,None,Under Treatment
+2008,80,Female,140/64,77.6,64,98,Anxiety Disorder,Severe,Under Treatment
+2009,85,Female,100/72,103.5,89,100,COVID-19,Severe,Under Treatment
+2010,86,Male,100/62,128.7,69,99,Migraine,Severe,Under Treatment
+2011,58,Male,127/63,137.9,68,97,Asthma,Mild,Under Treatment
+2012,63,Male,139/85,85.5,87,96,Flu,Mild,Under Treatment
+2013,51,Male,118/85,101.8,72,97,Kidney Disease,Moderate,Under Treatment
+2014,84,Female,130/69,99.0,66,100,Anxiety Disorder,Mild,Recovered
+2015,87,Female,128/69,75.7,98,94,Kidney Disease,Severe,Under Treatment
+2016,89,Female,97/86,111.9,95,96,COVID-19,None,Under Treatment
+2017,48,Male,131/71,72.0,70,94,Hypertension,Severe,Under Treatment
+2018,20,Female,125/62,121.1,90,97,Anemia,Mild,Under Treatment
+2019,46,Male,102/64,124.2,80,94,Flu,Severe,Under Treatment
+2020,49,Male,112/62,100.2,100,94,Hypertension,Severe,Under Treatment
+2021,58,Male,90/61,136.4,96,96,Arthritis,Moderate,Recovered
+2022,78,Female,140/85,115.4,95,98,Kidney Disease,Mild,Under Treatment
+2023,53,Male,126/84,110.5,69,96,Anxiety Disorder,Mild,Recovered
+2024,47,Male,91/71,95.3,61,98,Flu,Moderate,Under Treatment
+2025,88,Female,128/62,109.2,73,95,Pneumonia,None,Recovered
+2026,55,Male,135/85,110.9,61,95,Skin Infection,Severe,Recovered
+2027,21,Female,105/71,107.2,63,94,Depression,Mild,Recovered
+2028,67,Female,105/84,71.1,62,94,Flu,Severe,Under Treatment
+2029,26,Female,114/85,76.5,60,98,Kidney Disease,Mild,Under Treatment
+2030,35,Male,104/81,92.9,78,99,Anxiety Disorder,Mild,Recovered
+2031,20,Female,109/65,132.2,94,95,Pneumonia,Moderate,Recovered
+2032,77,Male,135/63,116.8,74,96,Heart Disease,None,Under Treatment
+2033,42,Male,90/85,83.7,68,96,Skin Infection,Severe,Recovered
+2034,66,Male,129/83,121.1,91,99,Flu,Mild,Recovered
+2035,78,Male,113/71,86.9,67,94,Heart Disease,None,Under Treatment
+2036,69,Male,104/70,139.4,98,97,Flu,Mild,Recovered
+2037,82,Female,104/77,119.5,90,99,Asthma,Mild,Under Treatment
+2038,50,Male,94/77,89.2,68,96,Hypertension,None,Under Treatment
+2039,20,Female,136/84,87.8,93,94,COVID-19,None,Under Treatment
+2040,37,Female,112/69,87.6,90,95,Hypertension,None,Under Treatment
+2041,87,Male,99/66,112.2,92,97,Hypertension,None,Under Treatment
+2042,63,Female,140/67,78.3,87,98,Liver Disease,Severe,Under Treatment
+2043,36,Female,137/60,101.2,77,100,Asthma,None,Under Treatment
+2044,37,Male,126/76,72.2,72,98,Kidney Disease,Moderate,Under Treatment
+2045,43,Male,130/84,118.8,61,98,Asthma,Moderate,Under Treatment
+2046,29,Female,120/82,102.1,97,94,Anemia,Mild,Under Treatment
+2047,66,Male,95/65,127.4,86,97,Liver Disease,Mild,Under Treatment
+2048,47,Female,110/75,73.3,65,99,Skin Infection,None,Under Treatment
+2049,43,Male,126/80,76.6,69,98,Diabetes,None,Under Treatment
+2050,73,Female,97/80,127.0,94,96,Skin Infection,Severe,Recovered
+2051,24,Male,114/90,89.6,73,94,Liver Disease,Severe,Under Treatment
+2052,38,Female,112/68,110.1,77,99,Skin Infection,Severe,Recovered
+2053,55,Female,106/82,129.8,97,95,Liver Disease,None,Under Treatment
+2054,61,Male,125/85,123.7,86,100,Asthma,None,Recovered
+2055,36,Female,123/72,127.1,64,94,Depression,Moderate,Under Treatment
+2056,44,Male,92/86,81.2,64,94,Anxiety Disorder,Severe,Under Treatment
+2057,87,Female,115/89,118.8,83,96,Heart Disease,Mild,Under Treatment
+2058,75,Female,113/65,72.1,60,97,Heart Disease,None,Under Treatment
+2059,83,Male,122/88,104.8,82,94,Arthritis,None,Under Treatment
+2060,23,Male,97/60,129.0,72,94,Tuberculosis,Mild,Under Treatment
+2061,65,Female,103/73,133.7,77,94,Kidney Disease,Severe,Under Treatment
+2062,68,Female,112/74,72.5,73,100,Skin Infection,Severe,Under Treatment
+2063,76,Female,111/80,94.5,94,98,COVID-19,Severe,Recovered
+2064,26,Female,103/83,98.2,70,96,Skin Infection,Severe,Under Treatment
+2065,26,Male,121/68,70.7,65,97,Arthritis,None,Recovered
+2066,42,Female,115/64,132.2,80,95,Migraine,Severe,Recovered
+2067,50,Female,129/78,95.2,66,94,Pneumonia,None,Recovered
+2068,78,Female,132/79,78.6,87,98,Diabetes,Severe,Under Treatment
+2069,84,Female,113/88,127.9,82,95,Arthritis,Mild,Under Treatment
+2070,47,Male,112/74,133.3,84,96,Asthma,Moderate,Recovered
+2071,78,Female,113/86,88.4,89,97,Pneumonia,Moderate,Recovered
+2072,83,Male,137/85,76.6,71,97,Hypertension,None,Under Treatment
+2073,50,Female,102/87,88.3,82,96,COVID-19,None,Under Treatment
+2074,66,Male,109/64,127.5,65,100,Hypertension,Moderate,Under Treatment
+2075,80,Female,118/76,134.8,85,94,Hypertension,Severe,Under Treatment
+2076,49,Male,127/85,120.7,61,99,Hypertension,Severe,Under Treatment
+2077,75,Male,90/62,120.5,74,97,COVID-19,Mild,Recovered
+2078,37,Female,129/83,107.8,75,98,Depression,Moderate,Under Treatment
+2079,29,Male,117/77,87.8,75,94,Tuberculosis,Mild,Recovered
+2080,57,Female,121/70,106.6,85,96,Anxiety Disorder,Moderate,Recovered
+2081,43,Female,106/80,72.6,61,99,Skin Infection,Mild,Recovered
+2082,82,Male,108/81,120.0,98,95,Asthma,Severe,Under Treatment
+2083,74,Male,117/68,83.9,81,95,COVID-19,Mild,Recovered
+2084,29,Male,139/62,104.9,72,100,Migraine,Mild,Under Treatment
+2085,30,Male,109/62,133.4,78,95,Depression,Mild,Recovered
+2086,59,Male,127/89,70.5,78,100,Diabetes,Moderate,Under Treatment
+2087,47,Female,121/85,82.4,73,96,Flu,Severe,Recovered
+2088,40,Female,103/81,103.9,60,99,Asthma,None,Under Treatment
+2089,59,Female,100/85,87.9,82,97,Heart Disease,Mild,Under Treatment
+2090,19,Male,133/90,93.6,89,99,COVID-19,None,Recovered
+2091,31,Male,90/84,89.6,62,94,COVID-19,Mild,Under Treatment
+2092,25,Female,140/82,123.7,84,96,Flu,Mild,Recovered
+2093,72,Male,108/82,83.1,98,99,COVID-19,Mild,Recovered
+2094,18,Female,103/80,94.1,80,96,Heart Disease,Moderate,Under Treatment
+2095,18,Female,103/88,115.3,96,94,Kidney Disease,Severe,Under Treatment
+2096,24,Male,126/87,110.9,73,98,Heart Disease,Moderate,Under Treatment
+2097,73,Female,109/87,73.4,98,94,Arthritis,Moderate,Under Treatment
+2098,19,Male,127/67,122.0,92,95,Arthritis,None,Under Treatment
+2099,70,Male,139/74,89.9,98,95,Heart Disease,Mild,Under Treatment
+2100,60,Male,108/88,131.6,98,99,Pneumonia,Severe,Under Treatment
+2101,27,Female,131/87,80.0,90,97,Hypertension,Mild,Under Treatment
+2102,24,Female,121/71,79.5,79,100,Liver Disease,None,Under Treatment
+2103,23,Female,132/72,110.0,81,95,Migraine,Moderate,Under Treatment
+2104,89,Male,135/81,73.3,88,99,Liver Disease,None,Under Treatment
+2105,34,Male,102/65,110.8,64,98,Pneumonia,None,Recovered
+2106,86,Male,98/79,74.7,84,95,Migraine,Moderate,Under Treatment
+2107,28,Female,97/73,86.0,91,95,Kidney Disease,Moderate,Under Treatment
+2108,51,Male,102/81,129.8,68,94,Flu,None,Recovered
+2109,77,Female,99/68,110.8,68,96,Heart Disease,Mild,Under Treatment
+2110,75,Male,134/63,89.1,94,99,Kidney Disease,Mild,Under Treatment
+2111,70,Male,105/65,82.4,68,96,Hypertension,None,Under Treatment
+2112,34,Male,139/65,127.3,97,97,Kidney Disease,None,Under Treatment
+2113,39,Female,99/60,83.3,96,94,Arthritis,Mild,Recovered
+2114,64,Female,91/82,83.3,85,98,Pneumonia,None,Recovered
+2115,77,Female,120/74,123.9,70,97,Asthma,Moderate,Under Treatment
+2116,66,Female,113/66,127.3,90,96,Liver Disease,Severe,Under Treatment
+2117,22,Female,118/77,88.4,74,100,Liver Disease,Moderate,Under Treatment
+2118,55,Female,91/72,111.0,87,94,Hypertension,Moderate,Under Treatment
+2119,65,Male,136/77,127.6,95,100,Anemia,None,Recovered
+2120,79,Male,130/83,99.6,67,94,Migraine,Mild,Under Treatment
+2121,40,Female,140/87,94.0,98,95,Hypertension,Severe,Under Treatment
+2122,26,Male,140/62,117.8,81,98,COVID-19,None,Under Treatment
+2123,41,Female,120/61,114.8,65,95,Pneumonia,Moderate,Under Treatment
+2124,88,Female,91/77,129.9,93,94,Kidney Disease,Severe,Under Treatment
+2125,43,Female,121/60,101.3,83,98,Asthma,Severe,Under Treatment
+2126,35,Male,102/83,114.9,92,97,Diabetes,None,Under Treatment
+2127,57,Male,140/64,84.0,77,100,Heart Disease,None,Under Treatment
+2128,78,Male,104/63,111.6,84,100,Migraine,Mild,Recovered
+2129,18,Female,94/72,79.3,89,97,COVID-19,Severe,Recovered
+2130,71,Male,115/64,109.2,84,97,Liver Disease,Mild,Under Treatment
+2131,74,Male,103/66,89.5,67,97,Migraine,None,Under Treatment
+2132,64,Male,112/80,129.1,73,98,Hypertension,None,Under Treatment
+2133,51,Female,127/64,86.4,86,98,Tuberculosis,Moderate,Recovered
+2134,90,Male,105/67,122.6,97,97,Asthma,Mild,Recovered
+2135,75,Male,120/80,122.1,60,98,Kidney Disease,Moderate,Under Treatment
+2136,49,Male,130/81,72.6,92,94,Arthritis,Severe,Under Treatment
+2137,43,Male,131/82,76.8,99,95,Skin Infection,None,Recovered
+2138,64,Female,108/82,90.5,73,97,Asthma,Severe,Recovered
+2139,73,Female,110/81,106.0,87,99,Depression,Severe,Under Treatment
+2140,31,Male,109/63,109.6,72,95,Skin Infection,None,Recovered
+2141,28,Female,129/89,91.7,91,100,Diabetes,Mild,Under Treatment
+2142,26,Male,127/79,82.7,96,94,COVID-19,Moderate,Recovered
+2143,49,Female,94/83,98.4,62,99,Asthma,Mild,Under Treatment
+2144,59,Male,96/64,88.7,65,95,Asthma,Moderate,Recovered
+2145,18,Male,94/81,109.0,80,95,Heart Disease,Severe,Under Treatment
+2146,32,Female,130/63,102.8,76,97,Asthma,Severe,Under Treatment
+2147,54,Female,116/76,135.3,80,96,Hypertension,Moderate,Under Treatment
+2148,62,Male,133/85,132.8,78,100,Skin Infection,None,Recovered
+2149,82,Male,126/88,117.1,84,94,Pneumonia,None,Recovered
+2150,56,Male,137/68,84.3,68,100,Kidney Disease,Moderate,Under Treatment
+2151,43,Male,111/87,79.6,76,96,Pneumonia,Mild,Recovered
+2152,32,Female,90/80,104.5,73,100,Asthma,Severe,Under Treatment
+2153,82,Male,114/72,117.5,85,99,Flu,Severe,Under Treatment
+2154,27,Male,107/72,94.6,98,98,COVID-19,Severe,Under Treatment
+2155,44,Female,130/85,133.0,62,95,Hypertension,None,Under Treatment
+2156,69,Male,116/67,116.0,70,100,Arthritis,Mild,Under Treatment
+2157,63,Female,117/86,107.3,64,94,Heart Disease,None,Under Treatment
+2158,82,Male,114/60,83.3,88,95,Anxiety Disorder,Severe,Recovered
+2159,25,Male,105/70,95.4,92,100,Kidney Disease,Mild,Under Treatment
+2160,45,Female,119/69,101.5,98,95,Hypertension,Moderate,Under Treatment
+2161,78,Female,120/67,84.7,94,98,Anemia,Severe,Under Treatment
+2162,58,Male,126/67,121.3,84,97,Arthritis,Moderate,Recovered
+2163,79,Female,107/85,87.7,77,100,Tuberculosis,Mild,Recovered
+2164,31,Female,132/76,98.6,81,96,COVID-19,None,Recovered
+2165,59,Female,135/79,114.3,81,98,Kidney Disease,Severe,Under Treatment
+2166,84,Male,133/87,84.8,87,100,Arthritis,Moderate,Under Treatment
+2167,51,Male,140/78,92.7,100,95,Arthritis,Severe,Under Treatment
+2168,37,Female,117/88,126.3,95,96,Diabetes,Mild,Under Treatment
+2169,57,Male,118/76,121.6,80,100,Flu,Mild,Recovered
+2170,30,Female,106/64,89.7,75,99,Migraine,Mild,Under Treatment
+2171,44,Male,102/81,83.0,72,97,Arthritis,Moderate,Recovered
+2172,80,Female,127/70,98.6,69,95,COVID-19,Mild,Recovered
+2173,70,Male,108/81,91.9,89,95,Hypertension,None,Under Treatment
+2174,29,Male,137/74,117.5,79,95,Flu,Mild,Recovered
+2175,43,Male,121/87,89.7,87,96,Anemia,Mild,Recovered
+2176,64,Male,92/68,121.0,96,97,Kidney Disease,Severe,Under Treatment
+2177,19,Male,106/78,113.3,82,100,Anemia,Moderate,Under Treatment
+2178,18,Male,127/69,107.0,60,98,Anxiety Disorder,None,Under Treatment
+2179,48,Female,126/89,95.9,66,96,Diabetes,None,Under Treatment
+2180,84,Female,103/70,126.5,86,96,Arthritis,Moderate,Under Treatment
+2181,49,Male,94/81,103.1,87,100,Heart Disease,Severe,Under Treatment
+2182,26,Male,114/79,125.4,61,97,Tuberculosis,Severe,Under Treatment
+2183,30,Male,123/69,107.8,69,100,Arthritis,Severe,Under Treatment
+2184,29,Female,125/89,136.6,60,97,Anxiety Disorder,None,Under Treatment
+2185,61,Male,136/70,79.5,61,99,Migraine,Moderate,Under Treatment
+2186,47,Female,134/88,97.1,84,94,Liver Disease,None,Under Treatment
+2187,26,Male,90/68,110.0,79,95,COVID-19,Mild,Recovered
+2188,40,Male,107/86,97.5,70,95,Asthma,Severe,Recovered
+2189,35,Male,122/90,113.7,70,96,Skin Infection,None,Recovered
+2190,26,Female,137/84,117.4,82,98,Asthma,Severe,Recovered
+2191,90,Male,116/88,110.8,92,98,Asthma,Moderate,Recovered
+2192,85,Male,118/84,76.3,99,96,Liver Disease,Moderate,Under Treatment
+2193,24,Female,99/81,110.0,94,96,Pneumonia,Mild,Recovered
+2194,65,Female,117/65,120.7,96,94,Hypertension,None,Under Treatment
+2195,59,Female,125/68,107.6,86,94,Kidney Disease,None,Under Treatment
+2196,60,Female,126/85,80.8,61,96,Asthma,Mild,Under Treatment
+2197,30,Female,102/70,88.7,98,97,Diabetes,None,Under Treatment
+2198,46,Male,98/65,106.4,99,99,Kidney Disease,None,Under Treatment
+2199,73,Male,124/88,137.9,65,97,Liver Disease,Severe,Under Treatment
+2200,55,Male,94/68,138.5,62,95,Depression,Mild,Recovered
+2201,69,Male,127/72,126.4,100,95,Arthritis,Severe,Under Treatment
+2202,73,Female,109/78,83.9,89,95,Diabetes,Moderate,Under Treatment
+2203,24,Female,112/70,122.0,94,97,Flu,Severe,Under Treatment
+2204,67,Female,91/61,103.7,69,96,Skin Infection,Severe,Under Treatment
+2205,81,Female,136/60,77.9,64,100,Arthritis,Moderate,Under Treatment
+2206,24,Female,139/60,104.6,65,94,Diabetes,None,Under Treatment
+2207,28,Male,115/68,137.0,88,95,Anxiety Disorder,Moderate,Under Treatment
+2208,61,Female,109/79,130.6,90,100,Kidney Disease,Moderate,Under Treatment
+2209,54,Male,105/74,111.7,77,95,Liver Disease,Mild,Under Treatment
+2210,27,Female,100/80,74.4,98,96,Flu,Mild,Recovered
+2211,46,Male,113/69,136.0,67,96,Asthma,Moderate,Under Treatment
+2212,81,Male,103/77,81.3,69,98,Diabetes,Moderate,Under Treatment
+2213,35,Male,91/86,72.0,67,95,Tuberculosis,Mild,Recovered
+2214,77,Male,134/88,119.2,85,100,Pneumonia,Mild,Under Treatment
+2215,33,Male,140/84,129.9,98,96,Pneumonia,Severe,Recovered
+2216,87,Female,101/87,103.3,77,95,Heart Disease,Moderate,Under Treatment
+2217,29,Female,121/69,132.8,76,100,Anemia,Moderate,Under Treatment
+2218,52,Male,133/74,103.7,64,99,Skin Infection,None,Recovered
+2219,27,Male,126/79,113.9,66,98,Heart Disease,Severe,Under Treatment
+2220,36,Male,132/61,117.0,95,95,Liver Disease,Severe,Under Treatment
+2221,79,Female,100/62,82.0,62,98,Depression,None,Under Treatment
+2222,80,Female,115/73,124.1,82,95,COVID-19,Mild,Recovered
+2223,74,Male,110/72,109.3,78,98,Arthritis,Severe,Under Treatment
+2224,79,Female,111/60,125.7,77,98,Anemia,Moderate,Under Treatment
+2225,55,Male,97/67,125.7,91,97,Pneumonia,Mild,Recovered
+2226,31,Female,95/79,85.9,62,97,Pneumonia,Severe,Recovered
+2227,58,Female,106/90,99.9,94,100,Depression,Mild,Under Treatment
+2228,56,Female,98/82,99.5,94,97,Arthritis,None,Recovered
+2229,28,Female,123/74,82.7,93,95,Anxiety Disorder,Moderate,Under Treatment
+2230,64,Female,112/90,78.9,66,95,Asthma,Mild,Recovered
+2231,28,Female,135/74,128.1,85,97,Liver Disease,Mild,Under Treatment
+2232,58,Female,96/70,101.9,81,97,Migraine,Mild,Under Treatment
+2233,63,Male,132/89,131.7,73,99,Tuberculosis,None,Recovered
+2234,75,Male,121/85,109.2,98,98,Anxiety Disorder,None,Under Treatment
+2235,74,Male,137/72,89.3,92,96,Diabetes,Moderate,Under Treatment
+2236,34,Male,104/80,121.7,75,98,Asthma,Moderate,Recovered
+2237,74,Male,111/76,119.7,95,95,Pneumonia,None,Recovered
+2238,72,Female,126/83,104.8,93,94,Anemia,None,Under Treatment
+2239,19,Male,104/66,121.7,64,95,Hypertension,None,Under Treatment
+2240,27,Male,128/61,126.9,76,98,Skin Infection,Mild,Under Treatment
+2241,61,Female,122/70,139.8,68,98,Flu,Severe,Under Treatment
+2242,58,Female,121/76,97.9,92,100,Hypertension,Moderate,Under Treatment
+2243,20,Female,91/88,123.5,85,97,Migraine,Mild,Under Treatment
+2244,34,Female,93/71,104.5,68,95,Migraine,None,Under Treatment
+2245,36,Male,114/67,128.5,82,94,Hypertension,Severe,Under Treatment
+2246,69,Male,92/84,93.3,92,94,Anemia,Mild,Recovered
+2247,77,Male,140/61,99.8,80,96,Kidney Disease,Severe,Under Treatment
+2248,19,Female,91/73,121.9,91,94,Migraine,Moderate,Under Treatment
+2249,47,Female,128/89,91.6,60,96,Liver Disease,Severe,Under Treatment
+2250,58,Female,98/69,83.2,99,97,COVID-19,Moderate,Recovered
+2251,36,Female,134/78,102.0,67,94,Skin Infection,Moderate,Under Treatment
+2252,47,Male,126/71,91.8,93,96,Anxiety Disorder,Mild,Recovered
+2253,49,Male,129/70,72.4,66,98,Pneumonia,None,Under Treatment
+2254,26,Male,118/85,77.1,87,99,Skin Infection,Moderate,Under Treatment
+2255,50,Male,123/72,80.8,88,97,Diabetes,Mild,Under Treatment
+2256,33,Female,95/90,104.9,92,98,Hypertension,Mild,Under Treatment
+2257,41,Male,124/63,123.2,69,96,Migraine,None,Recovered
+2258,30,Male,116/61,139.1,99,94,Arthritis,Severe,Under Treatment
+2259,55,Female,111/64,121.7,98,95,Asthma,Severe,Recovered
+2260,56,Female,105/72,81.9,73,100,Depression,Severe,Recovered
+2261,63,Female,111/81,112.8,100,98,Asthma,Severe,Recovered
+2262,37,Male,123/66,101.1,61,99,Skin Infection,None,Under Treatment
+2263,81,Male,134/73,128.1,79,95,Asthma,Moderate,Under Treatment
+2264,72,Female,129/89,121.0,75,100,Anemia,Moderate,Recovered
+2265,89,Male,136/74,95.9,95,95,Asthma,Severe,Under Treatment
+2266,28,Male,94/78,82.0,63,97,Depression,None,Under Treatment
+2267,28,Female,128/82,104.6,64,99,Liver Disease,Mild,Under Treatment
+2268,70,Female,120/69,86.0,72,100,Flu,Mild,Recovered
+2269,41,Female,91/61,79.8,87,100,Heart Disease,Mild,Under Treatment
+2270,59,Female,129/89,114.4,79,98,Anemia,Severe,Recovered
+2271,46,Male,133/83,106.3,86,94,Tuberculosis,Mild,Recovered
+2272,71,Male,131/87,86.0,75,95,COVID-19,None,Under Treatment
+2273,58,Male,119/79,129.3,83,98,Anxiety Disorder,Mild,Recovered
+2274,47,Female,102/79,113.6,65,96,Anemia,Moderate,Under Treatment
+2275,41,Female,138/70,118.9,75,99,Migraine,Moderate,Under Treatment
+2276,61,Male,128/60,117.5,65,95,Anemia,Mild,Under Treatment
+2277,18,Female,107/86,115.9,89,98,Diabetes,Mild,Under Treatment
+2278,76,Male,118/65,80.4,87,95,Heart Disease,Moderate,Under Treatment
+2279,60,Female,128/86,80.5,74,100,Arthritis,Mild,Under Treatment
+2280,59,Female,99/80,124.1,76,100,Anemia,Severe,Under Treatment
+2281,30,Female,92/61,118.6,94,100,Migraine,None,Recovered
+2282,62,Male,92/90,111.5,78,94,Heart Disease,Mild,Under Treatment
+2283,88,Female,133/63,94.9,66,96,Kidney Disease,Mild,Under Treatment
+2284,46,Female,92/81,101.4,75,99,Kidney Disease,Mild,Under Treatment
+2285,53,Male,91/70,93.7,94,94,Skin Infection,Severe,Recovered
+2286,79,Female,129/80,130.7,70,94,Anxiety Disorder,Severe,Recovered
+2287,87,Female,98/75,138.5,99,99,Diabetes,Severe,Under Treatment
+2288,57,Female,115/82,138.1,72,94,Pneumonia,None,Under Treatment
+2289,89,Female,126/69,83.7,95,99,Anemia,Mild,Under Treatment
+2290,84,Female,99/78,120.0,92,99,Depression,Mild,Recovered
+2291,74,Male,93/63,127.5,81,100,Arthritis,Mild,Under Treatment
+2292,80,Female,132/65,72.4,60,96,Pneumonia,None,Recovered
+2293,43,Male,122/85,126.7,94,100,Heart Disease,Mild,Under Treatment
+2294,30,Male,133/81,116.5,99,100,Asthma,Moderate,Under Treatment
+2295,78,Female,134/87,71.0,97,98,Asthma,Severe,Recovered
+2296,22,Female,90/82,87.7,66,94,Heart Disease,None,Under Treatment
+2297,33,Male,112/67,87.1,76,100,Hypertension,Moderate,Under Treatment
+2298,72,Female,102/75,79.6,83,94,Arthritis,None,Under Treatment
+2299,69,Female,91/78,102.2,80,99,Heart Disease,Severe,Under Treatment
+2300,43,Male,99/90,119.0,87,97,Kidney Disease,Moderate,Under Treatment
+2301,48,Female,104/77,92.2,70,96,Skin Infection,None,Recovered
+2302,74,Female,135/76,86.5,65,95,Heart Disease,Severe,Under Treatment
+2303,77,Female,115/69,85.9,89,100,Asthma,Mild,Under Treatment
+2304,24,Male,129/82,95.4,64,98,Anxiety Disorder,None,Under Treatment
+2305,57,Female,118/64,76.3,99,95,Migraine,Mild,Under Treatment
+2306,58,Female,110/79,119.4,87,96,Flu,Severe,Under Treatment
+2307,20,Male,120/60,98.9,65,95,Anxiety Disorder,Severe,Under Treatment
+2308,18,Male,121/62,71.6,62,96,Pneumonia,Severe,Under Treatment
+2309,45,Female,121/75,76.6,94,97,Pneumonia,Moderate,Recovered
+2310,84,Female,127/72,138.1,100,97,Skin Infection,Mild,Under Treatment
+2311,20,Female,122/86,125.9,80,100,Depression,Moderate,Recovered
+2312,48,Female,128/86,83.3,88,96,Skin Infection,None,Recovered
+2313,83,Male,128/69,94.2,60,97,Anemia,None,Under Treatment
+2314,73,Female,130/66,138.6,66,100,Liver Disease,Moderate,Under Treatment
+2315,21,Male,107/77,110.5,93,99,Pneumonia,Severe,Recovered
+2316,38,Male,126/82,77.2,69,98,Heart Disease,None,Under Treatment
+2317,52,Male,94/81,137.1,79,94,Arthritis,None,Under Treatment
+2318,60,Female,123/66,93.1,91,99,Arthritis,Mild,Under Treatment
+2319,86,Female,136/88,103.8,61,100,Flu,Mild,Recovered
+2320,42,Male,97/82,133.0,81,98,Flu,Mild,Recovered
+2321,63,Male,119/79,86.1,72,97,Flu,Moderate,Recovered
+2322,47,Male,136/63,126.6,67,97,Arthritis,None,Under Treatment
+2323,79,Female,132/71,89.4,94,98,Liver Disease,None,Under Treatment
+2324,84,Male,115/82,136.8,77,94,Arthritis,None,Under Treatment
+2325,40,Male,91/70,133.0,98,94,Heart Disease,None,Under Treatment
+2326,33,Female,126/74,110.1,98,98,Anxiety Disorder,Severe,Under Treatment
+2327,86,Male,99/67,124.0,99,99,Hypertension,None,Under Treatment
+2328,71,Female,112/75,123.7,94,96,Anemia,Mild,Recovered
+2329,52,Female,108/78,98.2,83,94,Kidney Disease,Mild,Under Treatment
+2330,87,Female,108/68,96.8,77,99,Liver Disease,Moderate,Under Treatment
+2331,18,Male,95/88,79.2,77,99,Depression,Severe,Under Treatment
+2332,56,Female,95/77,75.7,100,94,Kidney Disease,Mild,Under Treatment
+2333,48,Male,93/63,75.4,74,95,Skin Infection,Mild,Recovered
+2334,30,Female,125/70,74.3,78,100,Asthma,Severe,Recovered
+2335,51,Male,109/67,121.7,87,94,COVID-19,None,Under Treatment
+2336,30,Female,106/75,129.8,87,99,Anemia,Severe,Recovered
+2337,21,Female,90/69,92.3,68,98,Hypertension,Moderate,Under Treatment
+2338,51,Female,110/66,75.2,60,98,Diabetes,Severe,Under Treatment
+2339,65,Male,98/75,134.6,62,95,Tuberculosis,None,Under Treatment
+2340,81,Male,101/61,81.1,97,100,Skin Infection,Severe,Under Treatment
+2341,74,Male,101/84,92.3,76,100,Hypertension,Severe,Under Treatment
+2342,23,Female,107/70,71.4,80,100,Arthritis,Severe,Recovered
+2343,55,Male,123/64,131.9,98,99,Liver Disease,Severe,Under Treatment
+2344,53,Male,104/69,70.2,76,99,Migraine,Severe,Recovered
+2345,78,Male,113/78,131.5,99,94,Heart Disease,Moderate,Under Treatment
+2346,79,Female,125/76,90.4,63,95,Tuberculosis,Severe,Recovered
+2347,66,Male,90/81,114.0,72,99,Anemia,Moderate,Under Treatment
+2348,34,Male,120/75,128.8,90,95,Anemia,Severe,Recovered
+2349,84,Female,118/60,99.8,89,98,Asthma,None,Recovered
+2350,19,Male,112/64,119.1,97,100,Flu,Moderate,Recovered
+2351,45,Female,105/82,91.6,97,98,Tuberculosis,Moderate,Recovered
+2352,47,Female,125/73,128.2,96,99,Heart Disease,Severe,Under Treatment
+2353,79,Female,99/86,102.0,67,98,Skin Infection,Mild,Recovered
+2354,64,Female,111/76,99.4,92,94,Kidney Disease,Mild,Under Treatment
+2355,46,Male,140/72,120.7,69,97,Liver Disease,Moderate,Under Treatment
+2356,46,Female,120/76,106.8,83,97,Heart Disease,Severe,Under Treatment
+2357,41,Male,127/74,73.5,62,100,Tuberculosis,None,Under Treatment
+2358,90,Male,133/65,132.9,77,96,Pneumonia,Mild,Under Treatment
+2359,66,Male,124/67,81.8,68,94,Diabetes,None,Under Treatment
+2360,33,Female,140/70,106.1,72,100,COVID-19,Moderate,Recovered
+2361,58,Female,116/64,127.5,87,94,Kidney Disease,Mild,Under Treatment
+2362,63,Female,105/68,125.8,70,94,Migraine,Mild,Recovered
+2363,37,Male,136/77,136.1,98,96,COVID-19,None,Under Treatment
+2364,62,Male,109/61,128.1,66,99,Hypertension,None,Under Treatment
+2365,26,Female,128/83,88.1,94,94,Liver Disease,Mild,Under Treatment
+2366,46,Male,137/78,109.8,85,97,Asthma,Severe,Under Treatment
+2367,54,Male,110/88,109.5,72,96,Migraine,Moderate,Under Treatment
+2368,75,Male,99/72,132.1,73,95,Asthma,Mild,Under Treatment
+2369,77,Male,124/82,134.1,88,94,Hypertension,Severe,Under Treatment
+2370,57,Male,91/68,101.2,90,98,Liver Disease,None,Under Treatment
+2371,87,Male,135/83,72.9,70,95,Tuberculosis,Moderate,Recovered
+2372,87,Female,107/84,103.6,61,96,COVID-19,None,Under Treatment
+2373,78,Female,138/77,133.1,79,94,Tuberculosis,Moderate,Under Treatment
+2374,83,Female,135/70,84.7,91,94,Diabetes,Severe,Under Treatment
+2375,52,Female,135/87,93.1,86,100,Asthma,Mild,Under Treatment
+2376,60,Female,131/76,115.6,84,96,Flu,None,Recovered
+2377,54,Female,98/74,106.6,65,98,Tuberculosis,Mild,Under Treatment
+2378,49,Male,101/74,123.2,96,96,Diabetes,Moderate,Under Treatment
+2379,64,Male,109/82,127.0,67,96,Anemia,Moderate,Under Treatment
+2380,71,Male,95/79,127.8,88,96,Flu,None,Under Treatment
+2381,58,Female,106/66,137.4,62,96,Anemia,Severe,Recovered
+2382,75,Female,100/89,135.1,98,97,Asthma,None,Under Treatment
+2383,73,Female,125/89,85.7,72,100,Diabetes,Severe,Under Treatment
+2384,44,Male,102/67,118.6,72,97,Anemia,Moderate,Recovered
+2385,80,Female,96/81,112.9,84,98,Hypertension,Severe,Under Treatment
+2386,82,Female,135/72,76.9,69,96,Anemia,None,Under Treatment
+2387,90,Female,137/71,108.9,67,95,Heart Disease,None,Under Treatment
+2388,81,Female,116/89,77.7,94,97,Heart Disease,Severe,Under Treatment
+2389,54,Female,114/78,118.9,87,95,Diabetes,None,Under Treatment
+2390,55,Male,121/76,80.6,100,100,Liver Disease,Mild,Under Treatment
+2391,87,Female,94/76,95.8,99,95,Liver Disease,Severe,Under Treatment
+2392,71,Male,137/88,94.2,89,95,Anxiety Disorder,Severe,Recovered
+2393,53,Male,99/74,93.9,83,100,Anemia,Moderate,Recovered
+2394,52,Female,101/85,80.5,90,94,Depression,Mild,Recovered
+2395,41,Female,113/73,103.5,94,98,Hypertension,Mild,Under Treatment
+2396,43,Female,103/86,118.0,65,95,Arthritis,None,Recovered
+2397,68,Female,104/67,95.1,60,99,Pneumonia,Severe,Under Treatment
+2398,85,Female,116/66,91.4,73,97,Depression,Mild,Under Treatment
+2399,69,Male,127/63,135.3,79,97,Skin Infection,Mild,Recovered
+2400,79,Male,119/76,83.7,98,98,Hypertension,Moderate,Under Treatment
+2401,34,Male,117/84,127.3,64,100,Hypertension,None,Under Treatment
+2402,51,Female,107/68,135.0,90,99,Hypertension,None,Under Treatment
+2403,46,Male,127/77,126.8,89,99,Migraine,Severe,Recovered
+2404,59,Female,102/76,79.8,75,99,Tuberculosis,Moderate,Under Treatment
+2405,45,Male,106/85,91.9,65,97,Anxiety Disorder,None,Under Treatment
+2406,85,Male,124/90,131.0,75,95,COVID-19,None,Under Treatment
+2407,34,Female,122/69,81.8,65,95,Kidney Disease,None,Under Treatment
+2408,54,Female,140/61,127.6,84,94,Diabetes,Moderate,Under Treatment
+2409,54,Male,103/65,85.5,81,96,Anxiety Disorder,Moderate,Recovered
+2410,41,Male,110/72,132.9,76,98,Pneumonia,None,Recovered
+2411,67,Female,107/77,117.6,89,97,Migraine,None,Recovered
+2412,58,Female,114/60,91.6,78,100,Depression,Moderate,Recovered
+2413,26,Male,118/60,94.3,68,96,Anemia,Severe,Recovered
+2414,58,Male,117/61,95.9,87,98,Liver Disease,Mild,Under Treatment
+2415,71,Female,135/84,135.7,66,98,Flu,Moderate,Under Treatment
+2416,87,Female,116/81,95.8,74,95,Asthma,Moderate,Recovered
+2417,37,Female,92/72,134.7,89,99,Diabetes,Mild,Under Treatment
+2418,83,Male,116/84,79.8,77,95,Kidney Disease,None,Under Treatment
+2419,26,Male,98/65,94.8,65,95,Anxiety Disorder,None,Under Treatment
+2420,32,Male,126/63,124.6,84,94,Pneumonia,Mild,Recovered
+2421,41,Female,110/70,125.1,89,95,Diabetes,Mild,Under Treatment
+2422,47,Female,109/75,82.0,89,99,Kidney Disease,Moderate,Under Treatment
+2423,49,Female,107/88,81.0,75,97,Hypertension,Moderate,Under Treatment
+2424,36,Female,125/86,78.7,99,94,Liver Disease,Mild,Under Treatment
+2425,82,Male,126/64,117.5,93,97,Heart Disease,Mild,Under Treatment
+2426,73,Male,138/64,121.8,75,98,Pneumonia,Severe,Under Treatment
+2427,73,Female,94/85,134.0,71,94,Skin Infection,None,Recovered
+2428,53,Female,135/68,106.1,73,95,Liver Disease,None,Under Treatment
+2429,26,Female,138/79,102.5,97,94,Diabetes,Severe,Under Treatment
+2430,32,Male,113/79,100.3,69,97,Asthma,None,Recovered
+2431,59,Male,91/67,91.2,96,100,Tuberculosis,Mild,Under Treatment
+2432,31,Male,101/72,112.5,96,100,Asthma,None,Under Treatment
+2433,76,Male,101/80,85.2,71,99,Depression,Mild,Under Treatment
+2434,65,Male,103/89,121.4,69,99,Kidney Disease,Mild,Under Treatment
+2435,87,Male,90/76,129.0,81,98,Anxiety Disorder,Severe,Under Treatment
+2436,70,Female,102/83,111.8,84,97,Hypertension,Mild,Under Treatment
+2437,34,Male,92/80,79.1,66,98,Migraine,Mild,Under Treatment
+2438,39,Female,90/76,83.0,91,96,Pneumonia,Moderate,Recovered
+2439,71,Male,93/74,126.8,63,96,Hypertension,None,Under Treatment
+2440,52,Female,92/73,79.0,72,100,Diabetes,Moderate,Under Treatment
+2441,62,Female,124/63,126.7,79,96,Heart Disease,None,Under Treatment
+2442,43,Female,140/83,98.0,69,99,Anxiety Disorder,Mild,Recovered
+2443,76,Female,112/87,102.3,90,98,Skin Infection,Moderate,Under Treatment
+2444,79,Female,100/61,129.8,92,98,Migraine,Mild,Under Treatment
+2445,84,Male,109/83,113.1,68,97,COVID-19,None,Recovered
+2446,24,Female,135/66,108.2,66,97,Pneumonia,Severe,Recovered
+2447,21,Male,99/70,124.9,82,100,Flu,None,Recovered
+2448,78,Female,107/85,122.5,67,96,Liver Disease,Severe,Under Treatment
+2449,27,Male,109/83,133.2,88,100,Depression,Mild,Recovered
+2450,40,Male,99/80,98.0,82,94,Pneumonia,Severe,Recovered
+2451,75,Female,116/87,135.1,62,99,Flu,None,Recovered
+2452,61,Male,139/69,92.2,73,94,COVID-19,Severe,Recovered
+2453,73,Female,105/81,108.1,88,95,Migraine,Moderate,Recovered
+2454,25,Male,118/87,123.9,76,97,Tuberculosis,Moderate,Recovered
+2455,26,Male,106/65,74.8,75,98,COVID-19,Severe,Under Treatment
+2456,65,Female,99/80,105.1,93,98,Asthma,None,Under Treatment
+2457,59,Male,105/84,114.0,70,95,Heart Disease,None,Under Treatment
+2458,61,Female,97/86,79.6,79,97,Diabetes,Moderate,Under Treatment
+2459,66,Male,139/83,131.8,83,98,Depression,Moderate,Under Treatment
+2460,85,Male,120/61,97.4,99,94,Skin Infection,None,Recovered
+2461,64,Female,138/86,118.6,71,98,Kidney Disease,Severe,Under Treatment
+2462,59,Male,126/71,126.6,74,97,Tuberculosis,None,Recovered
+2463,56,Male,136/67,95.9,72,95,Pneumonia,Moderate,Under Treatment
+2464,46,Male,94/70,134.4,73,94,Asthma,Moderate,Under Treatment
+2465,53,Female,100/89,119.2,62,98,Migraine,Mild,Under Treatment
+2466,34,Female,127/89,83.8,96,100,Depression,Severe,Under Treatment
+2467,54,Female,95/74,137.7,85,97,Tuberculosis,Severe,Under Treatment
+2468,71,Female,96/68,122.7,94,94,Diabetes,Severe,Under Treatment
+2469,22,Male,92/67,94.3,91,95,Pneumonia,Severe,Recovered
+2470,59,Female,112/62,81.6,68,99,Diabetes,Mild,Under Treatment
+2471,70,Male,113/89,114.0,94,94,Heart Disease,None,Under Treatment
+2472,20,Male,90/90,80.3,92,100,Asthma,Severe,Under Treatment
+2473,27,Male,106/79,88.6,97,95,Hypertension,Moderate,Under Treatment
+2474,69,Male,134/83,100.8,88,95,Pneumonia,Mild,Recovered
+2475,80,Male,114/69,108.1,91,97,Asthma,None,Recovered
+2476,65,Male,101/73,92.7,70,97,Diabetes,Moderate,Under Treatment
+2477,67,Female,113/74,72.2,97,96,Migraine,None,Under Treatment
+2478,45,Male,110/66,71.1,96,100,Tuberculosis,None,Recovered
+2479,22,Female,107/89,103.2,85,96,Diabetes,None,Under Treatment
+2480,26,Female,93/66,85.3,93,100,Kidney Disease,Severe,Under Treatment
+2481,60,Female,135/84,109.3,87,94,Kidney Disease,Mild,Under Treatment
+2482,45,Male,117/71,90.8,61,98,Diabetes,Mild,Under Treatment
+2483,85,Female,91/84,110.1,83,99,Migraine,None,Under Treatment
+2484,72,Female,91/69,129.4,72,99,Asthma,None,Recovered
+2485,72,Female,93/65,138.4,86,95,Diabetes,Severe,Under Treatment
+2486,52,Female,113/83,126.5,81,97,COVID-19,Mild,Recovered
+2487,71,Male,101/86,88.4,74,98,Anxiety Disorder,Severe,Under Treatment
+2488,22,Male,113/71,135.8,71,95,Hypertension,Mild,Under Treatment
+2489,41,Female,104/90,127.3,79,100,Hypertension,Severe,Under Treatment
+2490,37,Female,129/86,80.6,93,100,Flu,None,Recovered
+2491,58,Male,93/73,87.2,94,98,Anemia,Severe,Under Treatment
+2492,19,Male,132/90,97.1,84,98,Skin Infection,None,Recovered
+2493,73,Male,127/85,124.0,74,96,COVID-19,Mild,Recovered
+2494,27,Male,140/72,136.7,98,99,COVID-19,Severe,Under Treatment
+2495,81,Female,128/66,93.7,70,98,Diabetes,Moderate,Under Treatment
+2496,85,Female,139/81,133.1,92,94,Tuberculosis,None,Under Treatment
+2497,86,Female,106/82,75.9,90,97,Kidney Disease,Mild,Under Treatment
+2498,35,Female,101/89,99.6,93,97,Hypertension,Moderate,Under Treatment
+2499,57,Female,93/62,99.6,72,94,Diabetes,Mild,Under Treatment
+2500,86,Male,109/70,71.7,76,94,Asthma,Moderate,Recovered
+2501,19,Female,134/63,122.9,76,96,Kidney Disease,Severe,Under Treatment
+2502,21,Female,97/84,128.4,88,97,Skin Infection,Severe,Recovered
+2503,76,Male,139/61,120.6,76,94,Diabetes,Mild,Under Treatment
+2504,24,Female,132/69,80.7,98,99,Diabetes,None,Under Treatment
+2505,83,Female,115/69,84.7,62,95,Tuberculosis,Moderate,Under Treatment
+2506,80,Male,121/74,125.7,70,94,Heart Disease,Severe,Under Treatment
+2507,56,Male,118/67,130.7,86,99,Arthritis,None,Under Treatment
+2508,43,Male,118/63,95.5,96,100,Arthritis,Severe,Recovered
+2509,41,Female,127/90,139.1,87,99,Anxiety Disorder,Moderate,Recovered
+2510,38,Male,128/67,94.1,68,96,Hypertension,None,Under Treatment
+2511,62,Male,105/61,126.6,75,95,Kidney Disease,None,Under Treatment
+2512,65,Male,99/66,128.7,73,96,Arthritis,Severe,Under Treatment
+2513,81,Female,111/71,89.2,84,94,Migraine,Severe,Recovered
+2514,53,Female,99/83,135.3,88,96,Heart Disease,Mild,Under Treatment
+2515,39,Female,95/74,119.8,97,95,Hypertension,None,Under Treatment
+2516,67,Female,117/75,108.5,80,99,Heart Disease,Severe,Under Treatment
+2517,65,Male,113/68,81.7,61,98,Migraine,Moderate,Under Treatment
+2518,26,Female,95/80,131.5,96,96,Anemia,Mild,Under Treatment
+2519,34,Female,121/78,81.3,100,96,Kidney Disease,Mild,Under Treatment
+2520,69,Male,106/62,73.6,98,98,COVID-19,Mild,Recovered
+2521,40,Female,107/78,131.9,81,99,Asthma,Severe,Under Treatment
+2522,41,Female,123/82,116.1,91,99,Anxiety Disorder,Moderate,Under Treatment
+2523,76,Male,115/79,127.1,81,99,Diabetes,None,Under Treatment
+2524,26,Male,106/66,103.6,94,95,Liver Disease,Severe,Under Treatment
+2525,30,Female,136/86,121.1,95,99,Depression,Severe,Under Treatment
+2526,57,Male,96/72,72.2,92,99,Kidney Disease,Moderate,Under Treatment
+2527,70,Female,116/64,110.0,61,97,Flu,None,Under Treatment
+2528,90,Female,138/75,80.2,98,100,Diabetes,Severe,Under Treatment
+2529,61,Male,131/74,116.1,69,96,Migraine,Mild,Recovered
+2530,89,Male,130/72,106.0,63,96,Heart Disease,Moderate,Under Treatment
+2531,69,Female,93/77,74.9,80,94,Pneumonia,Mild,Under Treatment
+2532,70,Male,127/65,85.3,75,99,Migraine,Moderate,Recovered
+2533,60,Female,112/68,114.6,84,96,Heart Disease,Moderate,Under Treatment
+2534,33,Female,115/81,103.7,74,97,Migraine,Moderate,Under Treatment
+2535,65,Male,96/74,74.3,88,97,COVID-19,Moderate,Under Treatment
+2536,22,Female,122/63,134.2,79,95,Hypertension,Mild,Under Treatment
+2537,28,Female,117/78,80.5,68,97,Liver Disease,Mild,Under Treatment
+2538,23,Female,111/82,81.7,99,97,Heart Disease,Mild,Under Treatment
+2539,36,Male,98/74,123.5,60,97,Diabetes,Severe,Under Treatment
+2540,24,Male,106/82,123.8,74,99,Migraine,Moderate,Recovered
+2541,63,Male,91/74,92.8,76,99,Diabetes,Mild,Under Treatment
+2542,62,Male,109/73,103.5,98,96,Asthma,Severe,Under Treatment
+2543,44,Female,111/61,71.4,96,99,Flu,None,Under Treatment
+2544,18,Male,139/84,115.9,84,96,Kidney Disease,None,Under Treatment
+2545,67,Female,129/63,109.1,75,94,Flu,None,Under Treatment
+2546,22,Male,101/62,94.0,65,97,Liver Disease,Mild,Under Treatment
+2547,23,Female,100/86,83.2,62,99,Liver Disease,None,Under Treatment
+2548,66,Female,92/77,122.6,72,98,Depression,Mild,Under Treatment
+2549,25,Male,90/64,84.7,60,98,Asthma,Mild,Recovered
+2550,53,Female,90/74,86.9,88,99,Anemia,Moderate,Under Treatment
+2551,60,Male,120/67,74.6,96,95,Tuberculosis,Mild,Recovered
+2552,70,Male,98/87,87.5,70,96,Heart Disease,None,Under Treatment
+2553,45,Male,121/68,96.1,76,100,Depression,Moderate,Under Treatment
+2554,31,Male,116/64,85.1,77,98,Heart Disease,Moderate,Under Treatment
+2555,54,Male,136/83,120.0,63,97,Pneumonia,Moderate,Recovered
+2556,70,Male,104/74,128.5,80,95,Flu,None,Under Treatment
+2557,68,Male,128/89,136.8,92,99,Hypertension,Mild,Under Treatment
+2558,85,Male,134/83,135.4,72,94,Tuberculosis,Moderate,Recovered
+2559,75,Male,126/79,113.1,63,95,Anxiety Disorder,Mild,Under Treatment
+2560,22,Male,105/82,117.0,72,100,Liver Disease,Mild,Under Treatment
+2561,30,Female,139/65,113.7,61,96,Skin Infection,None,Recovered
+2562,19,Male,106/88,75.5,91,98,Diabetes,Moderate,Under Treatment
+2563,58,Female,139/72,109.3,73,96,Liver Disease,None,Under Treatment
+2564,33,Male,138/87,74.1,69,99,Migraine,Moderate,Under Treatment
+2565,27,Female,93/89,115.8,75,97,Migraine,None,Under Treatment
+2566,83,Female,139/63,121.2,94,99,Liver Disease,None,Under Treatment
+2567,80,Female,112/73,137.7,61,95,Liver Disease,None,Under Treatment
+2568,42,Female,135/67,86.7,84,96,Pneumonia,Moderate,Recovered
+2569,23,Male,102/76,127.1,70,94,Hypertension,Moderate,Under Treatment
+2570,57,Female,118/75,71.2,93,99,Skin Infection,Moderate,Under Treatment
+2571,39,Male,109/88,128.5,77,98,Tuberculosis,Severe,Under Treatment
+2572,68,Male,98/89,98.1,100,100,Anxiety Disorder,Severe,Recovered
+2573,38,Male,94/80,95.3,61,97,Asthma,Mild,Under Treatment
+2574,51,Female,113/61,71.7,66,100,Liver Disease,None,Under Treatment
+2575,22,Female,114/73,114.4,79,100,Asthma,Moderate,Recovered
+2576,55,Male,117/84,89.0,61,97,Diabetes,None,Under Treatment
+2577,84,Male,128/64,116.7,67,98,Asthma,Moderate,Under Treatment
+2578,42,Female,131/79,78.3,86,95,Liver Disease,Severe,Under Treatment
+2579,50,Female,134/88,129.9,63,98,Heart Disease,None,Under Treatment
+2580,31,Female,90/64,85.3,97,99,COVID-19,Mild,Recovered
+2581,25,Male,90/78,96.1,67,98,Hypertension,Severe,Under Treatment
+2582,62,Female,139/73,81.2,84,97,COVID-19,None,Under Treatment
+2583,65,Male,109/80,94.5,89,98,Anxiety Disorder,None,Recovered
+2584,42,Female,132/63,74.4,99,96,Pneumonia,Moderate,Under Treatment
+2585,43,Female,120/86,85.5,72,95,Migraine,Severe,Recovered
+2586,57,Female,101/63,127.2,80,97,Depression,Moderate,Under Treatment
+2587,27,Male,104/77,114.8,92,95,Kidney Disease,Moderate,Under Treatment
+2588,68,Male,104/69,97.1,71,99,Tuberculosis,Moderate,Recovered
+2589,45,Male,108/77,120.0,98,95,Tuberculosis,Moderate,Under Treatment
+2590,63,Female,134/67,80.0,85,96,Diabetes,Mild,Under Treatment
+2591,23,Female,98/63,75.1,74,98,Liver Disease,Severe,Under Treatment
+2592,24,Female,131/73,122.1,60,98,Skin Infection,None,Recovered
+2593,42,Female,134/62,99.7,99,97,Heart Disease,Severe,Under Treatment
+2594,57,Female,127/88,125.2,92,97,Anxiety Disorder,Severe,Recovered
+2595,76,Female,103/71,99.2,93,94,Migraine,Severe,Recovered
+2596,76,Male,129/79,107.1,81,96,Liver Disease,Severe,Under Treatment
+2597,59,Female,98/73,78.0,87,95,COVID-19,None,Under Treatment
+2598,32,Male,100/89,136.2,80,96,Migraine,Severe,Under Treatment
+2599,18,Male,116/89,130.0,78,95,Anxiety Disorder,Mild,Under Treatment
+2600,43,Male,111/80,129.2,84,94,Pneumonia,Mild,Recovered
+2601,85,Male,96/60,91.9,66,96,Depression,Moderate,Under Treatment
+2602,51,Male,93/72,108.0,69,98,Anemia,Mild,Under Treatment
+2603,50,Female,123/85,130.1,84,96,Liver Disease,Severe,Under Treatment
+2604,73,Female,117/74,78.8,98,95,Diabetes,Mild,Under Treatment
+2605,45,Male,119/78,75.9,68,100,Flu,None,Under Treatment
+2606,38,Male,136/70,115.4,83,98,Skin Infection,Moderate,Under Treatment
+2607,68,Female,124/89,92.9,93,96,Tuberculosis,None,Recovered
+2608,19,Male,118/74,102.2,86,95,Tuberculosis,Mild,Recovered
+2609,51,Female,104/77,80.3,69,99,Skin Infection,Mild,Recovered
+2610,72,Male,127/84,118.5,89,100,Anxiety Disorder,Moderate,Recovered
+2611,49,Male,135/64,116.3,98,98,Skin Infection,Moderate,Recovered
+2612,59,Male,113/85,80.7,85,94,Arthritis,Mild,Recovered
+2613,79,Female,103/63,125.7,99,94,Liver Disease,Mild,Under Treatment
+2614,64,Female,108/70,88.6,71,97,Diabetes,Severe,Under Treatment
+2615,26,Female,123/63,104.7,94,98,Liver Disease,Mild,Under Treatment
+2616,74,Female,120/86,109.8,99,99,Tuberculosis,Mild,Under Treatment
+2617,40,Male,139/90,74.0,72,94,Migraine,Severe,Recovered
+2618,26,Male,126/81,124.8,77,99,Pneumonia,None,Under Treatment
+2619,85,Male,103/81,118.0,72,100,Asthma,Moderate,Recovered
+2620,67,Female,96/80,94.2,84,97,Arthritis,None,Under Treatment
+2621,84,Male,113/73,131.7,98,99,Arthritis,Moderate,Recovered
+2622,89,Male,130/88,105.3,76,99,Skin Infection,None,Under Treatment
+2623,36,Male,98/75,76.1,75,97,Anemia,None,Under Treatment
+2624,79,Male,117/89,131.7,90,97,Skin Infection,Mild,Recovered
+2625,60,Female,126/82,139.8,73,100,Diabetes,Moderate,Under Treatment
+2626,72,Male,116/71,75.3,64,97,Hypertension,None,Under Treatment
+2627,77,Female,102/72,118.8,100,95,Arthritis,Moderate,Under Treatment
+2628,66,Female,130/66,72.0,60,97,COVID-19,Severe,Under Treatment
+2629,52,Male,123/71,129.9,76,97,Anxiety Disorder,Severe,Under Treatment
+2630,49,Male,104/84,118.8,72,94,Anxiety Disorder,Severe,Under Treatment
+2631,62,Male,100/87,135.1,80,99,Hypertension,Moderate,Under Treatment
+2632,51,Male,102/62,72.0,72,96,Anemia,Severe,Recovered
+2633,41,Male,113/73,120.9,72,100,Hypertension,Moderate,Under Treatment
+2634,47,Female,123/61,135.7,66,98,Anxiety Disorder,Mild,Recovered
+2635,42,Female,99/83,73.9,100,98,Kidney Disease,Mild,Under Treatment
+2636,39,Female,110/87,97.8,84,100,Arthritis,Mild,Recovered
+2637,46,Female,113/72,91.2,63,99,Hypertension,Mild,Under Treatment
+2638,67,Male,115/87,125.6,92,100,Migraine,Severe,Recovered
+2639,84,Female,112/76,120.7,92,99,Arthritis,Severe,Under Treatment
+2640,36,Female,122/62,70.5,80,100,Heart Disease,None,Under Treatment
+2641,78,Female,133/71,128.4,69,96,Flu,Mild,Under Treatment
+2642,69,Female,91/87,137.4,69,94,Depression,Mild,Under Treatment
+2643,78,Female,102/90,92.2,72,99,Liver Disease,Moderate,Under Treatment
+2644,89,Male,126/72,77.6,62,96,COVID-19,Severe,Recovered
+2645,67,Male,124/63,136.6,93,95,Migraine,Mild,Under Treatment
+2646,48,Male,118/84,98.8,83,95,Asthma,Severe,Under Treatment
+2647,34,Male,101/89,73.7,70,98,Anemia,Severe,Under Treatment
+2648,37,Male,124/84,87.9,68,95,Anxiety Disorder,Severe,Recovered
+2649,79,Female,139/62,99.6,72,97,Asthma,Severe,Under Treatment
+2650,53,Male,134/89,111.3,61,99,Tuberculosis,None,Recovered
+2651,31,Male,117/65,137.6,71,94,Flu,Moderate,Under Treatment
+2652,20,Female,115/68,76.3,89,96,Depression,Severe,Under Treatment
+2653,39,Female,132/63,100.9,100,100,COVID-19,Severe,Recovered
+2654,77,Male,110/72,106.0,64,97,Hypertension,Severe,Under Treatment
+2655,18,Female,112/61,81.0,82,95,Asthma,Mild,Recovered
+2656,28,Male,108/81,121.2,92,96,Depression,None,Recovered
+2657,33,Female,130/71,76.6,81,98,Flu,Severe,Recovered
+2658,49,Female,100/68,110.5,88,95,Depression,Moderate,Under Treatment
+2659,63,Male,139/85,74.8,70,95,Heart Disease,None,Under Treatment
+2660,32,Male,93/80,135.4,63,100,Kidney Disease,Moderate,Under Treatment
+2661,29,Male,109/84,119.2,95,100,Depression,Moderate,Recovered
+2662,74,Male,106/82,70.3,89,97,Liver Disease,Moderate,Under Treatment
+2663,25,Male,112/90,111.8,62,95,Migraine,Mild,Under Treatment
+2664,64,Female,137/73,89.5,83,99,Anemia,None,Recovered
+2665,71,Female,101/87,78.0,80,100,Asthma,Mild,Recovered
+2666,53,Female,119/60,115.7,79,100,Diabetes,Severe,Under Treatment
+2667,80,Male,108/86,85.4,92,95,Flu,Severe,Recovered
+2668,74,Male,105/72,118.0,96,95,Liver Disease,None,Under Treatment
+2669,26,Male,121/61,120.7,83,96,Kidney Disease,Mild,Under Treatment
+2670,56,Female,131/75,125.9,85,100,Migraine,None,Under Treatment
+2671,78,Male,103/64,131.4,94,97,Hypertension,None,Under Treatment
+2672,58,Male,133/61,101.0,75,99,Diabetes,Mild,Under Treatment
+2673,33,Male,107/80,120.6,90,100,Flu,Severe,Under Treatment
+2674,70,Male,100/64,81.2,71,98,Hypertension,Severe,Under Treatment
+2675,30,Male,91/84,101.4,96,100,Arthritis,Mild,Recovered
+2676,77,Female,116/68,75.7,79,97,Kidney Disease,Mild,Under Treatment
+2677,64,Female,130/80,119.9,69,94,Flu,Moderate,Under Treatment
+2678,84,Male,102/72,73.3,91,96,COVID-19,Severe,Recovered
+2679,64,Female,134/71,72.8,94,94,Migraine,Moderate,Recovered
+2680,39,Male,130/72,116.0,100,98,Anxiety Disorder,Severe,Recovered
+2681,78,Male,125/90,74.4,88,96,Anxiety Disorder,Moderate,Recovered
+2682,23,Female,98/79,95.6,72,99,Hypertension,Mild,Under Treatment
+2683,75,Female,92/67,82.7,100,100,Arthritis,None,Under Treatment
+2684,62,Female,135/62,118.1,95,96,Anemia,Mild,Recovered
+2685,59,Male,132/83,135.9,89,94,Asthma,Moderate,Recovered
+2686,85,Female,107/84,130.9,98,97,Flu,Severe,Recovered
+2687,54,Female,110/62,121.0,87,99,COVID-19,Mild,Recovered
+2688,27,Male,104/63,75.7,72,96,Arthritis,Mild,Under Treatment
+2689,40,Male,135/62,128.8,97,97,COVID-19,Moderate,Under Treatment
+2690,39,Female,122/78,96.8,68,94,Tuberculosis,Mild,Recovered
+2691,38,Male,106/83,88.4,98,94,Pneumonia,Moderate,Recovered
+2692,73,Male,91/75,102.0,89,94,Tuberculosis,None,Under Treatment
+2693,28,Female,115/62,126.9,100,96,Diabetes,Severe,Under Treatment
+2694,84,Male,94/80,95.8,92,99,Tuberculosis,Severe,Recovered
+2695,31,Female,92/61,102.6,72,100,Depression,Moderate,Under Treatment
+2696,30,Female,102/83,79.2,76,100,COVID-19,Severe,Under Treatment
+2697,49,Female,91/90,121.1,65,95,Kidney Disease,Mild,Under Treatment
+2698,74,Male,104/71,135.2,89,94,Pneumonia,Moderate,Under Treatment
+2699,86,Female,136/61,107.4,85,94,Pneumonia,Mild,Recovered
+2700,88,Female,138/75,109.7,94,96,Asthma,Severe,Recovered
+2701,31,Female,129/83,101.1,74,100,COVID-19,Severe,Under Treatment
+2702,87,Male,98/85,138.8,61,100,Flu,Severe,Recovered
+2703,72,Female,138/75,100.6,63,94,Migraine,Severe,Under Treatment
+2704,25,Female,139/78,132.6,60,100,COVID-19,Mild,Recovered
+2705,38,Female,115/60,78.5,68,95,Migraine,Severe,Recovered
+2706,27,Female,104/78,100.1,83,96,Pneumonia,Moderate,Under Treatment
+2707,68,Female,111/74,75.7,94,98,Diabetes,Severe,Under Treatment
+2708,79,Female,137/78,76.5,78,100,Kidney Disease,Moderate,Under Treatment
+2709,77,Female,116/69,105.8,91,99,Tuberculosis,Moderate,Under Treatment
+2710,31,Male,120/80,112.9,86,99,Pneumonia,None,Under Treatment
+2711,85,Male,92/83,105.8,100,96,Arthritis,Mild,Under Treatment
+2712,37,Male,93/83,104.8,82,97,Flu,Severe,Under Treatment
+2713,33,Female,106/61,114.5,87,100,Anxiety Disorder,None,Recovered
+2714,47,Female,100/72,80.5,76,95,Anxiety Disorder,Mild,Recovered
+2715,59,Male,108/76,138.8,83,96,Skin Infection,Moderate,Under Treatment
+2716,34,Female,90/85,131.8,91,94,Migraine,None,Under Treatment
+2717,36,Male,112/85,103.2,73,97,Flu,None,Under Treatment
+2718,18,Male,139/81,78.1,62,95,Pneumonia,Severe,Under Treatment
+2719,88,Male,97/85,116.2,65,100,Pneumonia,None,Recovered
+2720,38,Female,120/66,103.5,88,97,Depression,Mild,Under Treatment
+2721,69,Male,128/61,120.8,72,100,Anxiety Disorder,Severe,Under Treatment
+2722,54,Female,120/70,133.1,95,94,Asthma,None,Under Treatment
+2723,90,Female,95/69,88.5,85,94,Arthritis,Severe,Recovered
+2724,46,Female,137/60,91.4,69,97,Hypertension,None,Under Treatment
+2725,81,Male,129/82,83.3,78,99,Depression,Severe,Under Treatment
+2726,63,Female,138/90,91.0,95,99,COVID-19,Severe,Under Treatment
+2727,33,Female,94/66,121.0,77,99,Flu,Mild,Under Treatment
+2728,79,Male,117/89,83.6,84,97,COVID-19,Moderate,Recovered
+2729,74,Male,90/90,123.2,72,96,Skin Infection,Mild,Recovered
+2730,58,Female,110/77,114.2,100,98,Arthritis,None,Under Treatment
+2731,67,Female,122/86,74.0,83,96,COVID-19,Moderate,Recovered
+2732,44,Female,97/66,119.7,63,98,COVID-19,Mild,Recovered
+2733,60,Male,122/73,78.5,61,97,Pneumonia,None,Under Treatment
+2734,18,Male,93/72,83.2,88,95,Diabetes,Severe,Under Treatment
+2735,42,Male,95/66,105.1,74,95,Arthritis,Mild,Recovered
+2736,53,Male,115/79,127.1,86,95,Tuberculosis,Severe,Recovered
+2737,59,Female,107/85,108.0,93,98,Migraine,None,Under Treatment
+2738,76,Male,108/74,76.5,93,98,Liver Disease,None,Under Treatment
+2739,71,Female,108/83,84.5,67,100,Diabetes,Mild,Under Treatment
+2740,66,Male,93/88,84.0,94,99,Liver Disease,Mild,Under Treatment
+2741,76,Female,131/84,109.8,86,94,Migraine,None,Recovered
+2742,67,Male,139/87,95.3,61,95,Migraine,Moderate,Under Treatment
+2743,80,Female,125/63,105.1,77,96,Pneumonia,None,Recovered
+2744,42,Female,97/82,70.1,74,97,Depression,Severe,Under Treatment
+2745,71,Female,110/76,86.0,90,94,Arthritis,Severe,Under Treatment
+2746,62,Female,112/76,77.7,72,97,Liver Disease,None,Under Treatment
+2747,38,Male,130/75,130.1,66,100,Liver Disease,Severe,Under Treatment
+2748,44,Male,133/65,132.5,60,100,Depression,None,Under Treatment
+2749,25,Female,108/70,98.5,100,95,Tuberculosis,Severe,Recovered
+2750,53,Female,134/65,103.5,82,94,Kidney Disease,Mild,Under Treatment
+2751,82,Female,129/83,124.6,68,94,Hypertension,Severe,Under Treatment
+2752,63,Male,124/72,92.5,82,94,Kidney Disease,Moderate,Under Treatment
+2753,51,Male,124/67,80.8,62,97,Anxiety Disorder,Moderate,Under Treatment
+2754,62,Male,91/89,75.3,60,100,Kidney Disease,Moderate,Under Treatment
+2755,76,Male,126/75,113.2,67,98,Flu,Mild,Under Treatment
+2756,28,Female,124/69,105.5,92,97,Migraine,Mild,Under Treatment
+2757,83,Male,120/78,104.1,69,97,Migraine,Mild,Recovered
+2758,89,Male,140/80,90.6,84,97,Tuberculosis,Moderate,Recovered
+2759,36,Female,107/83,122.5,89,99,Liver Disease,Moderate,Under Treatment
+2760,57,Male,118/82,101.4,68,98,COVID-19,Severe,Recovered
+2761,89,Male,94/67,132.3,97,98,Anemia,None,Recovered
+2762,32,Female,108/80,99.4,86,95,Depression,Mild,Recovered
+2763,58,Female,113/71,104.3,62,99,COVID-19,None,Recovered
+2764,28,Female,121/63,101.0,71,96,Kidney Disease,Severe,Under Treatment
+2765,58,Male,138/83,117.5,70,100,Diabetes,None,Under Treatment
+2766,41,Female,101/73,120.0,79,99,Hypertension,Moderate,Under Treatment
+2767,52,Male,98/63,130.5,86,100,Kidney Disease,Moderate,Under Treatment
+2768,40,Male,118/87,118.5,69,95,Migraine,Moderate,Under Treatment
+2769,19,Female,122/66,118.4,70,98,Tuberculosis,None,Under Treatment
+2770,40,Female,112/77,127.8,63,98,Migraine,None,Under Treatment
+2771,33,Female,130/69,89.5,67,94,Tuberculosis,Mild,Recovered
+2772,90,Male,107/73,138.4,96,98,Flu,None,Under Treatment
+2773,48,Male,95/70,125.0,89,95,Anxiety Disorder,Severe,Recovered
+2774,73,Male,117/84,88.2,84,97,Flu,Moderate,Under Treatment
+2775,85,Male,102/89,131.8,83,95,Heart Disease,Severe,Under Treatment
+2776,45,Male,119/82,117.9,70,94,Flu,Severe,Under Treatment
+2777,69,Female,122/83,131.5,92,97,Skin Infection,Severe,Recovered
+2778,76,Male,128/87,116.7,92,96,Diabetes,Moderate,Under Treatment
+2779,85,Male,136/90,110.4,87,100,Heart Disease,None,Under Treatment
+2780,57,Male,95/74,81.8,78,96,Kidney Disease,None,Under Treatment
+2781,69,Female,128/78,127.8,94,99,COVID-19,Moderate,Recovered
+2782,55,Male,129/84,134.6,66,100,Diabetes,Moderate,Under Treatment
+2783,56,Male,119/75,80.5,89,98,Skin Infection,Severe,Under Treatment
+2784,35,Male,114/84,127.1,74,99,Asthma,None,Under Treatment
+2785,84,Female,114/77,90.6,84,100,Heart Disease,Severe,Under Treatment
+2786,77,Male,136/76,93.6,75,99,Skin Infection,None,Recovered
+2787,56,Female,132/64,91.7,61,94,Heart Disease,Moderate,Under Treatment
+2788,20,Male,123/64,97.1,86,94,Hypertension,Mild,Under Treatment
+2789,88,Female,91/67,72.4,81,94,Anxiety Disorder,Moderate,Under Treatment
+2790,40,Female,116/69,97.2,91,96,Tuberculosis,Mild,Recovered
+2791,40,Female,134/67,79.6,69,94,Arthritis,Moderate,Recovered
+2792,55,Male,140/69,72.7,68,97,Pneumonia,None,Recovered
+2793,88,Male,116/71,133.6,82,98,Diabetes,None,Under Treatment
+2794,66,Female,106/74,80.4,97,97,Pneumonia,Severe,Recovered
+2795,33,Male,111/86,94.6,91,98,Diabetes,Moderate,Under Treatment
+2796,23,Female,125/88,87.9,62,98,Pneumonia,Mild,Under Treatment
+2797,19,Female,112/87,77.5,66,99,Migraine,None,Recovered
+2798,67,Male,138/73,100.2,84,96,Migraine,Mild,Recovered
+2799,90,Female,127/82,106.5,93,100,Anxiety Disorder,Mild,Recovered
+2800,82,Male,119/64,74.2,73,96,Kidney Disease,Severe,Under Treatment
+2801,73,Female,130/66,123.3,61,98,COVID-19,Severe,Recovered
+2802,87,Female,100/62,99.1,68,100,Heart Disease,None,Under Treatment
+2803,53,Male,133/60,129.9,63,94,Pneumonia,Moderate,Recovered
+2804,72,Female,126/84,122.1,99,100,COVID-19,None,Under Treatment
+2805,43,Male,106/67,132.3,96,94,Arthritis,Moderate,Recovered
+2806,45,Female,121/89,117.3,99,94,Flu,Mild,Recovered
+2807,24,Male,95/81,85.2,96,94,Arthritis,Mild,Recovered
+2808,86,Female,118/70,124.0,64,100,Skin Infection,Mild,Under Treatment
+2809,56,Male,102/84,71.2,76,100,Migraine,Moderate,Recovered
+2810,88,Male,112/61,109.0,71,95,Anemia,Moderate,Recovered
+2811,70,Male,110/83,99.3,95,95,Anemia,None,Under Treatment
+2812,69,Female,113/73,96.2,64,98,Anxiety Disorder,Mild,Under Treatment
+2813,84,Male,109/70,91.6,99,100,Pneumonia,Mild,Under Treatment
+2814,53,Male,100/73,101.6,67,97,Heart Disease,Moderate,Under Treatment
+2815,71,Male,123/66,112.0,71,97,Flu,Moderate,Under Treatment
+2816,70,Female,120/69,104.0,98,98,COVID-19,None,Under Treatment
+2817,54,Female,109/87,122.8,100,98,Pneumonia,Severe,Under Treatment
+2818,89,Female,111/76,85.0,95,99,Diabetes,Moderate,Under Treatment
+2819,90,Female,98/88,75.8,78,100,Pneumonia,Moderate,Recovered
+2820,74,Female,127/78,122.8,90,99,Pneumonia,None,Under Treatment
+2821,34,Female,98/86,123.4,84,99,Liver Disease,Mild,Under Treatment
+2822,28,Female,128/71,87.9,90,95,Hypertension,None,Under Treatment
+2823,84,Female,108/67,122.1,80,94,Kidney Disease,None,Under Treatment
+2824,60,Male,132/74,125.1,74,97,Anemia,Mild,Recovered
+2825,75,Male,126/81,120.1,67,94,Hypertension,Severe,Under Treatment
+2826,56,Male,128/78,126.4,76,95,COVID-19,None,Recovered
+2827,52,Female,119/76,125.6,80,99,Anemia,Mild,Recovered
+2828,81,Male,138/77,75.7,93,98,Flu,Severe,Under Treatment
+2829,22,Male,137/62,139.1,98,99,COVID-19,Moderate,Under Treatment
+2830,34,Female,113/81,89.1,84,100,Anemia,Moderate,Under Treatment
+2831,72,Male,94/90,91.3,82,98,Migraine,None,Recovered
+2832,73,Male,129/67,130.8,96,97,Flu,None,Under Treatment
+2833,32,Male,137/89,118.2,71,99,COVID-19,None,Under Treatment
+2834,30,Male,122/80,136.9,69,97,Arthritis,None,Under Treatment
+2835,35,Female,97/62,131.9,91,100,Hypertension,Moderate,Under Treatment
+2836,87,Male,118/63,82.7,60,94,Tuberculosis,None,Recovered
+2837,22,Male,118/72,133.2,69,99,Tuberculosis,Moderate,Under Treatment
+2838,74,Male,124/69,132.3,62,94,Kidney Disease,Mild,Under Treatment
+2839,20,Female,100/78,79.0,81,97,Migraine,None,Recovered
+2840,24,Female,99/83,124.9,98,100,Liver Disease,None,Under Treatment
+2841,35,Male,105/61,103.8,71,100,Asthma,Mild,Recovered
+2842,70,Female,119/90,118.0,67,99,Flu,Severe,Recovered
+2843,37,Female,140/63,75.2,81,95,Tuberculosis,Mild,Under Treatment
+2844,85,Female,91/69,117.5,74,94,Pneumonia,None,Recovered
+2845,47,Male,122/86,100.8,72,100,Flu,Mild,Under Treatment
+2846,50,Male,120/67,127.9,86,96,Liver Disease,None,Under Treatment
+2847,86,Male,125/82,112.2,94,95,Anemia,Severe,Under Treatment
+2848,49,Female,116/68,96.2,60,94,Skin Infection,Moderate,Under Treatment
+2849,82,Male,115/80,76.6,84,96,Kidney Disease,Severe,Under Treatment
+2850,44,Male,127/60,76.2,71,98,Kidney Disease,Severe,Under Treatment
+2851,29,Male,126/74,121.1,62,97,Liver Disease,Moderate,Under Treatment
+2852,62,Male,119/71,110.9,90,94,Flu,None,Recovered
+2853,79,Female,106/60,130.7,82,100,Asthma,Mild,Under Treatment
+2854,35,Female,127/79,128.2,62,100,Depression,Severe,Under Treatment
+2855,83,Female,97/83,74.3,66,98,COVID-19,Moderate,Recovered
+2856,21,Male,97/89,70.0,65,100,Heart Disease,Moderate,Under Treatment
+2857,52,Male,133/77,88.0,64,96,Arthritis,Severe,Recovered
+2858,23,Male,108/87,70.9,94,98,Hypertension,None,Under Treatment
+2859,24,Male,92/85,115.7,84,94,Migraine,Moderate,Under Treatment
+2860,26,Male,93/72,127.8,80,98,Asthma,Mild,Recovered
+2861,72,Male,118/87,71.7,88,97,Arthritis,Mild,Recovered
+2862,72,Male,108/88,103.2,60,97,Asthma,None,Recovered
+2863,81,Female,125/86,72.0,81,96,Skin Infection,None,Recovered
+2864,82,Male,120/70,71.4,69,94,Pneumonia,None,Under Treatment
+2865,39,Female,112/73,115.9,74,98,Anxiety Disorder,Mild,Recovered
+2866,90,Male,106/82,72.8,68,99,Liver Disease,Severe,Under Treatment
+2867,58,Female,116/67,70.0,95,96,Depression,Mild,Recovered
+2868,45,Male,125/62,71.1,100,97,Migraine,Severe,Recovered
+2869,65,Male,116/87,118.0,95,96,Flu,Severe,Recovered
+2870,43,Male,114/70,97.1,62,99,Pneumonia,Severe,Under Treatment
+2871,86,Male,99/72,101.4,75,99,Pneumonia,None,Under Treatment
+2872,63,Male,95/68,94.4,92,94,Migraine,None,Recovered
+2873,33,Female,119/79,76.1,83,97,Depression,Severe,Recovered
+2874,82,Female,104/78,101.3,72,97,Depression,Moderate,Recovered
+2875,85,Male,135/74,93.0,97,100,Asthma,Severe,Under Treatment
+2876,84,Female,127/73,91.9,74,96,Diabetes,None,Under Treatment
+2877,54,Male,97/78,99.2,71,97,Flu,None,Recovered
+2878,53,Male,124/72,83.0,81,96,Pneumonia,None,Under Treatment
+2879,76,Female,122/88,94.4,71,94,Hypertension,Moderate,Under Treatment
+2880,57,Male,95/77,115.9,61,94,Asthma,None,Recovered
+2881,54,Male,134/83,97.3,63,96,Skin Infection,Moderate,Under Treatment
+2882,26,Male,91/65,76.0,82,97,Diabetes,Mild,Under Treatment
+2883,66,Male,136/87,113.6,80,97,Heart Disease,Mild,Under Treatment
+2884,89,Female,117/88,137.8,87,97,Anxiety Disorder,None,Under Treatment
+2885,69,Female,116/83,124.8,68,94,Skin Infection,Moderate,Recovered
+2886,52,Female,109/71,126.8,78,96,Migraine,Severe,Under Treatment
+2887,42,Female,133/72,93.2,73,94,Heart Disease,Mild,Under Treatment
+2888,37,Female,111/74,88.3,70,98,Anemia,None,Under Treatment
+2889,66,Male,113/84,138.1,76,98,Anemia,Mild,Recovered
+2890,35,Female,132/88,129.4,98,98,Liver Disease,Severe,Under Treatment
+2891,22,Female,116/78,86.0,94,98,Pneumonia,None,Under Treatment
+2892,45,Female,90/71,87.0,81,97,Flu,Mild,Recovered
+2893,54,Male,116/65,127.9,61,94,Asthma,Moderate,Under Treatment
+2894,90,Female,135/90,103.8,72,98,Anxiety Disorder,Moderate,Recovered
+2895,26,Male,124/68,72.8,94,94,Skin Infection,None,Recovered
+2896,56,Female,106/67,74.7,91,97,Kidney Disease,Mild,Under Treatment
+2897,23,Female,96/71,84.5,87,96,Asthma,Moderate,Recovered
+2898,39,Male,94/88,132.5,76,100,Depression,Severe,Recovered
+2899,25,Female,122/77,92.0,75,96,Pneumonia,Mild,Recovered
+2900,55,Male,133/66,116.5,69,96,Migraine,None,Under Treatment
+2901,56,Male,131/80,83.9,79,95,Pneumonia,Severe,Recovered
+2902,35,Male,124/77,102.9,81,94,COVID-19,Severe,Under Treatment
+2903,77,Female,134/82,73.0,93,99,Depression,Mild,Recovered
+2904,25,Female,129/83,85.5,73,99,Asthma,Severe,Under Treatment
+2905,53,Female,110/60,137.0,84,99,Asthma,Severe,Recovered
+2906,77,Female,101/70,126.3,78,97,Anxiety Disorder,Severe,Under Treatment
+2907,42,Male,132/67,99.9,91,97,Tuberculosis,Mild,Recovered
+2908,43,Male,120/89,94.8,93,99,Heart Disease,None,Under Treatment
+2909,22,Male,121/71,105.4,100,97,Depression,None,Under Treatment
+2910,57,Male,140/90,116.0,92,99,Diabetes,Severe,Under Treatment
+2911,86,Male,110/83,128.2,99,95,Anemia,None,Recovered
+2912,34,Male,102/67,118.5,92,98,Flu,Mild,Under Treatment
+2913,19,Male,131/60,116.8,95,98,Tuberculosis,Moderate,Recovered
+2914,72,Female,128/83,112.6,99,99,Depression,Severe,Recovered
+2915,56,Male,116/82,87.1,86,100,Anxiety Disorder,Severe,Under Treatment
+2916,19,Male,109/74,72.3,65,97,Diabetes,Moderate,Under Treatment
+2917,48,Male,100/80,92.3,89,97,Anemia,Moderate,Under Treatment
+2918,75,Male,103/74,124.6,89,98,Liver Disease,Moderate,Under Treatment
+2919,86,Female,130/65,114.6,82,96,Anxiety Disorder,Moderate,Recovered
+2920,26,Female,111/72,85.7,77,100,COVID-19,Mild,Under Treatment
+2921,43,Male,135/79,123.6,77,99,Kidney Disease,Mild,Under Treatment
+2922,30,Female,113/89,70.7,85,97,Heart Disease,Mild,Under Treatment
+2923,39,Male,139/90,127.1,68,100,Flu,Moderate,Recovered
+2924,83,Male,108/72,77.7,88,98,Hypertension,None,Under Treatment
+2925,67,Male,114/67,80.2,88,97,Liver Disease,None,Under Treatment
+2926,89,Male,101/83,73.5,74,98,Asthma,None,Recovered
+2927,32,Male,90/71,94.6,71,95,Pneumonia,Mild,Under Treatment
+2928,83,Male,131/65,100.8,63,99,Hypertension,Moderate,Under Treatment
+2929,61,Female,137/83,80.1,60,97,Pneumonia,Severe,Under Treatment
+2930,60,Male,122/86,77.4,90,96,Tuberculosis,Mild,Under Treatment
+2931,83,Female,127/64,84.1,75,99,Heart Disease,None,Under Treatment
+2932,29,Male,135/81,103.2,84,99,Pneumonia,None,Recovered
+2933,20,Male,123/87,99.0,77,97,COVID-19,Moderate,Under Treatment
+2934,45,Male,92/69,74.4,94,96,Hypertension,Severe,Under Treatment
+2935,35,Male,93/71,114.2,77,98,Tuberculosis,Severe,Recovered
+2936,38,Female,116/74,114.6,81,100,Kidney Disease,Mild,Under Treatment
+2937,83,Female,108/77,83.1,92,100,Skin Infection,None,Recovered
+2938,35,Male,116/86,82.9,79,98,Flu,None,Under Treatment
+2939,57,Female,105/83,78.9,61,97,Migraine,None,Recovered
+2940,34,Female,140/90,78.1,77,94,Migraine,Moderate,Under Treatment
+2941,25,Male,106/70,73.3,91,98,Tuberculosis,Severe,Under Treatment
+2942,26,Male,97/75,70.6,77,97,Heart Disease,Moderate,Under Treatment
+2943,74,Male,115/63,72.0,81,100,Diabetes,Severe,Under Treatment
+2944,41,Male,120/71,88.2,98,99,Asthma,Moderate,Under Treatment
+2945,47,Male,93/74,85.2,68,99,Asthma,Moderate,Under Treatment
+2946,56,Female,102/73,110.5,78,97,Skin Infection,None,Under Treatment
+2947,69,Male,98/87,128.9,65,98,Depression,Severe,Under Treatment
+2948,64,Male,95/76,111.1,97,98,Skin Infection,Severe,Recovered
+2949,64,Male,90/71,116.1,93,99,Diabetes,Moderate,Under Treatment
+2950,64,Male,99/78,117.8,99,99,Anemia,None,Recovered
+2951,65,Female,101/86,129.4,99,96,Tuberculosis,Severe,Recovered
+2952,40,Male,131/64,93.4,68,97,Heart Disease,Mild,Under Treatment
+2953,75,Female,94/71,101.0,90,98,Diabetes,Moderate,Under Treatment
+2954,86,Male,108/81,87.6,73,99,Kidney Disease,Severe,Under Treatment
+2955,62,Female,133/64,96.6,70,96,Diabetes,Severe,Under Treatment
+2956,40,Female,129/67,120.8,67,99,Asthma,Moderate,Under Treatment
+2957,22,Male,123/66,116.3,95,97,Tuberculosis,None,Under Treatment
+2958,43,Male,109/88,126.4,66,100,Tuberculosis,Severe,Recovered
+2959,74,Male,135/67,82.5,65,98,COVID-19,None,Recovered
+2960,82,Female,118/75,99.3,68,96,Skin Infection,Mild,Recovered
+2961,64,Male,103/63,112.9,84,99,Heart Disease,Moderate,Under Treatment
+2962,84,Female,128/61,87.3,86,100,Asthma,Moderate,Recovered
+2963,51,Female,90/66,100.9,81,98,Migraine,Severe,Under Treatment
+2964,80,Male,119/83,89.2,92,94,Liver Disease,None,Under Treatment
+2965,26,Female,111/65,76.3,67,96,Depression,Moderate,Under Treatment
+2966,20,Male,109/65,126.8,91,94,Heart Disease,Mild,Under Treatment
+2967,41,Female,123/83,131.7,89,94,Liver Disease,Severe,Under Treatment
+2968,42,Male,105/78,80.0,100,95,Anxiety Disorder,Severe,Recovered
+2969,46,Female,99/88,108.4,85,95,Tuberculosis,Severe,Recovered
+2970,79,Female,103/81,82.9,86,95,Liver Disease,Mild,Under Treatment
+2971,31,Female,121/84,71.4,100,96,Skin Infection,Moderate,Recovered
+2972,84,Female,90/71,120.4,97,100,Hypertension,Severe,Under Treatment
+2973,58,Female,111/62,124.2,71,96,Arthritis,Moderate,Under Treatment
+2974,40,Female,112/89,91.8,72,97,Arthritis,None,Recovered
+2975,18,Female,130/80,100.0,98,94,Anemia,Mild,Under Treatment
+2976,78,Male,96/73,125.7,64,95,Kidney Disease,Mild,Under Treatment
+2977,59,Female,96/74,129.7,98,98,Migraine,Moderate,Recovered
+2978,28,Female,137/72,87.5,80,99,COVID-19,Moderate,Under Treatment
+2979,61,Male,96/68,74.9,70,95,Skin Infection,Moderate,Recovered
+2980,44,Male,94/81,84.9,81,97,Hypertension,Mild,Under Treatment
+2981,77,Female,132/84,73.1,65,94,Liver Disease,Moderate,Under Treatment
+2982,66,Female,103/80,136.4,69,97,Arthritis,Severe,Under Treatment
+2983,78,Male,96/76,125.5,89,99,Flu,Mild,Under Treatment
+2984,46,Female,134/87,135.3,64,100,Asthma,Moderate,Under Treatment
+2985,41,Female,106/74,128.6,82,97,Anemia,Mild,Under Treatment
+2986,65,Female,95/63,96.3,80,95,Tuberculosis,None,Under Treatment
+2987,90,Male,133/68,78.8,61,99,Flu,Moderate,Under Treatment
+2988,20,Female,116/76,111.0,62,95,Anemia,Severe,Recovered
+2989,37,Male,95/74,84.0,63,99,Diabetes,Moderate,Under Treatment
+2990,48,Female,111/89,129.4,65,94,Heart Disease,Mild,Under Treatment
+2991,53,Male,99/89,75.2,81,98,Depression,None,Recovered
+2992,87,Female,110/83,76.8,64,96,Heart Disease,None,Under Treatment
+2993,84,Female,104/88,117.7,69,99,Asthma,Severe,Recovered
+2994,47,Male,128/88,80.1,69,99,Kidney Disease,Mild,Under Treatment
+2995,63,Female,107/68,117.8,83,100,COVID-19,None,Under Treatment
+2996,54,Male,137/77,138.1,96,98,Tuberculosis,Severe,Under Treatment
+2997,47,Male,138/72,119.9,66,96,Anemia,Severe,Recovered
+2998,50,Male,103/90,117.8,88,99,Flu,None,Under Treatment
+2999,30,Female,131/76,119.8,95,100,Liver Disease,Mild,Under Treatment
+3000,59,Female,91/84,120.1,79,97,Flu,Mild,Under Treatment
